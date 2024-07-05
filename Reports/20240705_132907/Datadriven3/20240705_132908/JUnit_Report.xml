@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Datadriven3" time="34.931" tests="1" failures="0" errors="0">
+   <testsuite name="Datadriven3" tests="1" failures="0" errors="0" time="34.931" skipped="0" timestamp="05-07-2024T13:29:14" hostname="0725 - DESKTOP-09GUU8E" id="Test Suites/Datadriven3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0725\\git\\Sertificate-v2\\Reports\\20240705_132907\\Datadriven3\\20240705_132908"/>
+         <property name="logFiles" value="C:\\Users\\0725\\git\\Sertificate-v2\\Reports\\20240705_132907\\Datadriven3\\20240705_132908\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0725 - DESKTOP-09GUU8E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.92"/>
+         <property name="sessionId" value="f4ca955055868ae889e49e000f24a66b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Data driven/Login regional" time="34.67" classname="Test Cases/Data driven/Login regional" status="PASSED">
+         <system-out><![CDATA[05-07-2024T13:29:15 - [TEST_CASE][PASSED] - Test Cases/Data driven/Login regional: Test Cases/Data driven/Login regional
+
+05-07-2024T13:29:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-07-2024T13:29:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-07-2024T13:29:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-07-2024T13:29:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-07-2024T13:29:18 - [TEST_STEP][PASSED] - navigateToUrl("https://gpstqa-new.dipostar.org/dipo/"): Navigate to 'https://gpstqa-new.dipostar.org/dipo/' successfully
+
+05-07-2024T13:29:28 - [MESSAGE][PASSED] - Navigate to 'https://gpstqa-new.dipostar.org/dipo/' successfully
+
+05-07-2024T13:29:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-07-2024T13:29:28 - [MESSAGE][PASSED] - Current window maximized
+
+05-07-2024T13:29:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+05-07-2024T13:29:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+05-07-2024T13:29:33 - [TEST_STEP][PASSED] - setText(findTestObject("Home page/username"), username): Text 'aldo' is set on object 'Object Repository/Home page/username'
+
+05-07-2024T13:29:34 - [MESSAGE][PASSED] - Text 'aldo' is set on object 'Object Repository/Home page/username'
+
+05-07-2024T13:29:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+05-07-2024T13:29:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+05-07-2024T13:29:37 - [TEST_STEP][PASSED] - setText(findTestObject("Home page/Passw"), password): Text 'indocyber' is set on object 'Object Repository/Home page/Passw'
+
+05-07-2024T13:29:37 - [MESSAGE][PASSED] - Text 'indocyber' is set on object 'Object Repository/Home page/Passw'
+
+05-07-2024T13:29:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+05-07-2024T13:29:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+05-07-2024T13:29:42 - [TEST_STEP][PASSED] - click(findTestObject("Home page/Buton login")): Object: 'Object Repository/Home page/Buton login' is clicked on
+
+05-07-2024T13:29:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page/Buton login' is clicked on
+
+05-07-2024T13:29:43 - [TEST_STEP][PASSED] - click(findTestObject("Menu/Masterrr")): Object: 'Object Repository/Menu/Masterrr' is clicked on
+
+05-07-2024T13:29:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu/Masterrr' is clicked on
+
+05-07-2024T13:29:49 - [TEST_STEP][PASSED] - click(findTestObject("Regional/Button regiona")): Object: 'Object Repository/Regional/Button regiona' is clicked on
+
+05-07-2024T13:29:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Regional/Button regiona' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-07-2024T13:29:14 - [TEST_SUITE][PASSED] - Datadriven3: Test Cases/Data driven/Login regional]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

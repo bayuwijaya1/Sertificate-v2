@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Field collector,Chrome 126.0.0.0,,,05-07-2024 10:20:22,05-07-2024 10:20:52,29.592s,PASSED
+,,,,,,,
+Test Cases/Login/Log,Chrome 126.0.0.0,,,05-07-2024 10:20:22,05-07-2024 10:20:48,25.586s,PASSED
+"url = ""https://gpstqa-new.dipostar.org/dipo/""",Chrome 126.0.0.0,,,05-07-2024 10:20:23,05-07-2024 10:20:23,0.004s,PASSED
+openBrowser(url),Chrome 126.0.0.0,,,05-07-2024 10:20:23,05-07-2024 10:20:32,9.032s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,05-07-2024 10:20:32,05-07-2024 10:20:32,0.074s,PASSED
+delay(3),Chrome 126.0.0.0,,,05-07-2024 10:20:32,05-07-2024 10:20:35,3.080s,PASSED
+"username = ""Home page/username""",Chrome 126.0.0.0,,,05-07-2024 10:20:35,05-07-2024 10:20:35,0.004s,PASSED
+"setText(findTestObject(username), ""aldo"")",Chrome 126.0.0.0,,,05-07-2024 10:20:35,05-07-2024 10:20:36,0.702s,PASSED
+delay(3),Chrome 126.0.0.0,,,05-07-2024 10:20:36,05-07-2024 10:20:39,3.006s,PASSED
+"password = ""Home page/Passw""",Chrome 126.0.0.0,,,05-07-2024 10:20:39,05-07-2024 10:20:39,0.002s,PASSED
+"setEncryptedText(findTestObject(password), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 126.0.0.0,,,05-07-2024 10:20:39,05-07-2024 10:20:39,0.362s,PASSED
+delay(3),Chrome 126.0.0.0,,,05-07-2024 10:20:39,05-07-2024 10:20:42,3.008s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Chrome 126.0.0.0,,,05-07-2024 10:20:42,05-07-2024 10:20:42,0.335s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 126.0.0.0,,,05-07-2024 10:20:42,05-07-2024 10:20:48,5.590s,PASSED
+,,,,,,,
+Test Cases/Monitoring field/Field colllectorr,Chrome 126.0.0.0,,,05-07-2024 10:20:48,05-07-2024 10:20:52,3.771s,PASSED
+"click(findTestObject(""Menu/Monitoring field collectorr""))",Chrome 126.0.0.0,,,05-07-2024 10:20:48,05-07-2024 10:20:48,0.378s,PASSED
+"click(findTestObject(""Monitoring field collector move/Button monitoring field""))",Chrome 126.0.0.0,,,05-07-2024 10:20:48,05-07-2024 10:20:49,0.519s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan halaman"")",Chrome 126.0.0.0,,,05-07-2024 10:20:49,05-07-2024 10:20:52,2.773s,PASSED

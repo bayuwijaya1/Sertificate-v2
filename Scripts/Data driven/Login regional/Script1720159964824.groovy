@@ -17,25 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String url = 'https://gpstqa-new.dipostar.org/dipo/'
+WebUI.openBrowser('')
 
-WebUI.openBrowser(url)
+WebUI.navigateToUrl('https://gpstqa-new.dipostar.org/dipo/')
 
 WebUI.maximizeWindow()
 
-WebUI.delay(3)
+WebUI.delay(5)
 
-String username = 'Home page/username'
-
-WebUI.setText(findTestObject(username), 'aldo')
+WebUI.setText(findTestObject('Home page/username'), username)
 
 WebUI.delay(3)
 
-String password = 'Home page/Passw'
+WebUI.setText(findTestObject('Home page/Passw'), password)
 
-WebUI.setText(findTestObject(password), 'indocyber')
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Home page/Buton login'))
 
-WebUI.takeScreenshotAsCheckpoint('login berhasil')
+WebUI.click(findTestObject('Menu/Masterrr'))
+
+WebUI.click(findTestObject('Regional/Button regiona'))
 

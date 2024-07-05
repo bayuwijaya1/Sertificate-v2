@@ -6,12 +6,15 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>ac68d613-92ab-4ed9-9e32-c18f4270b48c</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>86604c39-a0a2-4842-9b6b-4c92bb195b57</variableId>
-   </variableLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>9d994400-de0a-4086-920f-e66b3e696b35</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Data driven/Login</testDataId>
+   </testDataLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
@@ -22,21 +25,27 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>86604c39-a0a2-4842-9b6b-4c92bb195b57</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>76707fbe-ce36-4625-b328-9293a6c19b30</variableId>
    </variableLinks>
-   <variable>
-      <defaultValue>'aldo'</defaultValue>
-      <description></description>
-      <id>86604c39-a0a2-4842-9b6b-4c92bb195b57</id>
-      <masked>false</masked>
-      <name>username</name>
-   </variable>
    <variable>
       <defaultValue>'https://gpstqa-new.dipostar.org/dipo/'</defaultValue>
       <description></description>
       <id>7c22c101-4336-4968-80a0-630e6b3b3fd5</id>
       <masked>false</masked>
       <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'aldo'</defaultValue>
+      <description></description>
+      <id>86604c39-a0a2-4842-9b6b-4c92bb195b57</id>
+      <masked>false</masked>
+      <name>username</name>
    </variable>
    <variable>
       <defaultValue>'TRrAuhBZTmGN3YbeoZ5Gng=='</defaultValue>
