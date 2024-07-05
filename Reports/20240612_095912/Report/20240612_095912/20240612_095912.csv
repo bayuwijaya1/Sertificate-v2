@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Report,Chrome 125.0.0.0,,,12-06-2024 09:59:23,12-06-2024 09:59:43,20.309s,PASSED
+,,,,,,,
+Test Cases/Login/Login,Chrome 125.0.0.0,,,12-06-2024 09:59:23,12-06-2024 09:59:42,18.910s,PASSED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 125.0.0.0,,,12-06-2024 09:59:24,12-06-2024 09:59:33,8.943s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,12-06-2024 09:59:33,12-06-2024 09:59:33,0.060s,PASSED
+"setText(findTestObject(""Home page/input__username""), ""aldo"")",Chrome 125.0.0.0,,,12-06-2024 09:59:33,12-06-2024 09:59:34,1.284s,PASSED
+"setEncryptedText(findTestObject(""Home page/input__password""), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 125.0.0.0,,,12-06-2024 09:59:34,12-06-2024 09:59:35,0.609s,PASSED
+"click(findTestObject(""Home page/btn_Login""))",Chrome 125.0.0.0,,,12-06-2024 09:59:35,12-06-2024 09:59:35,0.534s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 125.0.0.0,,,12-06-2024 09:59:35,12-06-2024 09:59:42,6.890s,PASSED
+,,,,,,,
+Test Cases/Report/Unvisited list report,Chrome 125.0.0.0,,,12-06-2024 09:59:42,12-06-2024 09:59:43,1.031s,PASSED
+"click(findTestObject(""Report/btn Report""))",Chrome 125.0.0.0,,,12-06-2024 09:59:42,12-06-2024 09:59:43,0.374s,PASSED
+"click(findTestObject(""Report/btn Unvisit list report""))",Chrome 125.0.0.0,,,12-06-2024 09:59:43,12-06-2024 09:59:43,0.578s,PASSED

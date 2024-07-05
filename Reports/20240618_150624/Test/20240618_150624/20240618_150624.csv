@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test,Chrome 125.0.0.0,,,18-06-2024 15:06:31,18-06-2024 15:07:38,1m - 6.614s,PASSED
+,,,,,,,
+Test Cases/Login/Login,Chrome 125.0.0.0,,,18-06-2024 15:06:31,18-06-2024 15:07:23,52.073s,PASSED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 125.0.0.0,,,18-06-2024 15:06:31,18-06-2024 15:06:39,7.568s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,18-06-2024 15:06:39,18-06-2024 15:06:39,0.057s,PASSED
+"setText(findTestObject(""Home page/input__username""), ""aldo"")",Chrome 125.0.0.0,,,18-06-2024 15:06:39,18-06-2024 15:06:40,0.739s,PASSED
+"setEncryptedText(findTestObject(""Home page/input__password""), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 125.0.0.0,,,18-06-2024 15:06:40,18-06-2024 15:06:40,0.362s,PASSED
+"click(findTestObject(""Home page/btn_Login""))",Chrome 125.0.0.0,,,18-06-2024 15:06:40,18-06-2024 15:06:40,0.319s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 125.0.0.0,,,18-06-2024 15:06:40,18-06-2024 15:07:23,42.762s,PASSED
+,,,,,,,
+Test Cases/Master/Regional,Chrome 125.0.0.0,,,18-06-2024 15:07:29,18-06-2024 15:07:38,8.670s,PASSED
+"click(findTestObject(""Menu/Master""))",Chrome 125.0.0.0,,,18-06-2024 15:07:29,18-06-2024 15:07:29,0.294s,PASSED
+"click(findTestObject(""Regional/Regional""))",Chrome 125.0.0.0,,,18-06-2024 15:07:29,18-06-2024 15:07:29,0.296s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan halaman regional"")",Chrome 125.0.0.0,,,18-06-2024 15:07:29,18-06-2024 15:07:35,5.368s,PASSED
+"setText(findTestObject(""Regional/Search""), ""Jakarta"")",Chrome 125.0.0.0,,,18-06-2024 15:07:35,18-06-2024 15:07:35,0.626s,PASSED
+"click(findTestObject(""Regional/btn search""))",Chrome 125.0.0.0,,,18-06-2024 15:07:35,18-06-2024 15:07:36,0.330s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan pencarian"")",Chrome 125.0.0.0,,,18-06-2024 15:07:36,18-06-2024 15:07:38,1.736s,PASSED

@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Report,Chrome 125.0.0.0,,,12-06-2024 10:19:14,12-06-2024 10:19:48,33.723s,PASSED
+,,,,,,,
+Test Cases/Login/Login,Chrome 125.0.0.0,,,12-06-2024 10:19:14,12-06-2024 10:19:32,17.735s,PASSED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 125.0.0.0,,,12-06-2024 10:19:15,12-06-2024 10:19:23,7.989s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,12-06-2024 10:19:23,12-06-2024 10:19:23,0.057s,PASSED
+"setText(findTestObject(""Home page/input__username""), ""aldo"")",Chrome 125.0.0.0,,,12-06-2024 10:19:23,12-06-2024 10:19:24,0.955s,PASSED
+"setEncryptedText(findTestObject(""Home page/input__password""), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 125.0.0.0,,,12-06-2024 10:19:24,12-06-2024 10:19:24,0.399s,PASSED
+"click(findTestObject(""Home page/btn_Login""))",Chrome 125.0.0.0,,,12-06-2024 10:19:24,12-06-2024 10:19:24,0.314s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 125.0.0.0,,,12-06-2024 10:19:24,12-06-2024 10:19:32,7.759s,PASSED
+,,,,,,,
+Test Cases/Report/Printer log report,Chrome 125.0.0.0,,,12-06-2024 10:19:35,12-06-2024 10:19:39,3.580s,PASSED
+"click(findTestObject(""Report/btn Report""))",Chrome 125.0.0.0,,,12-06-2024 10:19:35,12-06-2024 10:19:36,0.297s,PASSED
+"click(findTestObject(""Report/btn printer log report""))",Chrome 125.0.0.0,,,12-06-2024 10:19:36,12-06-2024 10:19:36,0.289s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan hal printer report"")",Chrome 125.0.0.0,,,12-06-2024 10:19:36,12-06-2024 10:19:39,2.970s,PASSED
+,,,,,,,
+Test Cases/Report/Unvisited list report,Chrome 125.0.0.0,,,12-06-2024 10:19:39,12-06-2024 10:19:40,0.691s,PASSED
+"click(findTestObject(""Report/btn Report""))",Chrome 125.0.0.0,,,12-06-2024 10:19:39,12-06-2024 10:19:39,0.314s,PASSED
+"click(findTestObject(""Report/btn Unvisit list report""))",Chrome 125.0.0.0,,,12-06-2024 10:19:39,12-06-2024 10:19:40,0.308s,PASSED
+,,,,,,,
+Test Cases/Report/Visit result report,Chrome 125.0.0.0,,,12-06-2024 10:19:44,12-06-2024 10:19:48,3.695s,PASSED
+"click(findTestObject(""Report/btn Report""))",Chrome 125.0.0.0,,,12-06-2024 10:19:44,12-06-2024 10:19:45,0.294s,PASSED
+"click(findTestObject(""Report/btn Visit result report""))",Chrome 125.0.0.0,,,12-06-2024 10:19:45,12-06-2024 10:19:45,0.296s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan halaman visit result report"")",Chrome 125.0.0.0,,,12-06-2024 10:19:45,12-06-2024 10:19:48,3.092s,PASSED

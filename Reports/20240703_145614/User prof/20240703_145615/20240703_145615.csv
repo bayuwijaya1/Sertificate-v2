@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User prof,Chrome 126.0.0.0,,,03-07-2024 14:56:24,03-07-2024 14:57:05,41.338s,PASSED
+,,,,,,,
+Test Cases/Login/Log,Chrome 126.0.0.0,,,03-07-2024 14:56:24,03-07-2024 14:56:59,34.545s,PASSED
+"aurl = ""https://gpstqa-new.dipostar.org/dipo/""",Chrome 126.0.0.0,,,03-07-2024 14:56:25,03-07-2024 14:56:25,0.004s,PASSED
+openBrowser(aurl),Chrome 126.0.0.0,,,03-07-2024 14:56:25,03-07-2024 14:56:33,8.880s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,03-07-2024 14:56:33,03-07-2024 14:56:34,0.052s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 14:56:34,03-07-2024 14:56:37,3.054s,PASSED
+"b = ""Home page/username""",Chrome 126.0.0.0,,,03-07-2024 14:56:37,03-07-2024 14:56:37,0.003s,PASSED
+"setText(findTestObject(b), ""aldo"")",Chrome 126.0.0.0,,,03-07-2024 14:56:37,03-07-2024 14:56:37,0.697s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 14:56:37,03-07-2024 14:56:40,3.006s,PASSED
+"c = ""Home page/Passw""",Chrome 126.0.0.0,,,03-07-2024 14:56:40,03-07-2024 14:56:40,0.003s,PASSED
+"setEncryptedText(findTestObject(c), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 126.0.0.0,,,03-07-2024 14:56:40,03-07-2024 14:56:41,0.379s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 14:56:41,03-07-2024 14:56:44,3.006s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Chrome 126.0.0.0,,,03-07-2024 14:56:44,03-07-2024 14:56:44,0.309s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 126.0.0.0,,,03-07-2024 14:56:44,03-07-2024 14:56:59,14.861s,PASSED
+,,,,,,,
+Test Cases/User profile/User manag,Chrome 126.0.0.0,,,03-07-2024 14:56:59,03-07-2024 14:57:05,6.622s,PASSED
+"click(findTestObject(""usermanagement/User prof""))",Chrome 126.0.0.0,,,03-07-2024 14:56:59,03-07-2024 14:56:59,0.348s,PASSED
+"click(findTestObject(""usermanagement/User manag""))",Chrome 126.0.0.0,,,03-07-2024 14:56:59,03-07-2024 14:57:00,0.552s,PASSED
+"setText(findTestObject(""usermanagement/Text search""), ""kevin"")",Chrome 126.0.0.0,,,03-07-2024 14:57:00,03-07-2024 14:57:03,2.999s,PASSED
+"click(findTestObject(""usermanagement/button search""))",Chrome 126.0.0.0,,,03-07-2024 14:57:03,03-07-2024 14:57:03,0.316s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan hal user management"")",Chrome 126.0.0.0,,,03-07-2024 14:57:03,03-07-2024 14:57:05,2.338s,PASSED

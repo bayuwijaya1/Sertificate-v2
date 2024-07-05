@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 126.0.0.0,,,03-07-2024 11:47:55,03-07-2024 11:48:39,44.173s,PASSED
+,,,,,,,
+Test Cases/Login/Log,Chrome 126.0.0.0,,,03-07-2024 11:47:55,03-07-2024 11:48:37,41.364s,PASSED
+"aurl = ""https://gpstqa-new.dipostar.org/dipo/""",Chrome 126.0.0.0,,,03-07-2024 11:47:56,03-07-2024 11:47:56,0.007s,PASSED
+openBrowser(aurl),Chrome 126.0.0.0,,,03-07-2024 11:47:56,03-07-2024 11:48:08,11.731s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,03-07-2024 11:48:08,03-07-2024 11:48:08,0.096s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 11:48:08,03-07-2024 11:48:11,3.091s,PASSED
+"b = ""Home page/username""",Chrome 126.0.0.0,,,03-07-2024 11:48:11,03-07-2024 11:48:11,0.010s,PASSED
+"setText(findTestObject(b), ""aldo"")",Chrome 126.0.0.0,,,03-07-2024 11:48:11,03-07-2024 11:48:12,0.931s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 11:48:12,03-07-2024 11:48:15,3.014s,PASSED
+"c = ""Home page/Passw""",Chrome 126.0.0.0,,,03-07-2024 11:48:15,03-07-2024 11:48:15,0.008s,PASSED
+"setEncryptedText(findTestObject(c), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 126.0.0.0,,,03-07-2024 11:48:15,03-07-2024 11:48:15,0.583s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 11:48:15,03-07-2024 11:48:18,3.012s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Chrome 126.0.0.0,,,03-07-2024 11:48:18,03-07-2024 11:48:19,0.445s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 126.0.0.0,,,03-07-2024 11:48:19,03-07-2024 11:48:37,17.794s,PASSED
+,,,,,,,
+Test Cases/Login/logot no,Chrome 126.0.0.0,,,03-07-2024 11:48:37,03-07-2024 11:48:39,2.434s,PASSED
+"click(findTestObject(""Logout/logot""))",Chrome 126.0.0.0,,,03-07-2024 11:48:37,03-07-2024 11:48:37,0.513s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""menampilkan warning alert"")",Chrome 126.0.0.0,,,03-07-2024 11:48:37,03-07-2024 11:48:38,0.471s,PASSED
+"click(findTestObject(""Logout/buton no""))",Chrome 126.0.0.0,,,03-07-2024 11:48:38,03-07-2024 11:48:39,1.364s,PASSED

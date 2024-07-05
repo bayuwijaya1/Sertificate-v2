@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Master branch,Chrome 126.0.0.0,,,03-07-2024 15:00:00,03-07-2024 15:00:49,49.745s,PASSED
+,,,,,,,
+Test Cases/Login/Log,Chrome 126.0.0.0,,,03-07-2024 15:00:00,03-07-2024 15:00:36,36.007s,PASSED
+"aurl = ""https://gpstqa-new.dipostar.org/dipo/""",Chrome 126.0.0.0,,,03-07-2024 15:00:00,03-07-2024 15:00:00,0.008s,PASSED
+openBrowser(aurl),Chrome 126.0.0.0,,,03-07-2024 15:00:00,03-07-2024 15:00:09,8.753s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,03-07-2024 15:00:09,03-07-2024 15:00:09,0.087s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 15:00:09,03-07-2024 15:00:12,3.085s,PASSED
+"b = ""Home page/username""",Chrome 126.0.0.0,,,03-07-2024 15:00:12,03-07-2024 15:00:12,0.010s,PASSED
+"setText(findTestObject(b), ""aldo"")",Chrome 126.0.0.0,,,03-07-2024 15:00:12,03-07-2024 15:00:13,0.938s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 15:00:13,03-07-2024 15:00:16,3.013s,PASSED
+"c = ""Home page/Passw""",Chrome 126.0.0.0,,,03-07-2024 15:00:16,03-07-2024 15:00:16,0.007s,PASSED
+"setEncryptedText(findTestObject(c), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 126.0.0.0,,,03-07-2024 15:00:16,03-07-2024 15:00:17,0.510s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 15:00:17,03-07-2024 15:00:20,3.012s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Chrome 126.0.0.0,,,03-07-2024 15:00:20,03-07-2024 15:00:20,0.445s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 126.0.0.0,,,03-07-2024 15:00:20,03-07-2024 15:00:36,15.499s,PASSED
+,,,,,,,
+Test Cases/Master/Branchh,Chrome 126.0.0.0,,,03-07-2024 15:00:42,03-07-2024 15:00:49,7.432s,PASSED
+"click(findTestObject(""Menu/Masterrr""))",Chrome 126.0.0.0,,,03-07-2024 15:00:42,03-07-2024 15:00:42,0.315s,PASSED
+"click(findTestObject(""Branch/Button branch""))",Chrome 126.0.0.0,,,03-07-2024 15:00:42,03-07-2024 15:00:42,0.320s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan halaman branch"")",Chrome 126.0.0.0,,,03-07-2024 15:00:42,03-07-2024 15:00:46,3.420s,PASSED
+"setText(findTestObject(""Branch/Text search""), ""Bandung"")",Chrome 126.0.0.0,,,03-07-2024 15:00:46,03-07-2024 15:00:47,0.694s,PASSED
+"click(findTestObject(""Branch/Button search""))",Chrome 126.0.0.0,,,03-07-2024 15:00:47,03-07-2024 15:00:47,0.349s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan pencarian yang di cari"")",Chrome 126.0.0.0,,,03-07-2024 15:00:47,03-07-2024 15:00:49,2.318s,PASSED

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test engine" time="17.55" tests="1" failures="0" errors="0">
+   <testsuite name="Test engine" tests="1" failures="0" errors="0" time="17.55" skipped="0" timestamp="21-06-2024T13:59:00" hostname="0725 - DESKTOP-09GUU8E" id="Test Suites/Test engine">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0725\\Katalon Studio\\Testdevqa\\Reports\\20240621_135842\\Test engine\\20240621_135854"/>
+         <property name="logFiles" value="C:\\Users\\0725\\Katalon Studio\\Testdevqa\\Reports\\20240621_135842\\Test engine\\20240621_135854\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0725 - DESKTOP-09GUU8E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.93"/>
+         <property name="sessionId" value="57ee4538b069ed9dff05be8ebb41d62e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test engine" time="17.331" classname="Test Cases/Test engine" status="PASSED">
+         <system-out><![CDATA[21-06-2024T13:59:00 - [TEST_CASE][PASSED] - Test Cases/Test engine: Test Cases/Test engine
+
+21-06-2024T13:59:00 - [TEST_STEP][PASSED] - openBrowser("https://gpstqa-new.dipostar.org/dipo/"): Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+21-06-2024T13:59:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-06-2024T13:59:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-06-2024T13:59:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+21-06-2024T13:59:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-06-2024T13:59:15 - [MESSAGE][PASSED] - Current window maximized
+
+21-06-2024T13:59:15 - [TEST_STEP][PASSED] - setText(findTestObject("Home page/input__username"), "aldo"): Text 'aldo' is set on object 'Object Repository/Home page/input__username'
+
+21-06-2024T13:59:16 - [MESSAGE][PASSED] - Text 'aldo' is set on object 'Object Repository/Home page/input__username'
+
+21-06-2024T13:59:16 - [TEST_STEP][PASSED] - setText(findTestObject("Home page/input__password"), "indocyber"): Text 'indocyber' is set on object 'Object Repository/Home page/input__password'
+
+21-06-2024T13:59:17 - [MESSAGE][PASSED] - Text 'indocyber' is set on object 'Object Repository/Home page/input__password'
+
+21-06-2024T13:59:17 - [TEST_STEP][PASSED] - click(findTestObject("Home page/btn_Login")): Object: 'Object Repository/Home page/btn_Login' is clicked on
+
+21-06-2024T13:59:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page/btn_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-06-2024T13:59:00 - [TEST_SUITE][PASSED] - Test engine: Test Cases/Test engine]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

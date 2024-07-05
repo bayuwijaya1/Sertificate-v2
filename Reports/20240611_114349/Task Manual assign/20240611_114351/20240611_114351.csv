@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Task Manual assign,Chrome 125.0.0.0,,,11-06-2024 11:44:00,11-06-2024 11:45:10,1m - 9.541s,PASSED
+,,,,,,,
+Test Cases/Logi/Login,Chrome 125.0.0.0,,,11-06-2024 11:44:01,11-06-2024 11:44:33,31.815s,PASSED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 125.0.0.0,,,11-06-2024 11:44:01,11-06-2024 11:44:11,10.020s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,11-06-2024 11:44:11,11-06-2024 11:44:11,0.082s,PASSED
+"setText(findTestObject(""Home page/input__username""), ""aldo"")",Chrome 125.0.0.0,,,11-06-2024 11:44:11,11-06-2024 11:44:12,0.943s,PASSED
+"setEncryptedText(findTestObject(""Home page/input__password""), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 125.0.0.0,,,11-06-2024 11:44:12,11-06-2024 11:44:13,0.422s,PASSED
+"click(findTestObject(""Home page/btn_Login""))",Chrome 125.0.0.0,,,11-06-2024 11:44:13,11-06-2024 11:44:13,0.344s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 125.0.0.0,,,11-06-2024 11:44:13,11-06-2024 11:44:33,19.500s,PASSED
+,,,,,,,
+Test Cases/Task/Manual assign,Chrome 125.0.0.0,,,11-06-2024 11:44:38,11-06-2024 11:45:10,31.645s,PASSED
+"click(findTestObject(""Menu/Task""))",Chrome 125.0.0.0,,,11-06-2024 11:44:38,11-06-2024 11:44:39,0.348s,PASSED
+"click(findTestObject(""Manual assign/Manual assign""))",Chrome 125.0.0.0,,,11-06-2024 11:44:39,11-06-2024 11:44:39,0.371s,PASSED
+"click(findTestObject(""Manual assign/Regional/Btn choose Regional""))",Chrome 125.0.0.0,,,11-06-2024 11:44:39,11-06-2024 11:44:43,3.792s,PASSED
+"setText(findTestObject(""Manual assign/Regional/text search""), ""Jakarta"")",Chrome 125.0.0.0,,,11-06-2024 11:44:43,11-06-2024 11:44:46,3.553s,PASSED
+"click(findTestObject(""Manual assign/Regional/btn search""))",Chrome 125.0.0.0,,,11-06-2024 11:44:46,11-06-2024 11:44:47,0.376s,PASSED
+"click(findTestObject(""Manual assign/Regional/btn jkt""))",Chrome 125.0.0.0,,,11-06-2024 11:44:47,11-06-2024 11:44:49,2.007s,PASSED
+"click(findTestObject(""Manual assign/Branch/Btn choose branch""))",Chrome 125.0.0.0,,,11-06-2024 11:44:49,11-06-2024 11:44:52,3.071s,PASSED
+"setText(findTestObject(""Manual assign/Branch/text search""), ""Jakarta Central"")",Chrome 125.0.0.0,,,11-06-2024 11:44:52,11-06-2024 11:44:55,3.375s,PASSED
+"click(findTestObject(""Manual assign/Branch/Btn search""))",Chrome 125.0.0.0,,,11-06-2024 11:44:55,11-06-2024 11:44:56,0.440s,PASSED
+"click(findTestObject(""Manual assign/Branch/btn jkt cntral""))",Chrome 125.0.0.0,,,11-06-2024 11:44:56,11-06-2024 11:44:57,1.725s,PASSED
+"click(findTestObject(""Manual assign/Field collector/Btn choose""))",Chrome 125.0.0.0,,,11-06-2024 11:44:57,11-06-2024 11:45:01,3.783s,PASSED
+"setText(findTestObject(""Manual assign/Field collector/text search""), ""Faris"")",Chrome 125.0.0.0,,,11-06-2024 11:45:01,11-06-2024 11:45:05,3.407s,PASSED
+"click(findTestObject(""Manual assign/Field collector/Btn search""))",Chrome 125.0.0.0,,,11-06-2024 11:45:05,11-06-2024 11:45:05,0.358s,PASSED
+"click(findTestObject(""Manual assign/Field collector/faris""))",Chrome 125.0.0.0,,,11-06-2024 11:45:05,11-06-2024 11:45:07,1.818s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan hasil pencarina manual assign"")",Chrome 125.0.0.0,,,11-06-2024 11:45:07,11-06-2024 11:45:10,3.188s,PASSED

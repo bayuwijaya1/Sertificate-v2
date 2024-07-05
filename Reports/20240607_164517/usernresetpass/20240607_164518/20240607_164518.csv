@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+usernresetpass,Chrome 125.0.0.0,,,07-06-2024 16:45:27,07-06-2024 16:46:02,34.510s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 125.0.0.0,,,07-06-2024 16:45:27,07-06-2024 16:45:45,17.598s,PASSED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 125.0.0.0,,,07-06-2024 16:45:28,07-06-2024 16:45:37,9.582s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,07-06-2024 16:45:37,07-06-2024 16:45:38,0.114s,PASSED
+"setText(findTestObject(""Page_Home/input__username""), ""aldo"")",Chrome 125.0.0.0,,,07-06-2024 16:45:38,07-06-2024 16:45:38,0.737s,PASSED
+"setEncryptedText(findTestObject(""Page_Home/input__password""), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 125.0.0.0,,,07-06-2024 16:45:38,07-06-2024 16:45:39,0.433s,PASSED
+"click(findTestObject(""Page_Home/btn_Login""))",Chrome 125.0.0.0,,,07-06-2024 16:45:39,07-06-2024 16:45:39,0.361s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 125.0.0.0,,,07-06-2024 16:45:39,07-06-2024 16:45:45,5.944s,PASSED
+,,,,,,,
+Test Cases/user management,Chrome 125.0.0.0,,,07-06-2024 16:45:50,07-06-2024 16:46:02,11.854s,PASSED
+"click(findTestObject(""usermanagement/user profile""))",Chrome 125.0.0.0,,,07-06-2024 16:45:50,07-06-2024 16:45:50,0.300s,PASSED
+"click(findTestObject(""usermanagement/User Management""))",Chrome 125.0.0.0,,,07-06-2024 16:45:50,07-06-2024 16:45:51,0.432s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan hal user management"")",Chrome 125.0.0.0,,,07-06-2024 16:45:51,07-06-2024 16:45:54,3.143s,PASSED
+"click(findTestObject(""Reset password/reset password""))",Chrome 125.0.0.0,,,07-06-2024 16:45:54,07-06-2024 16:45:54,0.310s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan hal reset pass"", STOP_ON_FAILURE)",Chrome 125.0.0.0,,,07-06-2024 16:45:54,07-06-2024 16:45:58,4.354s,PASSED
+"click(findTestObject(""Change pass/change password""))",Chrome 125.0.0.0,,,07-06-2024 16:45:58,07-06-2024 16:45:59,0.286s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan hal change password"")",Chrome 125.0.0.0,,,07-06-2024 16:45:59,07-06-2024 16:46:02,3.004s,PASSED

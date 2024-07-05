@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Task Adjusment,Chrome 125.0.0.0,,,18-06-2024 11:39:01,18-06-2024 11:40:29,1m - 27.597s,PASSED
+,,,,,,,
+Test Cases/Login/Login,Chrome 125.0.0.0,,,18-06-2024 11:39:02,18-06-2024 11:39:55,53.840s,PASSED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 125.0.0.0,,,18-06-2024 11:39:02,18-06-2024 11:39:11,8.988s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,18-06-2024 11:39:11,18-06-2024 11:39:11,0.052s,PASSED
+"setText(findTestObject(""Home page/input__username""), ""aldo"")",Chrome 125.0.0.0,,,18-06-2024 11:39:11,18-06-2024 11:39:12,0.829s,PASSED
+"setEncryptedText(findTestObject(""Home page/input__password""), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 125.0.0.0,,,18-06-2024 11:39:12,18-06-2024 11:39:12,0.424s,PASSED
+"click(findTestObject(""Home page/btn_Login""))",Chrome 125.0.0.0,,,18-06-2024 11:39:12,18-06-2024 11:39:13,0.424s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 125.0.0.0,,,18-06-2024 11:39:13,18-06-2024 11:39:55,42.860s,PASSED
+,,,,,,,
+Test Cases/Task/Task Adjusment,Chrome 125.0.0.0,,,18-06-2024 11:40:01,18-06-2024 11:40:29,27.956s,PASSED
+"click(findTestObject(""Menu/Task""))",Chrome 125.0.0.0,,,18-06-2024 11:40:01,18-06-2024 11:40:01,0.307s,PASSED
+"click(findTestObject(""Task Adjusment/Task Adjusment""))",Chrome 125.0.0.0,,,18-06-2024 11:40:01,18-06-2024 11:40:02,0.288s,PASSED
+"click(findTestObject(""Task Adjusment/Regional/Choose regional""))",Chrome 125.0.0.0,,,18-06-2024 11:40:02,18-06-2024 11:40:05,3.394s,PASSED
+"setText(findTestObject(""Task Adjusment/Regional/Search regional""), ""West Java"")",Chrome 125.0.0.0,,,18-06-2024 11:40:05,18-06-2024 11:40:09,3.475s,PASSED
+"click(findTestObject(""Task Adjusment/Regional/Btn search""))",Chrome 125.0.0.0,,,18-06-2024 11:40:09,18-06-2024 11:40:09,0.358s,PASSED
+"click(findTestObject(""Task Adjusment/Regional/btn west java""))",Chrome 125.0.0.0,,,18-06-2024 11:40:09,18-06-2024 11:40:11,1.718s,PASSED
+"click(findTestObject(""Task Adjusment/Branch/choose branch""))",Chrome 125.0.0.0,,,18-06-2024 11:40:11,18-06-2024 11:40:13,2.712s,PASSED
+"setText(findTestObject(""Task Adjusment/Branch/search branch""), ""bandung"")",Chrome 125.0.0.0,,,18-06-2024 11:40:13,18-06-2024 11:40:16,3.036s,PASSED
+"click(findTestObject(""Task Adjusment/Branch/btn search""))",Chrome 125.0.0.0,,,18-06-2024 11:40:16,18-06-2024 11:40:17,0.313s,PASSED
+"click(findTestObject(""Task Adjusment/Branch/btn bandung""))",Chrome 125.0.0.0,,,18-06-2024 11:40:17,18-06-2024 11:40:18,1.606s,PASSED
+"click(findTestObject(""Task Adjusment/Field Collector/Choose collector""))",Chrome 125.0.0.0,,,18-06-2024 11:40:18,18-06-2024 11:40:21,2.762s,PASSED
+"setText(findTestObject(""Task Adjusment/Field Collector/text search""), ""Chairul Amran"")",Chrome 125.0.0.0,,,18-06-2024 11:40:21,18-06-2024 11:40:24,3.026s,PASSED
+"click(findTestObject(""Task Adjusment/Field Collector/btn search""))",Chrome 125.0.0.0,,,18-06-2024 11:40:24,18-06-2024 11:40:24,0.462s,PASSED
+"click(findTestObject(""Task Adjusment/Field Collector/chairul""))",Chrome 125.0.0.0,,,18-06-2024 11:40:24,18-06-2024 11:40:26,1.601s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan pencarian yg di cari"")",Chrome 125.0.0.0,,,18-06-2024 11:40:26,18-06-2024 11:40:29,2.873s,PASSED

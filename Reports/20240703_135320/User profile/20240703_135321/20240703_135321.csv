@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User profile,Chrome 126.0.0.0,,,03-07-2024 13:53:25,03-07-2024 13:54:15,49.700s,PASSED
+,,,,,,,
+Test Cases/Login/Log,Chrome 126.0.0.0,,,03-07-2024 13:53:25,03-07-2024 13:54:03,37.076s,PASSED
+"aurl = ""https://gpstqa-new.dipostar.org/dipo/""",Chrome 126.0.0.0,,,03-07-2024 13:53:26,03-07-2024 13:53:26,0.003s,PASSED
+openBrowser(aurl),Chrome 126.0.0.0,,,03-07-2024 13:53:26,03-07-2024 13:53:36,10.220s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,03-07-2024 13:53:36,03-07-2024 13:53:36,0.055s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 13:53:36,03-07-2024 13:53:39,3.051s,PASSED
+"b = ""Home page/username""",Chrome 126.0.0.0,,,03-07-2024 13:53:39,03-07-2024 13:53:39,0.003s,PASSED
+"setText(findTestObject(b), ""aldo"")",Chrome 126.0.0.0,,,03-07-2024 13:53:39,03-07-2024 13:53:40,0.701s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 13:53:40,03-07-2024 13:53:43,3.009s,PASSED
+"c = ""Home page/Passw""",Chrome 126.0.0.0,,,03-07-2024 13:53:43,03-07-2024 13:53:43,0.002s,PASSED
+"setEncryptedText(findTestObject(c), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 126.0.0.0,,,03-07-2024 13:53:43,03-07-2024 13:53:43,0.385s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 13:53:43,03-07-2024 13:53:46,3.005s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Chrome 126.0.0.0,,,03-07-2024 13:53:46,03-07-2024 13:53:46,0.312s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 126.0.0.0,,,03-07-2024 13:53:46,03-07-2024 13:54:03,16.055s,PASSED
+,,,,,,,
+Test Cases/User profile/Reset passw,Chrome 126.0.0.0,,,03-07-2024 13:54:03,03-07-2024 13:54:15,12.465s,PASSED
+"click(findTestObject(""Reset password/Button reset pass""))",Chrome 126.0.0.0,,,03-07-2024 13:54:03,03-07-2024 13:54:03,0.314s,PASSED
+"setText(findTestObject(""Reset password/Search text""), ""kevin qa"")",Chrome 126.0.0.0,,,03-07-2024 13:54:03,03-07-2024 13:54:06,3.003s,PASSED
+"click(findTestObject(""Reset password/Button search""))",Chrome 126.0.0.0,,,03-07-2024 13:54:06,03-07-2024 13:54:06,0.292s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan pencarian yang dicari"")",Chrome 126.0.0.0,,,03-07-2024 13:54:06,03-07-2024 13:54:08,1.713s,PASSED
+"click(findTestObject(""Reset password/Button image ress""))",Chrome 126.0.0.0,,,03-07-2024 13:54:08,03-07-2024 13:54:08,0.320s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan user yang akan di reset pass"")",Chrome 126.0.0.0,,,03-07-2024 13:54:08,03-07-2024 13:54:13,4.252s,PASSED
+"click(findTestObject(""Reset password/button close""))",Chrome 126.0.0.0,,,03-07-2024 13:54:13,03-07-2024 13:54:13,0.326s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan box message"")",Chrome 126.0.0.0,,,03-07-2024 13:54:13,03-07-2024 13:54:15,2.149s,PASSED

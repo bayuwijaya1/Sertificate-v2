@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Field collector,Chrome 126.0.0.0,,,03-07-2024 16:30:07,03-07-2024 16:30:51,44.032s,PASSED
+,,,,,,,
+Test Cases/Login/Log,Chrome 126.0.0.0,,,03-07-2024 16:30:08,03-07-2024 16:30:43,35.763s,PASSED
+"aurl = ""https://gpstqa-new.dipostar.org/dipo/""",Chrome 126.0.0.0,,,03-07-2024 16:30:08,03-07-2024 16:30:08,0.007s,PASSED
+openBrowser(aurl),Chrome 126.0.0.0,,,03-07-2024 16:30:08,03-07-2024 16:30:17,8.654s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,03-07-2024 16:30:17,03-07-2024 16:30:17,0.196s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 16:30:17,03-07-2024 16:30:20,3.078s,PASSED
+"b = ""Home page/username""",Chrome 126.0.0.0,,,03-07-2024 16:30:20,03-07-2024 16:30:20,0.008s,PASSED
+"setText(findTestObject(b), ""aldo"")",Chrome 126.0.0.0,,,03-07-2024 16:30:20,03-07-2024 16:30:21,0.969s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 16:30:21,03-07-2024 16:30:24,3.011s,PASSED
+"c = ""Home page/Passw""",Chrome 126.0.0.0,,,03-07-2024 16:30:24,03-07-2024 16:30:24,0.008s,PASSED
+"setEncryptedText(findTestObject(c), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 126.0.0.0,,,03-07-2024 16:30:24,03-07-2024 16:30:25,0.505s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 16:30:25,03-07-2024 16:30:28,3.009s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Chrome 126.0.0.0,,,03-07-2024 16:30:28,03-07-2024 16:30:28,0.411s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 126.0.0.0,,,03-07-2024 16:30:28,03-07-2024 16:30:43,15.317s,PASSED
+,,,,,,,
+Test Cases/Monitoring field/Field colllectorr,Chrome 126.0.0.0,,,03-07-2024 16:30:43,03-07-2024 16:30:51,7.959s,PASSED
+"click(findTestObject(""Menu/Monitoring field collectorr""))",Chrome 126.0.0.0,,,03-07-2024 16:30:43,03-07-2024 16:30:44,0.457s,PASSED
+"click(findTestObject(""Monitoring field collector move/Button monitoring field""))",Chrome 126.0.0.0,,,03-07-2024 16:30:44,03-07-2024 16:30:45,0.629s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan halaman"")",Chrome 126.0.0.0,,,03-07-2024 16:30:45,03-07-2024 16:30:51,6.796s,PASSED

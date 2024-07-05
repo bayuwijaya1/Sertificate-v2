@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+monitoring field collector,Chrome 125.0.0.0,,,11-06-2024 14:46:04,11-06-2024 14:47:16,1m - 12.299s,FAILED
+,,,,,,,
+Test Cases/Login/Login,Chrome 125.0.0.0,,,11-06-2024 14:46:04,11-06-2024 14:46:57,52.605s,PASSED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 125.0.0.0,,,11-06-2024 14:46:04,11-06-2024 14:46:13,8.958s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,11-06-2024 14:46:13,11-06-2024 14:46:13,0.053s,PASSED
+"setText(findTestObject(""Home page/input__username""), ""aldo"")",Chrome 125.0.0.0,,,11-06-2024 14:46:13,11-06-2024 14:46:14,0.822s,PASSED
+"setEncryptedText(findTestObject(""Home page/input__password""), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 125.0.0.0,,,11-06-2024 14:46:14,11-06-2024 14:46:15,0.384s,PASSED
+"click(findTestObject(""Home page/btn_Login""))",Chrome 125.0.0.0,,,11-06-2024 14:46:15,11-06-2024 14:46:15,0.329s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 125.0.0.0,,,11-06-2024 14:46:15,11-06-2024 14:46:57,41.799s,PASSED
+,,,,,,,
+Test Cases/Monitoring field/Field collector,Chrome 125.0.0.0,,,11-06-2024 14:47:12,11-06-2024 14:47:16,4.129s,FAILED
+"click(findTestObject(""Menu/Monitoring Field Colector""))",Chrome 125.0.0.0,,,11-06-2024 14:47:12,11-06-2024 14:47:13,0.314s,PASSED
+"click(findTestObject(""Monitoring field collector move/Monitoring field collector movement""))",Chrome 125.0.0.0,,,11-06-2024 14:47:13,11-06-2024 14:47:13,0.292s,PASSED
+"click(findTestObject(""Monitoring field collector move/Date start""))",Chrome 125.0.0.0,,,11-06-2024 14:47:13,11-06-2024 14:47:16,2.923s,PASSED
+"setText(findTestObject(""Monitoring field collector move/date start pick""), ""01/01/2023"")",Chrome 125.0.0.0,,,11-06-2024 14:47:16,11-06-2024 14:47:16,0.583s,FAILED

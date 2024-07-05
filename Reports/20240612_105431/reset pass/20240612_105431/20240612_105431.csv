@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+reset pass,TestCloud - Windows - Chrome 124.0.0.0,,,12-06-2024 10:54:40,12-06-2024 11:02:38,7m - 57.990s,FAILED
+,,,,,,,
+Test Cases/Login/Login,TestCloud - Windows - Chrome 124.0.0.0,,,12-06-2024 10:58:45,12-06-2024 11:00:06,1m - 20.926s,FAILED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",TestCloud - Windows - Chrome 124.0.0.0,,,12-06-2024 10:58:45,12-06-2024 10:59:17,31.422s,PASSED
+maximizeWindow(),TestCloud - Windows - Chrome 124.0.0.0,,,12-06-2024 10:59:17,12-06-2024 10:59:18,0.824s,PASSED
+"setText(findTestObject(""Home page/input__username""), ""aldo"")",TestCloud - Windows - Chrome 124.0.0.0,,,12-06-2024 10:59:18,12-06-2024 11:00:06,48.660s,FAILED
+,,,,,,,
+Test Cases/User profile/Reset pass,TestCloud - Windows - Chrome 124.0.0.0,,,12-06-2024 11:02:01,12-06-2024 11:02:38,36.750s,FAILED
+"click(findTestObject(""Reset password/reset password""))",TestCloud - Windows - Chrome 124.0.0.0,,,12-06-2024 11:02:01,12-06-2024 11:02:38,36.732s,FAILED

@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Report,Chrome 125.0.0.0,,,12-06-2024 10:16:23,12-06-2024 10:16:56,32.686s,FAILED
+,,,,,,,
+Test Cases/Login/Login,Chrome 125.0.0.0,,,12-06-2024 10:16:23,12-06-2024 10:16:41,17.891s,PASSED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 125.0.0.0,,,12-06-2024 10:16:24,12-06-2024 10:16:32,8.735s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,12-06-2024 10:16:32,12-06-2024 10:16:32,0.052s,PASSED
+"setText(findTestObject(""Home page/input__username""), ""aldo"")",Chrome 125.0.0.0,,,12-06-2024 10:16:32,12-06-2024 10:16:33,0.883s,PASSED
+"setEncryptedText(findTestObject(""Home page/input__password""), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 125.0.0.0,,,12-06-2024 10:16:33,12-06-2024 10:16:34,0.409s,PASSED
+"click(findTestObject(""Home page/btn_Login""))",Chrome 125.0.0.0,,,12-06-2024 10:16:34,12-06-2024 10:16:34,0.353s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 125.0.0.0,,,12-06-2024 10:16:34,12-06-2024 10:16:41,7.194s,PASSED
+,,,,,,,
+Test Cases/Report/Ptp report,Chrome 125.0.0.0,,,12-06-2024 10:16:43,12-06-2024 10:16:48,4.405s,PASSED
+"click(findTestObject(""Report/btn Report""))",Chrome 125.0.0.0,,,12-06-2024 10:16:43,12-06-2024 10:16:44,0.281s,PASSED
+"click(findTestObject(""Report/btn Ptp report""))",Chrome 125.0.0.0,,,12-06-2024 10:16:44,12-06-2024 10:16:44,0.320s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan halaman ptp report"")",Chrome 125.0.0.0,,,12-06-2024 10:16:44,12-06-2024 10:16:48,3.788s,PASSED
+,,,,,,,
+Test Cases/Report/Printer log report,Chrome 125.0.0.0,,,12-06-2024 10:16:51,12-06-2024 10:16:51,0.746s,FAILED
+"click(findTestObject(""Report/btn Report""))",Chrome 125.0.0.0,,,12-06-2024 10:16:51,12-06-2024 10:16:51,0.309s,PASSED
+"click(findTestObject(""Report/btn printer log report""))",Chrome 125.0.0.0,,,12-06-2024 10:16:51,12-06-2024 10:16:51,0.420s,FAILED
+,,,,,,,
+Test Cases/Report/Task Adjusment report,Chrome 125.0.0.0,,,12-06-2024 10:16:51,12-06-2024 10:16:56,4.361s,PASSED
+"click(findTestObject(""Report/btn Report""))",Chrome 125.0.0.0,,,12-06-2024 10:16:51,12-06-2024 10:16:52,0.300s,PASSED
+"click(findTestObject(""Report/btn Task adjusmnet report""))",Chrome 125.0.0.0,,,12-06-2024 10:16:52,12-06-2024 10:16:52,0.288s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan halaman task adjusment report"")",Chrome 125.0.0.0,,,12-06-2024 10:16:52,12-06-2024 10:16:56,3.712s,PASSED

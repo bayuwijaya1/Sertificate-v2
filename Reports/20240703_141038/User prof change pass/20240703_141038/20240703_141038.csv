@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User prof change pass,Chrome 126.0.0.0,,,03-07-2024 14:10:42,03-07-2024 14:11:27,45.317s,PASSED
+,,,,,,,
+Test Cases/Login/Log,Chrome 126.0.0.0,,,03-07-2024 14:10:42,03-07-2024 14:11:18,36.453s,PASSED
+"aurl = ""https://gpstqa-new.dipostar.org/dipo/""",Chrome 126.0.0.0,,,03-07-2024 14:10:42,03-07-2024 14:10:42,0.004s,PASSED
+openBrowser(aurl),Chrome 126.0.0.0,,,03-07-2024 14:10:42,03-07-2024 14:10:53,10.727s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,03-07-2024 14:10:53,03-07-2024 14:10:53,0.057s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 14:10:53,03-07-2024 14:10:56,3.047s,PASSED
+"b = ""Home page/username""",Chrome 126.0.0.0,,,03-07-2024 14:10:56,03-07-2024 14:10:56,0.004s,PASSED
+"setText(findTestObject(b), ""aldo"")",Chrome 126.0.0.0,,,03-07-2024 14:10:56,03-07-2024 14:10:57,0.729s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 14:10:57,03-07-2024 14:11:00,3.006s,PASSED
+"c = ""Home page/Passw""",Chrome 126.0.0.0,,,03-07-2024 14:11:00,03-07-2024 14:11:00,0.002s,PASSED
+"setEncryptedText(findTestObject(c), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 126.0.0.0,,,03-07-2024 14:11:00,03-07-2024 14:11:00,0.380s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 14:11:00,03-07-2024 14:11:03,3.004s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Chrome 126.0.0.0,,,03-07-2024 14:11:03,03-07-2024 14:11:03,0.333s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 126.0.0.0,,,03-07-2024 14:11:03,03-07-2024 14:11:18,14.857s,PASSED
+,,,,,,,
+Test Cases/User profile/Change passw,Chrome 126.0.0.0,,,03-07-2024 14:11:18,03-07-2024 14:11:27,8.704s,PASSED
+"click(findTestObject(""Change pass/Button change password""))",Chrome 126.0.0.0,,,03-07-2024 14:11:18,03-07-2024 14:11:19,0.289s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan pergantian pass"")",Chrome 126.0.0.0,,,03-07-2024 14:11:19,03-07-2024 14:11:23,4.309s,PASSED
+"setText(findTestObject(""Change pass/Text Old pass""), ""indocyber"")",Chrome 126.0.0.0,,,03-07-2024 14:11:23,03-07-2024 14:11:24,0.652s,PASSED
+"setText(findTestObject(""Change pass/Text new pass""), ""Indocyber"")",Chrome 126.0.0.0,,,03-07-2024 14:11:24,03-07-2024 14:11:24,0.621s,PASSED
+"setText(findTestObject(""Change pass/Text confirm new pass""), ""Indocyber"")",Chrome 126.0.0.0,,,03-07-2024 14:11:24,03-07-2024 14:11:25,0.591s,PASSED
+"click(findTestObject(""Change pass/Button closed""))",Chrome 126.0.0.0,,,03-07-2024 14:11:25,03-07-2024 14:11:25,0.291s,PASSED
+"takeScreenshotAsCheckpoint(""kembali ke halaman change pass"")",Chrome 126.0.0.0,,,03-07-2024 14:11:25,03-07-2024 14:11:27,1.827s,PASSED

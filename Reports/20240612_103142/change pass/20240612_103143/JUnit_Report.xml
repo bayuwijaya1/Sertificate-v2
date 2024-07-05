@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="change pass" time="23.923" tests="2" failures="0" errors="0">
+   <testsuite name="change pass" tests="2" failures="0" errors="0" time="23.923" skipped="0" timestamp="12-06-2024T10:31:55" hostname="0725 - DESKTOP-09GUU8E" id="Test Suites/change pass">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0725\\Katalon Studio\\Testdevqa\\Reports\\20240612_103142\\change pass\\20240612_103143"/>
+         <property name="logFiles" value="C:\\Users\\0725\\Katalon Studio\\Testdevqa\\Reports\\20240612_103142\\change pass\\20240612_103143\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-login berhasil.png, keyes\keyes-menampilkan pergantian pass.png, keyes\keyes-kembali ke halaman change pass.png"/>
+         <property name="hostName" value="0725 - DESKTOP-09GUU8E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.131.205"/>
+         <property name="sessionId" value="172019fbacc5a7e25dc6a8e104ef43b4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login" time="16.014" classname="Test Cases/Login/Login" status="PASSED">
+         <system-out><![CDATA[12-06-2024T10:31:55 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+12-06-2024T10:31:55 - [TEST_STEP][PASSED] - openBrowser("https://gpstqa-new.dipostar.org/dipo/"): Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+12-06-2024T10:31:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-06-2024T10:31:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-06-2024T10:32:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+12-06-2024T10:32:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-06-2024T10:32:03 - [MESSAGE][PASSED] - Current window maximized
+
+12-06-2024T10:32:03 - [TEST_STEP][PASSED] - setText(findTestObject("Home page/input__username"), "aldo"): Text 'aldo' is set on object 'Object Repository/Home page/input__username'
+
+12-06-2024T10:32:04 - [MESSAGE][PASSED] - Text 'aldo' is set on object 'Object Repository/Home page/input__username'
+
+12-06-2024T10:32:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Home page/input__password"), "TRrAuhBZTmGN3YbeoZ5Gng=="): Text ****** has been set on object 'Object Repository/Home page/input__password'
+
+12-06-2024T10:32:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Home page/input__password'
+
+12-06-2024T10:32:05 - [TEST_STEP][PASSED] - click(findTestObject("Home page/btn_Login")): Object: 'Object Repository/Home page/btn_Login' is clicked on
+
+12-06-2024T10:32:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page/btn_Login' is clicked on
+
+12-06-2024T10:32:05 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("login berhasil", STOP_ON_FAILURE): Taking screenshot successfully
+
+12-06-2024T10:32:11 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-06-2024T10:32:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-login berhasil.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User profile/Change pass" time="7.717" classname="Test Cases/User profile/Change pass" status="PASSED">
+         <system-out><![CDATA[12-06-2024T10:32:11 - [TEST_CASE][PASSED] - Test Cases/User profile/Change pass: Test Cases/User profile/Change pass
+
+12-06-2024T10:32:11 - [TEST_STEP][PASSED] - click(findTestObject("Change pass/change password")): Object: 'Object Repository/Change pass/change password' is clicked on
+
+12-06-2024T10:32:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Change pass/change password' is clicked on
+
+12-06-2024T10:32:11 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("menampilkan pergantian pass"): Taking screenshot successfully
+
+12-06-2024T10:32:14 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-06-2024T10:32:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-menampilkan pergantian pass.png]]
+
+12-06-2024T10:32:14 - [TEST_STEP][PASSED] - setText(findTestObject("Change pass/old pass"), "indocyber"): Text 'indocyber' is set on object 'Object Repository/Change pass/old pass'
+
+12-06-2024T10:32:15 - [MESSAGE][PASSED] - Text 'indocyber' is set on object 'Object Repository/Change pass/old pass'
+
+12-06-2024T10:32:15 - [TEST_STEP][PASSED] - setText(findTestObject("Change pass/New pass"), "Indocyber"): Text 'Indocyber' is set on object 'Object Repository/Change pass/New pass'
+
+12-06-2024T10:32:16 - [MESSAGE][PASSED] - Text 'Indocyber' is set on object 'Object Repository/Change pass/New pass'
+
+12-06-2024T10:32:16 - [TEST_STEP][PASSED] - setText(findTestObject("Change pass/Confirm new pass"), "Indocyber"): Text 'Indocyber' is set on object 'Object Repository/Change pass/Confirm new pass'
+
+12-06-2024T10:32:16 - [MESSAGE][PASSED] - Text 'Indocyber' is set on object 'Object Repository/Change pass/Confirm new pass'
+
+12-06-2024T10:32:16 - [TEST_STEP][PASSED] - click(findTestObject("Change pass/btn closed")): Object: 'Object Repository/Change pass/btn closed' is clicked on
+
+12-06-2024T10:32:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Change pass/btn closed' is clicked on
+
+12-06-2024T10:32:16 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("kembali ke halaman change pass"): Taking screenshot successfully
+
+12-06-2024T10:32:19 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-06-2024T10:32:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-kembali ke halaman change pass.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-06-2024T10:31:55 - [TEST_SUITE][PASSED] - change pass: Test Cases/User profile/Change pass]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

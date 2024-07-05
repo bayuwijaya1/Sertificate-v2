@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Taskk,Chrome 126.0.0.0,,,03-07-2024 16:24:05,03-07-2024 16:24:53,48.320s,PASSED
+,,,,,,,
+Test Cases/Login/Log,Chrome 126.0.0.0,,,03-07-2024 16:24:05,03-07-2024 16:24:41,36.303s,PASSED
+"aurl = ""https://gpstqa-new.dipostar.org/dipo/""",Chrome 126.0.0.0,,,03-07-2024 16:24:05,03-07-2024 16:24:05,0.004s,PASSED
+openBrowser(aurl),Chrome 126.0.0.0,,,03-07-2024 16:24:05,03-07-2024 16:24:15,10.364s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,03-07-2024 16:24:15,03-07-2024 16:24:15,0.054s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 16:24:15,03-07-2024 16:24:19,3.041s,PASSED
+"b = ""Home page/username""",Chrome 126.0.0.0,,,03-07-2024 16:24:19,03-07-2024 16:24:19,0.002s,PASSED
+"setText(findTestObject(b), ""aldo"")",Chrome 126.0.0.0,,,03-07-2024 16:24:19,03-07-2024 16:24:19,0.715s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 16:24:19,03-07-2024 16:24:22,3.011s,PASSED
+"c = ""Home page/Passw""",Chrome 126.0.0.0,,,03-07-2024 16:24:22,03-07-2024 16:24:22,0.006s,PASSED
+"setEncryptedText(findTestObject(c), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 126.0.0.0,,,03-07-2024 16:24:22,03-07-2024 16:24:23,0.367s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 16:24:23,03-07-2024 16:24:26,3.005s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Chrome 126.0.0.0,,,03-07-2024 16:24:26,03-07-2024 16:24:26,0.322s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 126.0.0.0,,,03-07-2024 16:24:26,03-07-2024 16:24:41,15.121s,PASSED
+,,,,,,,
+Test Cases/Task/Manual assignn,Chrome 126.0.0.0,,,03-07-2024 16:24:48,03-07-2024 16:24:53,5.164s,PASSED
+"click(findTestObject(""Menu/Taskk""))",Chrome 126.0.0.0,,,03-07-2024 16:24:48,03-07-2024 16:24:48,0.303s,PASSED
+"click(findTestObject(""Manual assign/Button manual assign""))",Chrome 126.0.0.0,,,03-07-2024 16:24:48,03-07-2024 16:24:48,0.311s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan halaman"")",Chrome 126.0.0.0,,,03-07-2024 16:24:48,03-07-2024 16:24:53,4.535s,PASSED

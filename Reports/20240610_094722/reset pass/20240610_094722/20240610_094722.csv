@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+reset pass,Chrome 125.0.0.0,,,10-06-2024 09:47:34,10-06-2024 09:48:10,35.466s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 125.0.0.0,,,10-06-2024 09:47:34,10-06-2024 09:47:57,22.261s,PASSED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 125.0.0.0,,,10-06-2024 09:47:35,10-06-2024 09:47:49,14.222s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,10-06-2024 09:47:49,10-06-2024 09:47:49,0.075s,PASSED
+"setText(findTestObject(""Page_Home/input__username""), ""aldo"")",Chrome 125.0.0.0,,,10-06-2024 09:47:49,10-06-2024 09:47:50,0.797s,PASSED
+"setEncryptedText(findTestObject(""Page_Home/input__password""), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 125.0.0.0,,,10-06-2024 09:47:50,10-06-2024 09:47:51,0.374s,PASSED
+"click(findTestObject(""Page_Home/btn_Login""))",Chrome 125.0.0.0,,,10-06-2024 09:47:51,10-06-2024 09:47:51,0.347s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 125.0.0.0,,,10-06-2024 09:47:51,10-06-2024 09:47:57,5.834s,PASSED
+,,,,,,,
+Test Cases/Reset pass,Chrome 125.0.0.0,,,10-06-2024 09:47:57,10-06-2024 09:48:10,12.860s,PASSED
+"click(findTestObject(""Reset password/reset password""))",Chrome 125.0.0.0,,,10-06-2024 09:47:57,10-06-2024 09:47:57,0.438s,PASSED
+"setText(findTestObject(""Reset password/search""), ""kevin qa"")",Chrome 125.0.0.0,,,10-06-2024 09:47:57,10-06-2024 09:48:01,3.385s,PASSED
+"click(findTestObject(""Reset password/btn search""))",Chrome 125.0.0.0,,,10-06-2024 09:48:01,10-06-2024 09:48:01,0.454s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan pencarian yang dicari"")",Chrome 125.0.0.0,,,10-06-2024 09:48:01,10-06-2024 09:48:04,2.576s,PASSED
+"click(findTestObject(""Reset password/btn image ress""))",Chrome 125.0.0.0,,,10-06-2024 09:48:04,10-06-2024 09:48:04,0.377s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan user yang akan di reset pass"")",Chrome 125.0.0.0,,,10-06-2024 09:48:04,10-06-2024 09:48:07,3.054s,PASSED
+"click(findTestObject(""Reset password/btn reset pass""))",Chrome 125.0.0.0,,,10-06-2024 09:48:07,10-06-2024 09:48:08,0.421s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan box message"")",Chrome 125.0.0.0,,,10-06-2024 09:48:08,10-06-2024 09:48:10,2.051s,PASSED

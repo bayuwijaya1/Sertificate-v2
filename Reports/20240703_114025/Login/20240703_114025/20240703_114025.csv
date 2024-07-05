@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 126.0.0.0,,,03-07-2024 11:40:28,03-07-2024 11:41:02,33.700s,FAILED
+,,,,,,,
+Test Cases/Login/Login cek pass,Chrome 126.0.0.0,,,03-07-2024 11:40:29,03-07-2024 11:40:54,24.981s,PASSED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 126.0.0.0,,,03-07-2024 11:40:29,03-07-2024 11:40:40,10.920s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,03-07-2024 11:40:40,03-07-2024 11:40:40,0.110s,PASSED
+"setText(findTestObject(""Home page/username""), ""aldo"")",Chrome 126.0.0.0,,,03-07-2024 11:40:40,03-07-2024 11:40:41,0.997s,PASSED
+"setText(findTestObject(""Home page/Passw""), ""indocyber"")",Chrome 126.0.0.0,,,03-07-2024 11:40:41,03-07-2024 11:40:42,0.771s,PASSED
+"click(findTestObject(""Home page/Cek list""))",Chrome 126.0.0.0,,,03-07-2024 11:40:42,03-07-2024 11:40:43,1.112s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan password"")",Chrome 126.0.0.0,,,03-07-2024 11:40:43,03-07-2024 11:40:53,10.139s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,03-07-2024 11:40:53,03-07-2024 11:40:54,0.670s,PASSED
+,,,,,,,
+Test Cases/Login/logot no,Chrome 126.0.0.0,,,03-07-2024 11:41:00,03-07-2024 11:41:02,2.069s,FAILED
+"click(findTestObject(""Logout/logot""))",Chrome 126.0.0.0,,,03-07-2024 11:41:00,03-07-2024 11:41:02,2.027s,FAILED

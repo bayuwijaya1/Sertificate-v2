@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login cek pass</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6b3c43bd-43cf-4151-8e12-62279f548ba7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>57a73193-8d3c-474f-98b1-8103141a8021</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>710e8945-03c1-4d5c-ba02-ef1c13b4b0e4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3a954a6c-04d9-49af-9b16-6d915365093a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://gpstqa-new.dipostar.org/dipo/'</defaultValue>
+      <description></description>
+      <id>57a73193-8d3c-474f-98b1-8103141a8021</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'aldo'</defaultValue>
+      <description></description>
+      <id>710e8945-03c1-4d5c-ba02-ef1c13b4b0e4</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'indocyber'</defaultValue>
+      <description></description>
+      <id>3a954a6c-04d9-49af-9b16-6d915365093a</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

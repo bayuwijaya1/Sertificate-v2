@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Master regional,Chrome 126.0.0.0,,,03-07-2024 14:28:42,03-07-2024 14:29:30,47.302s,PASSED
+,,,,,,,
+Test Cases/Login/Log,Chrome 126.0.0.0,,,03-07-2024 14:28:43,03-07-2024 14:29:17,33.884s,PASSED
+"aurl = ""https://gpstqa-new.dipostar.org/dipo/""",Chrome 126.0.0.0,,,03-07-2024 14:28:43,03-07-2024 14:28:43,0.003s,PASSED
+openBrowser(aurl),Chrome 126.0.0.0,,,03-07-2024 14:28:43,03-07-2024 14:28:51,8.122s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,03-07-2024 14:28:51,03-07-2024 14:28:51,0.062s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 14:28:51,03-07-2024 14:28:54,3.051s,PASSED
+"b = ""Home page/username""",Chrome 126.0.0.0,,,03-07-2024 14:28:54,03-07-2024 14:28:54,0.002s,PASSED
+"setText(findTestObject(b), ""aldo"")",Chrome 126.0.0.0,,,03-07-2024 14:28:54,03-07-2024 14:28:55,0.691s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 14:28:55,03-07-2024 14:28:58,3.009s,PASSED
+"c = ""Home page/Passw""",Chrome 126.0.0.0,,,03-07-2024 14:28:58,03-07-2024 14:28:58,0.005s,PASSED
+"setEncryptedText(findTestObject(c), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 126.0.0.0,,,03-07-2024 14:28:58,03-07-2024 14:28:58,0.355s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 14:28:58,03-07-2024 14:29:01,3.007s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Chrome 126.0.0.0,,,03-07-2024 14:29:01,03-07-2024 14:29:02,0.364s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 126.0.0.0,,,03-07-2024 14:29:02,03-07-2024 14:29:17,14.905s,PASSED
+,,,,,,,
+Test Cases/Master/Regionall,Chrome 126.0.0.0,,,03-07-2024 14:29:23,03-07-2024 14:29:30,6.596s,PASSED
+"click(findTestObject(""Menu/Masterrr""))",Chrome 126.0.0.0,,,03-07-2024 14:29:23,03-07-2024 14:29:23,0.282s,PASSED
+"click(findTestObject(""Regional/Button regiona""))",Chrome 126.0.0.0,,,03-07-2024 14:29:23,03-07-2024 14:29:24,0.318s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan halaman regional"")",Chrome 126.0.0.0,,,03-07-2024 14:29:24,03-07-2024 14:29:27,3.314s,PASSED
+"setText(findTestObject(""Regional/Text search""), ""Jakarta"")",Chrome 126.0.0.0,,,03-07-2024 14:29:27,03-07-2024 14:29:28,0.639s,PASSED
+"click(findTestObject(""Regional/Button search""))",Chrome 126.0.0.0,,,03-07-2024 14:29:28,03-07-2024 14:29:28,0.307s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan pencarian"")",Chrome 126.0.0.0,,,03-07-2024 14:29:28,03-07-2024 14:29:30,1.719s,PASSED

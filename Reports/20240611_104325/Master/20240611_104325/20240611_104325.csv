@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Master,Chrome 125.0.0.0,,,11-06-2024 10:43:33,11-06-2024 10:44:39,1m - 5.562s,FAILED
+,,,,,,,
+Test Cases/Logi/Login,Chrome 125.0.0.0,,,11-06-2024 10:43:34,11-06-2024 10:44:27,52.989s,PASSED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 125.0.0.0,,,11-06-2024 10:43:35,11-06-2024 10:43:47,11.790s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,11-06-2024 10:43:47,11-06-2024 10:43:47,0.070s,PASSED
+"setText(findTestObject(""Home page/input__username""), ""aldo"")",Chrome 125.0.0.0,,,11-06-2024 10:43:47,11-06-2024 10:43:47,0.826s,PASSED
+"setEncryptedText(findTestObject(""Home page/input__password""), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 125.0.0.0,,,11-06-2024 10:43:47,11-06-2024 10:43:48,0.391s,PASSED
+"click(findTestObject(""Home page/btn_Login""))",Chrome 125.0.0.0,,,11-06-2024 10:43:48,11-06-2024 10:43:48,0.329s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 125.0.0.0,,,11-06-2024 10:43:48,11-06-2024 10:44:27,39.288s,PASSED
+,,,,,,,
+Test Cases/Master/Aplication rules,Chrome 125.0.0.0,,,11-06-2024 10:44:29,11-06-2024 10:44:29,0.440s,FAILED
+"click(findTestObject(""Aplication rules/Aolications rules""))",Chrome 125.0.0.0,,,11-06-2024 10:44:29,11-06-2024 10:44:29,0.428s,FAILED
+,,,,,,,
+Test Cases/Master/Branch,Chrome 125.0.0.0,,,11-06-2024 10:44:31,11-06-2024 10:44:31,0.450s,FAILED
+"click(findTestObject(""Branch/Branch""))",Chrome 125.0.0.0,,,11-06-2024 10:44:31,11-06-2024 10:44:31,0.435s,FAILED
+,,,,,,,
+Test Cases/Master/Position,Chrome 125.0.0.0,,,11-06-2024 10:44:32,11-06-2024 10:44:33,0.447s,FAILED
+"click(findTestObject(""Master Position/Position""))",Chrome 125.0.0.0,,,11-06-2024 10:44:32,11-06-2024 10:44:33,0.420s,FAILED
+,,,,,,,
+Test Cases/Master/Regional,Chrome 125.0.0.0,,,11-06-2024 10:44:35,11-06-2024 10:44:37,1.898s,FAILED
+"click(findTestObject(""Regional/Regional""))",Chrome 125.0.0.0,,,11-06-2024 10:44:35,11-06-2024 10:44:37,1.878s,FAILED
+,,,,,,,
+Test Cases/Master/Mobile printer,Chrome 125.0.0.0,,,11-06-2024 10:44:38,11-06-2024 10:44:39,0.459s,FAILED
+"click(findTestObject(""Mobile printer/mobile printer""))",Chrome 125.0.0.0,,,11-06-2024 10:44:38,11-06-2024 10:44:39,0.443s,FAILED

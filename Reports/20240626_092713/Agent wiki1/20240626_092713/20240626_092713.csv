@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Agent wiki1,Chrome 126.0.0.0,,,26-06-2024 09:27:17,26-06-2024 09:28:10,52.899s,FAILED
+,,,,,,,
+Test Cases/Agent/Agent wiki1,Chrome 126.0.0.0,,,26-06-2024 09:27:17,26-06-2024 09:27:32,14.804s,PASSED
+"openBrowser(""https://www.wikipedia.org/"")",Chrome 126.0.0.0,,,26-06-2024 09:27:17,26-06-2024 09:27:29,12.049s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,26-06-2024 09:27:29,26-06-2024 09:27:30,0.056s,PASSED
+"click(findTestObject(""Agent wiki/English""))",Chrome 126.0.0.0,,,26-06-2024 09:27:30,26-06-2024 09:27:32,2.428s,PASSED
+,,,,,,,
+Test Cases/Agent/Agent wiki2,Chrome 126.0.0.0,,,26-06-2024 09:28:10,26-06-2024 09:28:10,0.389s,FAILED
+"setText(findTestObject(""Agent wiki/Search""), ""prabowo"")",Chrome 126.0.0.0,,,26-06-2024 09:28:10,26-06-2024 09:28:10,0.375s,FAILED

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Report" time="28.523" tests="4" failures="0" errors="0">
+   <testsuite name="Report" tests="4" failures="0" errors="0" time="28.523" skipped="0" timestamp="12-06-2024T10:14:21" hostname="0725 - DESKTOP-09GUU8E" id="Test Suites/Report">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0725\\Katalon Studio\\Testdevqa\\Reports\\20240612_101412\\Report\\20240612_101412"/>
+         <property name="logFiles" value="C:\\Users\\0725\\Katalon Studio\\Testdevqa\\Reports\\20240612_101412\\Report\\20240612_101412\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-login berhasil.png, keyes\keyes-Menampilkan halaman manual assign report.png, keyes\keyes-Menampilkan hal activity report.png, keyes\keyes-Menampilkan hal payment report.png"/>
+         <property name="hostName" value="0725 - DESKTOP-09GUU8E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.131.205"/>
+         <property name="sessionId" value="c45634e6bb2f1f1039caefb07fd71fba"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login" time="15.663" classname="Test Cases/Login/Login" status="PASSED">
+         <system-out><![CDATA[12-06-2024T10:14:21 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+12-06-2024T10:14:21 - [TEST_STEP][PASSED] - openBrowser("https://gpstqa-new.dipostar.org/dipo/"): Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+12-06-2024T10:14:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-06-2024T10:14:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-06-2024T10:14:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+12-06-2024T10:14:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-06-2024T10:14:29 - [MESSAGE][PASSED] - Current window maximized
+
+12-06-2024T10:14:29 - [TEST_STEP][PASSED] - setText(findTestObject("Home page/input__username"), "aldo"): Text 'aldo' is set on object 'Object Repository/Home page/input__username'
+
+12-06-2024T10:14:30 - [MESSAGE][PASSED] - Text 'aldo' is set on object 'Object Repository/Home page/input__username'
+
+12-06-2024T10:14:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Home page/input__password"), "TRrAuhBZTmGN3YbeoZ5Gng=="): Text ****** has been set on object 'Object Repository/Home page/input__password'
+
+12-06-2024T10:14:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Home page/input__password'
+
+12-06-2024T10:14:30 - [TEST_STEP][PASSED] - click(findTestObject("Home page/btn_Login")): Object: 'Object Repository/Home page/btn_Login' is clicked on
+
+12-06-2024T10:14:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page/btn_Login' is clicked on
+
+12-06-2024T10:14:30 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("login berhasil", STOP_ON_FAILURE): Taking screenshot successfully
+
+12-06-2024T10:14:36 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-06-2024T10:14:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-login berhasil.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Report/Manual assign report" time="4.731" classname="Test Cases/Report/Manual assign report" status="PASSED">
+         <system-out><![CDATA[12-06-2024T10:14:37 - [TEST_CASE][PASSED] - Test Cases/Report/Manual assign report: Test Cases/Report/Manual assign report
+
+12-06-2024T10:14:37 - [TEST_STEP][PASSED] - click(findTestObject("Report/btn Report")): Object: 'Object Repository/Report/btn Report' is clicked on
+
+12-06-2024T10:14:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/btn Report' is clicked on
+
+12-06-2024T10:14:37 - [TEST_STEP][PASSED] - click(findTestObject("Report/btn Manual assign report")): Object: 'Object Repository/Report/btn Manual assign report' is clicked on
+
+12-06-2024T10:14:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/btn Manual assign report' is clicked on
+
+12-06-2024T10:14:38 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Menampilkan halaman manual assign report"): Taking screenshot successfully
+
+12-06-2024T10:14:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-06-2024T10:14:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Menampilkan halaman manual assign report.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Report/Activity performance report" time="4.051" classname="Test Cases/Report/Activity performance report" status="PASSED">
+         <system-out><![CDATA[12-06-2024T10:14:41 - [TEST_CASE][PASSED] - Test Cases/Report/Activity performance report: Test Cases/Report/Activity performance report
+
+12-06-2024T10:14:41 - [TEST_STEP][PASSED] - click(findTestObject("Report/btn Report")): Object: 'Object Repository/Report/btn Report' is clicked on
+
+12-06-2024T10:14:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/btn Report' is clicked on
+
+12-06-2024T10:14:42 - [TEST_STEP][PASSED] - click(findTestObject("Report/btn activity performance report")): Object: 'Object Repository/Report/btn activity performance report' is clicked on
+
+12-06-2024T10:14:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/btn activity performance report' is clicked on
+
+12-06-2024T10:14:42 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Menampilkan hal activity report"): Taking screenshot successfully
+
+12-06-2024T10:14:45 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-06-2024T10:14:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Menampilkan hal activity report.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Report/Payment report" time="3.873" classname="Test Cases/Report/Payment report" status="PASSED">
+         <system-out><![CDATA[12-06-2024T10:14:45 - [TEST_CASE][PASSED] - Test Cases/Report/Payment report: Test Cases/Report/Payment report
+
+12-06-2024T10:14:45 - [TEST_STEP][PASSED] - click(findTestObject("Report/btn Report")): Object: 'Object Repository/Report/btn Report' is clicked on
+
+12-06-2024T10:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/btn Report' is clicked on
+
+12-06-2024T10:14:46 - [TEST_STEP][PASSED] - click(findTestObject("Report/btn Payment report")): Object: 'Object Repository/Report/btn Payment report' is clicked on
+
+12-06-2024T10:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/btn Payment report' is clicked on
+
+12-06-2024T10:14:46 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Menampilkan hal payment report"): Taking screenshot successfully
+
+12-06-2024T10:14:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-06-2024T10:14:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Menampilkan hal payment report.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-06-2024T10:14:21 - [TEST_SUITE][PASSED] - Report: Test Cases/Report/Payment report]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Taskk,Chrome 126.0.0.0,,,03-07-2024 16:21:45,03-07-2024 16:23:17,1m - 32.347s,FAILED
+,,,,,,,
+Test Cases/Login/Log,Chrome 126.0.0.0,,,03-07-2024 16:21:45,03-07-2024 16:22:27,41.607s,PASSED
+"aurl = ""https://gpstqa-new.dipostar.org/dipo/""",Chrome 126.0.0.0,,,03-07-2024 16:21:45,03-07-2024 16:21:45,0.004s,PASSED
+openBrowser(aurl),Chrome 126.0.0.0,,,03-07-2024 16:21:45,03-07-2024 16:21:57,11.519s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,03-07-2024 16:21:57,03-07-2024 16:21:57,0.056s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 16:21:57,03-07-2024 16:22:00,3.043s,PASSED
+"b = ""Home page/username""",Chrome 126.0.0.0,,,03-07-2024 16:22:00,03-07-2024 16:22:00,0.002s,PASSED
+"setText(findTestObject(b), ""aldo"")",Chrome 126.0.0.0,,,03-07-2024 16:22:00,03-07-2024 16:22:01,0.934s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 16:22:01,03-07-2024 16:22:04,3.008s,PASSED
+"c = ""Home page/Passw""",Chrome 126.0.0.0,,,03-07-2024 16:22:04,03-07-2024 16:22:04,0.002s,PASSED
+"setEncryptedText(findTestObject(c), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 126.0.0.0,,,03-07-2024 16:22:04,03-07-2024 16:22:04,0.341s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 16:22:04,03-07-2024 16:22:07,3.011s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Chrome 126.0.0.0,,,03-07-2024 16:22:07,03-07-2024 16:22:08,0.319s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 126.0.0.0,,,03-07-2024 16:22:08,03-07-2024 16:22:27,19.074s,PASSED
+,,,,,,,
+Test Cases/Task/Manual assignn,Chrome 126.0.0.0,,,03-07-2024 16:23:15,03-07-2024 16:23:17,2.043s,FAILED
+"click(findTestObject(""Menu/Taskk""))",Chrome 126.0.0.0,,,03-07-2024 16:23:15,03-07-2024 16:23:17,2.029s,FAILED

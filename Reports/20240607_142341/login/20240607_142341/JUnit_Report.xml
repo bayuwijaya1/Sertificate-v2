@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login" time="18.084" tests="1" failures="0" errors="0">
+   <testsuite name="login" tests="1" failures="0" errors="0" time="18.084" skipped="0" timestamp="07-06-2024T14:23:48" hostname="0725 - DESKTOP-09GUU8E" id="Test Suites/login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0725\\Katalon Studio\\Testdevqa\\Reports\\20240607_142341\\login\\20240607_142341"/>
+         <property name="logFiles" value="C:\\Users\\0725\\Katalon Studio\\Testdevqa\\Reports\\20240607_142341\\login\\20240607_142341\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-login berhasil.png"/>
+         <property name="hostName" value="0725 - DESKTOP-09GUU8E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.39.205"/>
+         <property name="sessionId" value="3d8a0c7ae9bc7702f37c7e854a424273"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="17.909" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[07-06-2024T14:23:48 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+07-06-2024T14:23:49 - [TEST_STEP][PASSED] - openBrowser("https://gpstqa-new.dipostar.org/dipo/"): Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+07-06-2024T14:23:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-06-2024T14:23:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-06-2024T14:23:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+07-06-2024T14:23:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Home/input__username"), "aldo"): Text 'aldo' is set on object 'Object Repository/Page_Home/input__username'
+
+07-06-2024T14:24:00 - [MESSAGE][PASSED] - Text 'aldo' is set on object 'Object Repository/Page_Home/input__username'
+
+07-06-2024T14:24:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Home/input__password"), "TRrAuhBZTmGN3YbeoZ5Gng=="): Text ****** has been set on object 'Object Repository/Page_Home/input__password'
+
+07-06-2024T14:24:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Home/input__password'
+
+07-06-2024T14:24:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home/span_Login")): Object: 'Object Repository/Page_Home/span_Login' is clicked on
+
+07-06-2024T14:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/span_Login' is clicked on
+
+07-06-2024T14:24:01 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("login berhasil", STOP_ON_FAILURE): Taking screenshot successfully
+
+07-06-2024T14:24:06 - [MESSAGE][INFO] - 0 hidden object(s)
+
+07-06-2024T14:24:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-login berhasil.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-06-2024T14:23:48 - [TEST_SUITE][PASSED] - login: Test Cases/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Task Manual assign,Chrome 125.0.0.0,,,11-06-2024 11:27:13,11-06-2024 11:28:36,1m - 22.967s,FAILED
+,,,,,,,
+Test Cases/Logi/Login,Chrome 125.0.0.0,,,11-06-2024 11:27:13,11-06-2024 11:27:44,31.272s,PASSED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 125.0.0.0,,,11-06-2024 11:27:13,11-06-2024 11:27:22,8.771s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,11-06-2024 11:27:22,11-06-2024 11:27:22,0.060s,PASSED
+"setText(findTestObject(""Home page/input__username""), ""aldo"")",Chrome 125.0.0.0,,,11-06-2024 11:27:22,11-06-2024 11:27:23,0.792s,PASSED
+"setEncryptedText(findTestObject(""Home page/input__password""), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 125.0.0.0,,,11-06-2024 11:27:23,11-06-2024 11:27:23,0.358s,PASSED
+"click(findTestObject(""Home page/btn_Login""))",Chrome 125.0.0.0,,,11-06-2024 11:27:23,11-06-2024 11:27:24,0.332s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 125.0.0.0,,,11-06-2024 11:27:24,11-06-2024 11:27:44,20.442s,PASSED
+,,,,,,,
+Test Cases/Task/Manual assign,Chrome 125.0.0.0,,,11-06-2024 11:28:35,11-06-2024 11:28:36,0.786s,FAILED
+"click(findTestObject(""Menu/Task""))",Chrome 125.0.0.0,,,11-06-2024 11:28:35,11-06-2024 11:28:35,0.306s,PASSED
+"click(findTestObject(""Manual assign/Manual assign""))",Chrome 125.0.0.0,,,11-06-2024 11:28:35,11-06-2024 11:28:36,0.455s,FAILED

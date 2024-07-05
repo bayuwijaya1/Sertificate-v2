@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test,Chrome 125.0.0.0,,,18-06-2024 15:02:53,18-06-2024 15:03:37,44.003s,PASSED
+,,,,,,,
+Test Cases/Login/Login,Chrome 125.0.0.0,,,18-06-2024 15:02:53,18-06-2024 15:03:24,31.252s,PASSED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 125.0.0.0,,,18-06-2024 15:02:53,18-06-2024 15:03:01,8.201s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,18-06-2024 15:03:01,18-06-2024 15:03:01,0.063s,PASSED
+"setText(findTestObject(""Home page/input__username""), ""aldo"")",Chrome 125.0.0.0,,,18-06-2024 15:03:01,18-06-2024 15:03:02,0.752s,PASSED
+"setEncryptedText(findTestObject(""Home page/input__password""), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 125.0.0.0,,,18-06-2024 15:03:02,18-06-2024 15:03:03,0.383s,PASSED
+"click(findTestObject(""Home page/btn_Login""))",Chrome 125.0.0.0,,,18-06-2024 15:03:03,18-06-2024 15:03:03,0.314s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 125.0.0.0,,,18-06-2024 15:03:03,18-06-2024 15:03:24,21.263s,PASSED
+,,,,,,,
+Test Cases/Master/Mobile printer,Chrome 125.0.0.0,,,18-06-2024 15:03:30,18-06-2024 15:03:37,6.912s,PASSED
+"click(findTestObject(""Menu/Master""))",Chrome 125.0.0.0,,,18-06-2024 15:03:30,18-06-2024 15:03:30,0.313s,PASSED
+"click(findTestObject(""Mobile printer/mobile printer""))",Chrome 125.0.0.0,,,18-06-2024 15:03:30,18-06-2024 15:03:31,0.299s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan halaman mobile printer"")",Chrome 125.0.0.0,,,18-06-2024 15:03:31,18-06-2024 15:03:34,3.520s,PASSED
+"setText(findTestObject(""Mobile printer/search""), ""MP010"")",Chrome 125.0.0.0,,,18-06-2024 15:03:34,18-06-2024 15:03:35,0.659s,PASSED
+"click(findTestObject(""Mobile printer/btn search""))",Chrome 125.0.0.0,,,18-06-2024 15:03:35,18-06-2024 15:03:35,0.351s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan pencarian"")",Chrome 125.0.0.0,,,18-06-2024 15:03:35,18-06-2024 15:03:37,1.749s,PASSED

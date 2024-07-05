@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="usernresetpass" time="23.618" tests="2" failures="0" errors="0">
+   <testsuite name="usernresetpass" tests="2" failures="0" errors="0" time="23.618" skipped="0" timestamp="07-06-2024T14:57:03" hostname="0725 - DESKTOP-09GUU8E" id="Test Suites/usernresetpass">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0725\\Katalon Studio\\Testdevqa\\Reports\\20240607_145654\\usernresetpass\\20240607_145655"/>
+         <property name="logFiles" value="C:\\Users\\0725\\Katalon Studio\\Testdevqa\\Reports\\20240607_145654\\usernresetpass\\20240607_145655\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-login berhasil.png, keyes\keyes-menampilkan hal user management.png, keyes\keyes-menampilkan hal reset pass.png"/>
+         <property name="hostName" value="0725 - DESKTOP-09GUU8E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.125"/>
+         <property name="sessionId" value="45072bd30040b3508e041e91664beb7a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="16.895" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[07-06-2024T14:57:03 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+07-06-2024T14:57:03 - [TEST_STEP][PASSED] - openBrowser("https://gpstqa-new.dipostar.org/dipo/"): Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+07-06-2024T14:57:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-06-2024T14:57:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-06-2024T14:57:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+07-06-2024T14:57:12 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Home/input__username"), "aldo"): Text 'aldo' is set on object 'Object Repository/Page_Home/input__username'
+
+07-06-2024T14:57:13 - [MESSAGE][PASSED] - Text 'aldo' is set on object 'Object Repository/Page_Home/input__username'
+
+07-06-2024T14:57:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Home/input__password"), "TRrAuhBZTmGN3YbeoZ5Gng=="): Text ****** has been set on object 'Object Repository/Page_Home/input__password'
+
+07-06-2024T14:57:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Home/input__password'
+
+07-06-2024T14:57:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home/btn_Login")): Object: 'Object Repository/Page_Home/btn_Login' is clicked on
+
+07-06-2024T14:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/btn_Login' is clicked on
+
+07-06-2024T14:57:14 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("login berhasil", STOP_ON_FAILURE): Taking screenshot successfully
+
+07-06-2024T14:57:20 - [MESSAGE][INFO] - 0 hidden object(s)
+
+07-06-2024T14:57:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-login berhasil.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/user management" time="6.548" classname="Test Cases/user management" status="PASSED">
+         <system-out><![CDATA[07-06-2024T14:57:20 - [TEST_CASE][PASSED] - Test Cases/user management: Test Cases/user management
+
+07-06-2024T14:57:20 - [TEST_STEP][PASSED] - click(findTestObject("usermanagement/User Management")): Object: 'Object Repository/usermanagement/User Management' is clicked on
+
+07-06-2024T14:57:20 - [MESSAGE][PASSED] - Object: 'Object Repository/usermanagement/User Management' is clicked on
+
+07-06-2024T14:57:20 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("menampilkan hal user management"): Taking screenshot successfully
+
+07-06-2024T14:57:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+07-06-2024T14:57:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-menampilkan hal user management.png]]
+
+07-06-2024T14:57:23 - [TEST_STEP][PASSED] - click(findTestObject("Reset password/reset password")): Object: 'Object Repository/Reset password/reset password' is clicked on
+
+07-06-2024T14:57:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Reset password/reset password' is clicked on
+
+07-06-2024T14:57:24 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("menampilkan hal reset pass", STOP_ON_FAILURE): Taking screenshot successfully
+
+07-06-2024T14:57:26 - [MESSAGE][INFO] - 0 hidden object(s)
+
+07-06-2024T14:57:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-menampilkan hal reset pass.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-06-2024T14:57:03 - [TEST_SUITE][PASSED] - usernresetpass: Test Cases/user management]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

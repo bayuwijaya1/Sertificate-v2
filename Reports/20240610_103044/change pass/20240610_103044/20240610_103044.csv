@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+change pass,Chrome 125.0.0.0,,,10-06-2024 10:30:52,10-06-2024 10:31:43,51.674s,FAILED
+,,,,,,,
+Test Cases/Login,Chrome 125.0.0.0,,,10-06-2024 10:30:52,10-06-2024 10:31:06,14.708s,PASSED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 125.0.0.0,,,10-06-2024 10:30:52,10-06-2024 10:31:03,11.078s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,10-06-2024 10:31:03,10-06-2024 10:31:03,0.060s,PASSED
+"setText(findTestObject(""Page_Home/input__username""), ""aldo"")",Chrome 125.0.0.0,,,10-06-2024 10:31:03,10-06-2024 10:31:04,0.779s,PASSED
+"setEncryptedText(findTestObject(""Page_Home/input__password""), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 125.0.0.0,,,10-06-2024 10:31:04,10-06-2024 10:31:04,0.358s,PASSED
+"click(findTestObject(""Page_Home/btn_Login""))",Chrome 125.0.0.0,,,10-06-2024 10:31:04,10-06-2024 10:31:05,0.339s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 125.0.0.0,,,10-06-2024 10:31:05,10-06-2024 10:31:06,1.841s,PASSED
+,,,,,,,
+Test Cases/Change pass,Chrome 125.0.0.0,,,10-06-2024 10:31:41,10-06-2024 10:31:43,2.039s,FAILED
+"click(findTestObject(""Change pass/change password""))",Chrome 125.0.0.0,,,10-06-2024 10:31:41,10-06-2024 10:31:43,2.024s,FAILED

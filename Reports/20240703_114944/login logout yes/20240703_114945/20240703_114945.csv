@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login logout yes,Chrome 126.0.0.0,,,03-07-2024 11:49:53,03-07-2024 11:50:49,55.823s,PASSED
+,,,,,,,
+Test Cases/Login/Log,Chrome 126.0.0.0,,,03-07-2024 11:49:53,03-07-2024 11:50:32,38.630s,PASSED
+"aurl = ""https://gpstqa-new.dipostar.org/dipo/""",Chrome 126.0.0.0,,,03-07-2024 11:49:54,03-07-2024 11:49:54,0.009s,PASSED
+openBrowser(aurl),Chrome 126.0.0.0,,,03-07-2024 11:49:54,03-07-2024 11:50:04,10.476s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,03-07-2024 11:50:04,03-07-2024 11:50:04,0.061s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 11:50:04,03-07-2024 11:50:07,3.055s,PASSED
+"b = ""Home page/username""",Chrome 126.0.0.0,,,03-07-2024 11:50:07,03-07-2024 11:50:07,0.005s,PASSED
+"setText(findTestObject(b), ""aldo"")",Chrome 126.0.0.0,,,03-07-2024 11:50:07,03-07-2024 11:50:08,0.802s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 11:50:08,03-07-2024 11:50:11,3.010s,PASSED
+"c = ""Home page/Passw""",Chrome 126.0.0.0,,,03-07-2024 11:50:11,03-07-2024 11:50:11,0.006s,PASSED
+"setEncryptedText(findTestObject(c), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 126.0.0.0,,,03-07-2024 11:50:11,03-07-2024 11:50:11,0.415s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 11:50:11,03-07-2024 11:50:14,3.009s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Chrome 126.0.0.0,,,03-07-2024 11:50:14,03-07-2024 11:50:15,0.352s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 126.0.0.0,,,03-07-2024 11:50:15,03-07-2024 11:50:32,16.856s,PASSED
+,,,,,,,
+Test Cases/Login/Logot,Chrome 126.0.0.0,,,03-07-2024 11:50:32,03-07-2024 11:50:49,16.875s,PASSED
+"click(findTestObject(""Logout/logot""))",Chrome 126.0.0.0,,,03-07-2024 11:50:32,03-07-2024 11:50:32,0.407s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan warning alert "")",Chrome 126.0.0.0,,,03-07-2024 11:50:32,03-07-2024 11:50:35,2.412s,PASSED
+"click(findTestObject(""Logout/button yes""))",Chrome 126.0.0.0,,,03-07-2024 11:50:35,03-07-2024 11:50:35,0.399s,PASSED
+"takeScreenshotAsCheckpoint(""kembali ke halaman login"")",Chrome 126.0.0.0,,,03-07-2024 11:50:35,03-07-2024 11:50:49,13.577s,PASSED

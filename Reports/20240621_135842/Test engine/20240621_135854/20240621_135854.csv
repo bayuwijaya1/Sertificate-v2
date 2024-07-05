@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test engine,Chrome 126.0.0.0,,,21-06-2024 13:59:00,21-06-2024 13:59:17,17.550s,PASSED
+,,,,,,,
+Test Cases/Test engine,Chrome 126.0.0.0,,,21-06-2024 13:59:00,21-06-2024 13:59:17,17.331s,PASSED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 126.0.0.0,,,21-06-2024 13:59:00,21-06-2024 13:59:15,14.951s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,21-06-2024 13:59:15,21-06-2024 13:59:15,0.048s,PASSED
+"setText(findTestObject(""Home page/input__username""), ""aldo"")",Chrome 126.0.0.0,,,21-06-2024 13:59:15,21-06-2024 13:59:16,1.020s,PASSED
+"setText(findTestObject(""Home page/input__password""), ""indocyber"")",Chrome 126.0.0.0,,,21-06-2024 13:59:16,21-06-2024 13:59:17,0.640s,PASSED
+"click(findTestObject(""Home page/btn_Login""))",Chrome 126.0.0.0,,,21-06-2024 13:59:17,21-06-2024 13:59:17,0.362s,PASSED

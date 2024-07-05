@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Field collector" time="44.032" tests="2" failures="0" errors="0">
+   <testsuite name="Field collector" tests="2" failures="0" errors="0" time="44.032" skipped="0" timestamp="03-07-2024T16:30:07" hostname="0725 - DESKTOP-09GUU8E" id="Test Suites/Field collector">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0725\\Katalon Studio\\Testdevqa\\Reports\\20240703_163000\\Field collector\\20240703_163000"/>
+         <property name="logFiles" value="C:\\Users\\0725\\Katalon Studio\\Testdevqa\\Reports\\20240703_163000\\Field collector\\20240703_163000\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-login berhasil.png, keyes\keyes-Menampilkan halaman.png"/>
+         <property name="hostName" value="0725 - DESKTOP-09GUU8E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.92"/>
+         <property name="sessionId" value="69e2764bea08ce8468d6aabb9b0a693f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Log" time="35.763" classname="Test Cases/Login/Log" status="PASSED">
+         <system-out><![CDATA[03-07-2024T16:30:08 - [TEST_CASE][PASSED] - Test Cases/Login/Log: Test Cases/Login/Log
+
+03-07-2024T16:30:08 - [TEST_STEP][PASSED] - aurl = "https://gpstqa-new.dipostar.org/dipo/": null
+
+03-07-2024T16:30:08 - [TEST_STEP][PASSED] - openBrowser(aurl): Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+03-07-2024T16:30:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-07-2024T16:30:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-07-2024T16:30:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+03-07-2024T16:30:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-07-2024T16:30:17 - [MESSAGE][PASSED] - Current window maximized
+
+03-07-2024T16:30:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+03-07-2024T16:30:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+03-07-2024T16:30:20 - [TEST_STEP][PASSED] - b = "Home page/username": null
+
+03-07-2024T16:30:20 - [TEST_STEP][PASSED] - setText(findTestObject(b), "aldo"): Text 'aldo' is set on object 'Object Repository/Home page/username'
+
+03-07-2024T16:30:21 - [MESSAGE][PASSED] - Text 'aldo' is set on object 'Object Repository/Home page/username'
+
+03-07-2024T16:30:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+03-07-2024T16:30:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+03-07-2024T16:30:24 - [TEST_STEP][PASSED] - c = "Home page/Passw": null
+
+03-07-2024T16:30:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject(c), "TRrAuhBZTmGN3YbeoZ5Gng=="): Text ****** has been set on object 'Object Repository/Home page/Passw'
+
+03-07-2024T16:30:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Home page/Passw'
+
+03-07-2024T16:30:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+03-07-2024T16:30:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+03-07-2024T16:30:28 - [TEST_STEP][PASSED] - click(findTestObject("Home page/Buton login")): Object: 'Object Repository/Home page/Buton login' is clicked on
+
+03-07-2024T16:30:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page/Buton login' is clicked on
+
+03-07-2024T16:30:28 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("login berhasil", STOP_ON_FAILURE): Taking screenshot successfully
+
+03-07-2024T16:30:43 - [MESSAGE][INFO] - 0 hidden object(s)
+
+03-07-2024T16:30:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-login berhasil.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Monitoring field/Field colllectorr" time="7.959" classname="Test Cases/Monitoring field/Field colllectorr" status="PASSED">
+         <system-out><![CDATA[03-07-2024T16:30:43 - [TEST_CASE][PASSED] - Test Cases/Monitoring field/Field colllectorr: Test Cases/Monitoring field/Field colllectorr
+
+03-07-2024T16:30:43 - [TEST_STEP][PASSED] - click(findTestObject("Menu/Monitoring field collectorr")): Object: 'Object Repository/Menu/Monitoring field collectorr' is clicked on
+
+03-07-2024T16:30:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu/Monitoring field collectorr' is clicked on
+
+03-07-2024T16:30:44 - [TEST_STEP][PASSED] - click(findTestObject("Monitoring field collector move/Button monitoring field")): Object: 'Object Repository/Monitoring field collector move/Button monitoring field' is clicked on
+
+03-07-2024T16:30:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Monitoring field collector move/Button monitoring field' is clicked on
+
+03-07-2024T16:30:45 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Menampilkan halaman"): Taking screenshot successfully
+
+03-07-2024T16:30:51 - [MESSAGE][INFO] - 0 hidden object(s)
+
+03-07-2024T16:30:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Menampilkan halaman.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-07-2024T16:30:07 - [TEST_SUITE][PASSED] - Field collector: Test Cases/Monitoring field/Field colllectorr]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

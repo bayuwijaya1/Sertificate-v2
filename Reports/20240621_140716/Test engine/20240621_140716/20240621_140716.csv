@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test engine,TestCloud - Windows - Chrome 124.0.0.0,,,21-06-2024 14:07:24,21-06-2024 14:09:03,1m - 38.502s,FAILED
+,,,,,,,
+Test Cases/Test engine,TestCloud - Windows - Chrome 124.0.0.0,,,21-06-2024 14:07:25,21-06-2024 14:09:03,1m - 38.330s,FAILED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",TestCloud - Windows - Chrome 124.0.0.0,,,21-06-2024 14:07:25,21-06-2024 14:08:09,44.307s,PASSED
+maximizeWindow(),TestCloud - Windows - Chrome 124.0.0.0,,,21-06-2024 14:08:09,21-06-2024 14:08:10,0.871s,PASSED
+"setText(findTestObject(""Home page/input__username""), ""aldo"")",TestCloud - Windows - Chrome 124.0.0.0,,,21-06-2024 14:08:10,21-06-2024 14:09:03,52.907s,FAILED

@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Master Mobile printerr,Chrome 126.0.0.0,,,03-07-2024 14:52:58,03-07-2024 14:53:45,47.501s,PASSED
+,,,,,,,
+Test Cases/Login/Log,Chrome 126.0.0.0,,,03-07-2024 14:52:58,03-07-2024 14:53:32,34.017s,PASSED
+"aurl = ""https://gpstqa-new.dipostar.org/dipo/""",Chrome 126.0.0.0,,,03-07-2024 14:52:58,03-07-2024 14:52:58,0.004s,PASSED
+openBrowser(aurl),Chrome 126.0.0.0,,,03-07-2024 14:52:58,03-07-2024 14:53:06,8.350s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,03-07-2024 14:53:06,03-07-2024 14:53:07,0.059s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 14:53:07,03-07-2024 14:53:10,3.039s,PASSED
+"b = ""Home page/username""",Chrome 126.0.0.0,,,03-07-2024 14:53:10,03-07-2024 14:53:10,0.001s,PASSED
+"setText(findTestObject(b), ""aldo"")",Chrome 126.0.0.0,,,03-07-2024 14:53:10,03-07-2024 14:53:10,0.691s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 14:53:10,03-07-2024 14:53:13,3.007s,PASSED
+"c = ""Home page/Passw""",Chrome 126.0.0.0,,,03-07-2024 14:53:13,03-07-2024 14:53:13,0.002s,PASSED
+"setEncryptedText(findTestObject(c), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 126.0.0.0,,,03-07-2024 14:53:13,03-07-2024 14:53:14,0.371s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 14:53:14,03-07-2024 14:53:17,3.005s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Chrome 126.0.0.0,,,03-07-2024 14:53:17,03-07-2024 14:53:17,0.319s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 126.0.0.0,,,03-07-2024 14:53:17,03-07-2024 14:53:32,14.883s,PASSED
+,,,,,,,
+Test Cases/Master/Mobile printerr,Chrome 126.0.0.0,,,03-07-2024 14:53:39,03-07-2024 14:53:45,6.669s,PASSED
+"click(findTestObject(""Menu/Masterrr""))",Chrome 126.0.0.0,,,03-07-2024 14:53:39,03-07-2024 14:53:39,0.285s,PASSED
+"click(findTestObject(""Mobile printer/Button mobile printer""))",Chrome 126.0.0.0,,,03-07-2024 14:53:39,03-07-2024 14:53:39,0.289s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan halaman mobile printer"")",Chrome 126.0.0.0,,,03-07-2024 14:53:39,03-07-2024 14:53:42,3.381s,PASSED
+"setText(findTestObject(""Mobile printer/Text search""), ""MP010"")",Chrome 126.0.0.0,,,03-07-2024 14:53:42,03-07-2024 14:53:43,0.631s,PASSED
+"click(findTestObject(""Mobile printer/Button search""))",Chrome 126.0.0.0,,,03-07-2024 14:53:43,03-07-2024 14:53:43,0.336s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan pencarian"")",Chrome 126.0.0.0,,,03-07-2024 14:53:43,03-07-2024 14:53:45,1.726s,PASSED

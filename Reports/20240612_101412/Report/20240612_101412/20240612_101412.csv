@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Report,Chrome 125.0.0.0,,,12-06-2024 10:14:21,12-06-2024 10:14:49,28.523s,PASSED
+,,,,,,,
+Test Cases/Login/Login,Chrome 125.0.0.0,,,12-06-2024 10:14:21,12-06-2024 10:14:37,15.663s,PASSED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 125.0.0.0,,,12-06-2024 10:14:21,12-06-2024 10:14:29,7.733s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,12-06-2024 10:14:29,12-06-2024 10:14:29,0.062s,PASSED
+"setText(findTestObject(""Home page/input__username""), ""aldo"")",Chrome 125.0.0.0,,,12-06-2024 10:14:29,12-06-2024 10:14:30,0.762s,PASSED
+"setEncryptedText(findTestObject(""Home page/input__password""), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 125.0.0.0,,,12-06-2024 10:14:30,12-06-2024 10:14:30,0.354s,PASSED
+"click(findTestObject(""Home page/btn_Login""))",Chrome 125.0.0.0,,,12-06-2024 10:14:30,12-06-2024 10:14:30,0.319s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 125.0.0.0,,,12-06-2024 10:14:30,12-06-2024 10:14:37,6.166s,PASSED
+,,,,,,,
+Test Cases/Report/Manual assign report,Chrome 125.0.0.0,,,12-06-2024 10:14:37,12-06-2024 10:14:41,4.731s,PASSED
+"click(findTestObject(""Report/btn Report""))",Chrome 125.0.0.0,,,12-06-2024 10:14:37,12-06-2024 10:14:37,0.359s,PASSED
+"click(findTestObject(""Report/btn Manual assign report""))",Chrome 125.0.0.0,,,12-06-2024 10:14:37,12-06-2024 10:14:38,0.553s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan halaman manual assign report"")",Chrome 125.0.0.0,,,12-06-2024 10:14:38,12-06-2024 10:14:41,3.743s,PASSED
+,,,,,,,
+Test Cases/Report/Activity performance report,Chrome 125.0.0.0,,,12-06-2024 10:14:41,12-06-2024 10:14:45,4.051s,PASSED
+"click(findTestObject(""Report/btn Report""))",Chrome 125.0.0.0,,,12-06-2024 10:14:41,12-06-2024 10:14:42,0.304s,PASSED
+"click(findTestObject(""Report/btn activity performance report""))",Chrome 125.0.0.0,,,12-06-2024 10:14:42,12-06-2024 10:14:42,0.324s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan hal activity report"")",Chrome 125.0.0.0,,,12-06-2024 10:14:42,12-06-2024 10:14:45,3.341s,PASSED
+,,,,,,,
+Test Cases/Report/Payment report,Chrome 125.0.0.0,,,12-06-2024 10:14:45,12-06-2024 10:14:49,3.873s,PASSED
+"click(findTestObject(""Report/btn Report""))",Chrome 125.0.0.0,,,12-06-2024 10:14:45,12-06-2024 10:14:46,0.311s,PASSED
+"click(findTestObject(""Report/btn Payment report""))",Chrome 125.0.0.0,,,12-06-2024 10:14:46,12-06-2024 10:14:46,0.474s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan hal payment report"")",Chrome 125.0.0.0,,,12-06-2024 10:14:46,12-06-2024 10:14:49,3.020s,PASSED

@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Taskk,Chrome 126.0.0.0,,,03-07-2024 16:26:36,03-07-2024 16:27:28,52.221s,PASSED
+,,,,,,,
+Test Cases/Login/Log,Chrome 126.0.0.0,,,03-07-2024 16:26:36,03-07-2024 16:27:16,40.218s,PASSED
+"aurl = ""https://gpstqa-new.dipostar.org/dipo/""",Chrome 126.0.0.0,,,03-07-2024 16:26:36,03-07-2024 16:26:36,0.008s,PASSED
+openBrowser(aurl),Chrome 126.0.0.0,,,03-07-2024 16:26:36,03-07-2024 16:26:48,11.972s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,03-07-2024 16:26:48,03-07-2024 16:26:49,0.106s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 16:26:49,03-07-2024 16:26:52,3.070s,PASSED
+"b = ""Home page/username""",Chrome 126.0.0.0,,,03-07-2024 16:26:52,03-07-2024 16:26:52,0.004s,PASSED
+"setText(findTestObject(b), ""aldo"")",Chrome 126.0.0.0,,,03-07-2024 16:26:52,03-07-2024 16:26:53,0.947s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 16:26:53,03-07-2024 16:26:56,3.014s,PASSED
+"c = ""Home page/Passw""",Chrome 126.0.0.0,,,03-07-2024 16:26:56,03-07-2024 16:26:56,0.005s,PASSED
+"setEncryptedText(findTestObject(c), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 126.0.0.0,,,03-07-2024 16:26:56,03-07-2024 16:26:56,0.542s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 16:26:56,03-07-2024 16:26:59,3.014s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Chrome 126.0.0.0,,,03-07-2024 16:26:59,03-07-2024 16:27:00,0.474s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 126.0.0.0,,,03-07-2024 16:27:00,03-07-2024 16:27:16,16.455s,PASSED
+,,,,,,,
+Test Cases/Task/Task Adjusmentt,Chrome 126.0.0.0,,,03-07-2024 16:27:23,03-07-2024 16:27:28,4.540s,PASSED
+"click(findTestObject(""Menu/Taskk""))",Chrome 126.0.0.0,,,03-07-2024 16:27:23,03-07-2024 16:27:24,0.373s,PASSED
+"click(findTestObject(""Task Adjusment/Button task adjusment""))",Chrome 126.0.0.0,,,03-07-2024 16:27:24,03-07-2024 16:27:24,0.472s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan hal"")",Chrome 126.0.0.0,,,03-07-2024 16:27:24,03-07-2024 16:27:28,3.663s,PASSED

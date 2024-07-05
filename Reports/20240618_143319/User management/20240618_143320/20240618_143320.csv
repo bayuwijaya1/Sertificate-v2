@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User management,Chrome 125.0.0.0,,,18-06-2024 14:33:28,18-06-2024 14:34:47,1m - 19.242s,PASSED
+,,,,,,,
+Test Cases/Login/Login,Chrome 125.0.0.0,,,18-06-2024 14:33:28,18-06-2024 14:34:20,52.546s,PASSED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 125.0.0.0,,,18-06-2024 14:33:28,18-06-2024 14:33:37,8.441s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,18-06-2024 14:33:37,18-06-2024 14:33:37,0.114s,PASSED
+"setText(findTestObject(""Home page/input__username""), ""aldo"")",Chrome 125.0.0.0,,,18-06-2024 14:33:37,18-06-2024 14:33:37,0.760s,PASSED
+"setEncryptedText(findTestObject(""Home page/input__password""), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 125.0.0.0,,,18-06-2024 14:33:37,18-06-2024 14:33:38,0.489s,PASSED
+"click(findTestObject(""Home page/btn_Login""))",Chrome 125.0.0.0,,,18-06-2024 14:33:38,18-06-2024 14:33:38,0.391s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 125.0.0.0,,,18-06-2024 14:33:38,18-06-2024 14:34:20,42.090s,PASSED
+,,,,,,,
+Test Cases/User profile/user management,Chrome 125.0.0.0,,,18-06-2024 14:34:35,18-06-2024 14:34:47,12.302s,PASSED
+"click(findTestObject(""usermanagement/user profile""))",Chrome 125.0.0.0,,,18-06-2024 14:34:35,18-06-2024 14:34:35,0.300s,PASSED
+"click(findTestObject(""usermanagement/User Management""))",Chrome 125.0.0.0,,,18-06-2024 14:34:35,18-06-2024 14:34:35,0.300s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan hal user management"")",Chrome 125.0.0.0,,,18-06-2024 14:34:35,18-06-2024 14:34:40,4.645s,PASSED
+"click(findTestObject(""Reset password/reset password""))",Chrome 125.0.0.0,,,18-06-2024 14:34:40,18-06-2024 14:34:40,0.329s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan hal reset pass"", STOP_ON_FAILURE)",Chrome 125.0.0.0,,,18-06-2024 14:34:40,18-06-2024 14:34:43,2.791s,PASSED
+"click(findTestObject(""Change pass/change password""))",Chrome 125.0.0.0,,,18-06-2024 14:34:43,18-06-2024 14:34:43,0.358s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan hal change password"")",Chrome 125.0.0.0,,,18-06-2024 14:34:43,18-06-2024 14:34:47,3.559s,PASSED

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HOB" time="21.987" tests="2" failures="0" errors="0">
+   <testsuite name="HOB" tests="2" failures="0" errors="0" time="21.987" skipped="0" timestamp="12-06-2024T10:21:59" hostname="0725 - DESKTOP-09GUU8E" id="Test Suites/HOB">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0725\\Katalon Studio\\Testdevqa\\Reports\\20240612_102150\\HOB\\20240612_102151"/>
+         <property name="logFiles" value="C:\\Users\\0725\\Katalon Studio\\Testdevqa\\Reports\\20240612_102150\\HOB\\20240612_102151\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-login berhasil.png, keyes\keyes-Menampilkan hal hob action.png"/>
+         <property name="hostName" value="0725 - DESKTOP-09GUU8E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.131.205"/>
+         <property name="sessionId" value="466a2f36c1287bf5898998d7534b1b93"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login" time="17.59" classname="Test Cases/Login/Login" status="PASSED">
+         <system-out><![CDATA[12-06-2024T10:21:59 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+12-06-2024T10:22:00 - [TEST_STEP][PASSED] - openBrowser("https://gpstqa-new.dipostar.org/dipo/"): Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+12-06-2024T10:22:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-06-2024T10:22:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-06-2024T10:22:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+12-06-2024T10:22:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-06-2024T10:22:08 - [MESSAGE][PASSED] - Current window maximized
+
+12-06-2024T10:22:08 - [TEST_STEP][PASSED] - setText(findTestObject("Home page/input__username"), "aldo"): Text 'aldo' is set on object 'Object Repository/Home page/input__username'
+
+12-06-2024T10:22:10 - [MESSAGE][PASSED] - Text 'aldo' is set on object 'Object Repository/Home page/input__username'
+
+12-06-2024T10:22:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Home page/input__password"), "TRrAuhBZTmGN3YbeoZ5Gng=="): Text ****** has been set on object 'Object Repository/Home page/input__password'
+
+12-06-2024T10:22:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Home page/input__password'
+
+12-06-2024T10:22:10 - [TEST_STEP][PASSED] - click(findTestObject("Home page/btn_Login")): Object: 'Object Repository/Home page/btn_Login' is clicked on
+
+12-06-2024T10:22:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page/btn_Login' is clicked on
+
+12-06-2024T10:22:10 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("login berhasil", STOP_ON_FAILURE): Taking screenshot successfully
+
+12-06-2024T10:22:17 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-06-2024T10:22:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-login berhasil.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Hob/Action" time="4.214" classname="Test Cases/Hob/Action" status="PASSED">
+         <system-out><![CDATA[12-06-2024T10:22:17 - [TEST_CASE][PASSED] - Test Cases/Hob/Action: Test Cases/Hob/Action
+
+12-06-2024T10:22:17 - [TEST_STEP][PASSED] - click(findTestObject("HOB Action/Btn Hob action")): Object: 'Object Repository/HOB Action/Btn Hob action' is clicked on
+
+12-06-2024T10:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/HOB Action/Btn Hob action' is clicked on
+
+12-06-2024T10:22:17 - [TEST_STEP][PASSED] - click(findTestObject("HOB Action/Btn Action")): Object: 'Object Repository/HOB Action/Btn Action' is clicked on
+
+12-06-2024T10:22:18 - [MESSAGE][PASSED] - Object: 'Object Repository/HOB Action/Btn Action' is clicked on
+
+12-06-2024T10:22:18 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Menampilkan hal hob action"): Taking screenshot successfully
+
+12-06-2024T10:22:21 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-06-2024T10:22:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Menampilkan hal hob action.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-06-2024T10:21:59 - [TEST_SUITE][PASSED] - HOB: Test Cases/Hob/Action]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

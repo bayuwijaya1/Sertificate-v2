@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Report,Chrome 125.0.0.0,,,12-06-2024 10:00:44,12-06-2024 10:01:07,23.510s,PASSED
+,,,,,,,
+Test Cases/Login/Login,Chrome 125.0.0.0,,,12-06-2024 10:00:44,12-06-2024 10:01:03,18.419s,PASSED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 125.0.0.0,,,12-06-2024 10:00:45,12-06-2024 10:00:53,8.326s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,12-06-2024 10:00:53,12-06-2024 10:00:53,0.111s,PASSED
+"setText(findTestObject(""Home page/input__username""), ""aldo"")",Chrome 125.0.0.0,,,12-06-2024 10:00:53,12-06-2024 10:00:54,1.000s,PASSED
+"setEncryptedText(findTestObject(""Home page/input__password""), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 125.0.0.0,,,12-06-2024 10:00:54,12-06-2024 10:00:55,0.569s,PASSED
+"click(findTestObject(""Home page/btn_Login""))",Chrome 125.0.0.0,,,12-06-2024 10:00:55,12-06-2024 10:00:55,0.441s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 125.0.0.0,,,12-06-2024 10:00:55,12-06-2024 10:01:03,7.447s,PASSED
+,,,,,,,
+Test Cases/Report/Ptp report,Chrome 125.0.0.0,,,12-06-2024 10:01:03,12-06-2024 10:01:07,4.770s,PASSED
+"click(findTestObject(""Report/btn Report""))",Chrome 125.0.0.0,,,12-06-2024 10:01:03,12-06-2024 10:01:03,0.476s,PASSED
+"click(findTestObject(""Report/btn Ptp report""))",Chrome 125.0.0.0,,,12-06-2024 10:01:03,12-06-2024 10:01:04,0.525s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan halaman ptp report"")",Chrome 125.0.0.0,,,12-06-2024 10:01:04,12-06-2024 10:01:07,3.636s,PASSED

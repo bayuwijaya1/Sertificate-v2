@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HOB,Chrome 125.0.0.0,,,12-06-2024 10:23:00,12-06-2024 10:23:26,26.529s,PASSED
+,,,,,,,
+Test Cases/Login/Login,Chrome 125.0.0.0,,,12-06-2024 10:23:00,12-06-2024 10:23:18,18.546s,PASSED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 125.0.0.0,,,12-06-2024 10:23:00,12-06-2024 10:23:09,8.831s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,12-06-2024 10:23:09,12-06-2024 10:23:09,0.059s,PASSED
+"setText(findTestObject(""Home page/input__username""), ""aldo"")",Chrome 125.0.0.0,,,12-06-2024 10:23:09,12-06-2024 10:23:10,0.842s,PASSED
+"setEncryptedText(findTestObject(""Home page/input__password""), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 125.0.0.0,,,12-06-2024 10:23:10,12-06-2024 10:23:10,0.404s,PASSED
+"click(findTestObject(""Home page/btn_Login""))",Chrome 125.0.0.0,,,12-06-2024 10:23:10,12-06-2024 10:23:11,0.311s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 125.0.0.0,,,12-06-2024 10:23:11,12-06-2024 10:23:18,7.845s,PASSED
+,,,,,,,
+Test Cases/Hob/Action,Chrome 125.0.0.0,,,12-06-2024 10:23:18,12-06-2024 10:23:23,4.154s,PASSED
+"click(findTestObject(""HOB Action/Btn Hob action""))",Chrome 125.0.0.0,,,12-06-2024 10:23:19,12-06-2024 10:23:19,0.298s,PASSED
+"click(findTestObject(""HOB Action/Btn Action""))",Chrome 125.0.0.0,,,12-06-2024 10:23:19,12-06-2024 10:23:19,0.539s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan hal hob action"")",Chrome 125.0.0.0,,,12-06-2024 10:23:19,12-06-2024 10:23:23,3.220s,PASSED
+,,,,,,,
+Test Cases/Hob/Action adjust,Chrome 125.0.0.0,,,12-06-2024 10:23:23,12-06-2024 10:23:26,3.653s,PASSED
+"click(findTestObject(""HOB Action/Btn Hob action""))",Chrome 125.0.0.0,,,12-06-2024 10:23:23,12-06-2024 10:23:23,0.335s,PASSED
+"click(findTestObject(""HOB Action/Btn Hob action adjust""))",Chrome 125.0.0.0,,,12-06-2024 10:23:23,12-06-2024 10:23:23,0.282s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan hal action adjust"")",Chrome 125.0.0.0,,,12-06-2024 10:23:23,12-06-2024 10:23:26,2.970s,PASSED

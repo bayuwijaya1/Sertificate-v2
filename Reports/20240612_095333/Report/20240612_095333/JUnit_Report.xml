@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Report" time="25.212" tests="2" failures="0" errors="0">
+   <testsuite name="Report" tests="2" failures="0" errors="0" time="25.212" skipped="0" timestamp="12-06-2024T09:53:44" hostname="0725 - DESKTOP-09GUU8E" id="Test Suites/Report">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0725\\Katalon Studio\\Testdevqa\\Reports\\20240612_095333\\Report\\20240612_095333"/>
+         <property name="logFiles" value="C:\\Users\\0725\\Katalon Studio\\Testdevqa\\Reports\\20240612_095333\\Report\\20240612_095333\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-login berhasil.png, keyes\keyes-Menampilkan halaman manual assign report.png"/>
+         <property name="hostName" value="0725 - DESKTOP-09GUU8E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.28"/>
+         <property name="sessionId" value="0d6a1928dda8b7f4a288bb08d1aa4781"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login" time="20.467" classname="Test Cases/Login/Login" status="PASSED">
+         <system-out><![CDATA[12-06-2024T09:53:44 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+12-06-2024T09:53:44 - [TEST_STEP][PASSED] - openBrowser("https://gpstqa-new.dipostar.org/dipo/"): Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+12-06-2024T09:53:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-06-2024T09:53:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-06-2024T09:53:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+12-06-2024T09:53:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-06-2024T09:53:55 - [MESSAGE][PASSED] - Current window maximized
+
+12-06-2024T09:53:55 - [TEST_STEP][PASSED] - setText(findTestObject("Home page/input__username"), "aldo"): Text 'aldo' is set on object 'Object Repository/Home page/input__username'
+
+12-06-2024T09:53:56 - [MESSAGE][PASSED] - Text 'aldo' is set on object 'Object Repository/Home page/input__username'
+
+12-06-2024T09:53:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Home page/input__password"), "TRrAuhBZTmGN3YbeoZ5Gng=="): Text ****** has been set on object 'Object Repository/Home page/input__password'
+
+12-06-2024T09:53:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Home page/input__password'
+
+12-06-2024T09:53:56 - [TEST_STEP][PASSED] - click(findTestObject("Home page/btn_Login")): Object: 'Object Repository/Home page/btn_Login' is clicked on
+
+12-06-2024T09:53:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page/btn_Login' is clicked on
+
+12-06-2024T09:53:56 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("login berhasil", STOP_ON_FAILURE): Taking screenshot successfully
+
+12-06-2024T09:54:04 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-06-2024T09:54:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-login berhasil.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Report/Manual assign report" time="4.381" classname="Test Cases/Report/Manual assign report" status="PASSED">
+         <system-out><![CDATA[12-06-2024T09:54:04 - [TEST_CASE][PASSED] - Test Cases/Report/Manual assign report: Test Cases/Report/Manual assign report
+
+12-06-2024T09:54:04 - [TEST_STEP][PASSED] - click(findTestObject("Report/btn Report")): Object: 'Object Repository/Report/btn Report' is clicked on
+
+12-06-2024T09:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/btn Report' is clicked on
+
+12-06-2024T09:54:05 - [TEST_STEP][PASSED] - click(findTestObject("Report/btn Manual assign report")): Object: 'Object Repository/Report/btn Manual assign report' is clicked on
+
+12-06-2024T09:54:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/btn Manual assign report' is clicked on
+
+12-06-2024T09:54:06 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Menampilkan halaman manual assign report"): Taking screenshot successfully
+
+12-06-2024T09:54:09 - [MESSAGE][INFO] - 0 hidden object(s)
+
+12-06-2024T09:54:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Menampilkan halaman manual assign report.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-06-2024T09:53:44 - [TEST_SUITE][PASSED] - Report: Test Cases/Report/Manual assign report]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

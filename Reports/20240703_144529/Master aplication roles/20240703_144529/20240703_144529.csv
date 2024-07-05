@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Master aplication roles,Chrome 126.0.0.0,,,03-07-2024 14:45:40,03-07-2024 14:46:28,48.414s,PASSED
+,,,,,,,
+Test Cases/Login/Log,Chrome 126.0.0.0,,,03-07-2024 14:45:40,03-07-2024 14:46:15,34.820s,PASSED
+"aurl = ""https://gpstqa-new.dipostar.org/dipo/""",Chrome 126.0.0.0,,,03-07-2024 14:45:40,03-07-2024 14:45:40,0.003s,PASSED
+openBrowser(aurl),Chrome 126.0.0.0,,,03-07-2024 14:45:40,03-07-2024 14:45:49,9.131s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,03-07-2024 14:45:49,03-07-2024 14:45:49,0.050s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 14:45:49,03-07-2024 14:45:52,3.045s,PASSED
+"b = ""Home page/username""",Chrome 126.0.0.0,,,03-07-2024 14:45:52,03-07-2024 14:45:52,0.002s,PASSED
+"setText(findTestObject(b), ""aldo"")",Chrome 126.0.0.0,,,03-07-2024 14:45:52,03-07-2024 14:45:53,0.744s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 14:45:53,03-07-2024 14:45:56,3.010s,PASSED
+"c = ""Home page/Passw""",Chrome 126.0.0.0,,,03-07-2024 14:45:56,03-07-2024 14:45:56,0.002s,PASSED
+"setEncryptedText(findTestObject(c), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 126.0.0.0,,,03-07-2024 14:45:56,03-07-2024 14:45:56,0.355s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 14:45:56,03-07-2024 14:45:59,3.006s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Chrome 126.0.0.0,,,03-07-2024 14:45:59,03-07-2024 14:46:00,0.330s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 126.0.0.0,,,03-07-2024 14:46:00,03-07-2024 14:46:15,14.861s,PASSED
+,,,,,,,
+Test Cases/Master/Aplication roles,Chrome 126.0.0.0,,,03-07-2024 14:46:21,03-07-2024 14:46:28,6.809s,PASSED
+"click(findTestObject(""Menu/Masterrr""))",Chrome 126.0.0.0,,,03-07-2024 14:46:21,03-07-2024 14:46:21,0.298s,PASSED
+"click(findTestObject(""Aplication rules/Button Aplication roles""))",Chrome 126.0.0.0,,,03-07-2024 14:46:21,03-07-2024 14:46:22,0.369s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan halaman aplication rules"")",Chrome 126.0.0.0,,,03-07-2024 14:46:22,03-07-2024 14:46:25,3.338s,PASSED
+"setText(findTestObject(""Aplication rules/Text search""), ""IT Admin"")",Chrome 126.0.0.0,,,03-07-2024 14:46:25,03-07-2024 14:46:26,0.651s,PASSED
+"click(findTestObject(""Aplication rules/Button search""))",Chrome 126.0.0.0,,,03-07-2024 14:46:26,03-07-2024 14:46:26,0.327s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan pencarian yang dicari"")",Chrome 126.0.0.0,,,03-07-2024 14:46:26,03-07-2024 14:46:28,1.811s,PASSED

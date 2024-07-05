@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+reset pass,Chrome 125.0.0.0,,,18-06-2024 14:33:47,18-06-2024 14:34:36,49.472s,PASSED
+,,,,,,,
+Test Cases/Login/Login,Chrome 125.0.0.0,,,18-06-2024 14:33:47,18-06-2024 14:34:22,35.290s,PASSED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 125.0.0.0,,,18-06-2024 14:33:47,18-06-2024 14:34:00,12.800s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,18-06-2024 14:34:00,18-06-2024 14:34:00,0.053s,PASSED
+"setText(findTestObject(""Home page/input__username""), ""aldo"")",Chrome 125.0.0.0,,,18-06-2024 14:34:00,18-06-2024 14:34:01,0.762s,PASSED
+"setEncryptedText(findTestObject(""Home page/input__password""), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 125.0.0.0,,,18-06-2024 14:34:01,18-06-2024 14:34:01,0.362s,PASSED
+"click(findTestObject(""Home page/btn_Login""))",Chrome 125.0.0.0,,,18-06-2024 14:34:01,18-06-2024 14:34:02,0.329s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 125.0.0.0,,,18-06-2024 14:34:02,18-06-2024 14:34:22,20.709s,PASSED
+,,,,,,,
+Test Cases/User profile/Reset pass,Chrome 125.0.0.0,,,18-06-2024 14:34:22,18-06-2024 14:34:36,13.994s,PASSED
+"click(findTestObject(""Reset password/reset password""))",Chrome 125.0.0.0,,,18-06-2024 14:34:22,18-06-2024 14:34:23,0.363s,PASSED
+"setText(findTestObject(""Reset password/search""), ""kevin qa"")",Chrome 125.0.0.0,,,18-06-2024 14:34:23,18-06-2024 14:34:27,3.679s,PASSED
+"click(findTestObject(""Reset password/btn search""))",Chrome 125.0.0.0,,,18-06-2024 14:34:27,18-06-2024 14:34:27,0.512s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan pencarian yang dicari"")",Chrome 125.0.0.0,,,18-06-2024 14:34:27,18-06-2024 14:34:29,1.959s,PASSED
+"click(findTestObject(""Reset password/btn image ress""))",Chrome 125.0.0.0,,,18-06-2024 14:34:29,18-06-2024 14:34:29,0.327s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan user yang akan di reset pass"")",Chrome 125.0.0.0,,,18-06-2024 14:34:29,18-06-2024 14:34:34,4.798s,PASSED
+"click(findTestObject(""Reset password/btn reset pass""))",Chrome 125.0.0.0,,,18-06-2024 14:34:34,18-06-2024 14:34:34,0.367s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan box message"")",Chrome 125.0.0.0,,,18-06-2024 14:34:34,18-06-2024 14:34:36,1.884s,PASSED

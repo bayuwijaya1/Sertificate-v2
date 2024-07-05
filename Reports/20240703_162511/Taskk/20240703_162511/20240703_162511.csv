@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Taskk,Chrome 126.0.0.0,,,03-07-2024 16:25:15,03-07-2024 16:26:05,49.539s,PASSED
+,,,,,,,
+Test Cases/Login/Log,Chrome 126.0.0.0,,,03-07-2024 16:25:15,03-07-2024 16:25:52,37.280s,PASSED
+"aurl = ""https://gpstqa-new.dipostar.org/dipo/""",Chrome 126.0.0.0,,,03-07-2024 16:25:15,03-07-2024 16:25:15,0.005s,PASSED
+openBrowser(aurl),Chrome 126.0.0.0,,,03-07-2024 16:25:15,03-07-2024 16:25:25,9.787s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,03-07-2024 16:25:25,03-07-2024 16:25:25,0.061s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 16:25:25,03-07-2024 16:25:28,3.057s,PASSED
+"b = ""Home page/username""",Chrome 126.0.0.0,,,03-07-2024 16:25:28,03-07-2024 16:25:28,0.003s,PASSED
+"setText(findTestObject(b), ""aldo"")",Chrome 126.0.0.0,,,03-07-2024 16:25:28,03-07-2024 16:25:29,0.715s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 16:25:29,03-07-2024 16:25:32,3.015s,PASSED
+"c = ""Home page/Passw""",Chrome 126.0.0.0,,,03-07-2024 16:25:32,03-07-2024 16:25:32,0.012s,PASSED
+"setEncryptedText(findTestObject(c), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 126.0.0.0,,,03-07-2024 16:25:32,03-07-2024 16:25:33,0.881s,PASSED
+delay(3),Chrome 126.0.0.0,,,03-07-2024 16:25:33,03-07-2024 16:25:36,3.007s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Chrome 126.0.0.0,,,03-07-2024 16:25:36,03-07-2024 16:25:36,0.419s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 126.0.0.0,,,03-07-2024 16:25:36,03-07-2024 16:25:52,16.013s,PASSED
+,,,,,,,
+Test Cases/Task/Payment realizationn,Chrome 126.0.0.0,,,03-07-2024 16:26:00,03-07-2024 16:26:05,4.859s,PASSED
+"click(findTestObject(""Menu/Taskk""))",Chrome 126.0.0.0,,,03-07-2024 16:26:00,03-07-2024 16:26:00,0.367s,PASSED
+"click(findTestObject(""Payment Realization/button payment""))",Chrome 126.0.0.0,,,03-07-2024 16:26:00,03-07-2024 16:26:00,0.388s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan halaman payment realization"")",Chrome 126.0.0.0,,,03-07-2024 16:26:00,03-07-2024 16:26:05,4.074s,PASSED
