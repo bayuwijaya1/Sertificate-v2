@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data driven,Chrome 126.0.0.0,,,08-07-2024 09:16:10,08-07-2024 09:16:39,28.113s,PASSED
+,,,,,,,
+Test Cases/Data driven/Logi,Chrome 126.0.0.0,,,08-07-2024 09:16:11,08-07-2024 09:16:39,27.882s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,08-07-2024 09:16:11,08-07-2024 09:16:14,2.985s,PASSED
+"navigateToUrl(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 126.0.0.0,,,08-07-2024 09:16:14,08-07-2024 09:16:21,7.040s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,08-07-2024 09:16:21,08-07-2024 09:16:21,0.061s,PASSED
+delay(5),Chrome 126.0.0.0,,,08-07-2024 09:16:21,08-07-2024 09:16:26,5.052s,PASSED
+"setText(findTestObject(""Home page/username""), ""aldo"")",Chrome 126.0.0.0,,,08-07-2024 09:16:26,08-07-2024 09:16:27,0.711s,PASSED
+delay(5),Chrome 126.0.0.0,,,08-07-2024 09:16:27,08-07-2024 09:16:33,5.709s,PASSED
+"setText(findTestObject(""Home page/Passw""), ""indocyber"")",Chrome 126.0.0.0,,,08-07-2024 09:16:33,08-07-2024 09:16:33,0.636s,PASSED
+delay(5),Chrome 126.0.0.0,,,08-07-2024 09:16:33,08-07-2024 09:16:38,5.009s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Chrome 126.0.0.0,,,08-07-2024 09:16:38,08-07-2024 09:16:39,0.339s,PASSED

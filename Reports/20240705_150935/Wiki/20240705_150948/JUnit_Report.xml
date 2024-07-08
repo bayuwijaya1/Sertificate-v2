@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Wiki" time="32.671" tests="2" failures="0" errors="0">
+   <testsuite name="Wiki" tests="2" failures="0" errors="0" time="32.671" skipped="0" timestamp="05-07-2024T15:09:53" hostname="0725 - DESKTOP-09GUU8E" id="Test Suites/Wiki">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0725\\git\\Sertificate-v2\\Reports\\20240705_150935\\Wiki\\20240705_150948"/>
+         <property name="logFiles" value="C:\\Users\\0725\\git\\Sertificate-v2\\Reports\\20240705_150935\\Wiki\\20240705_150948\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0725 - DESKTOP-09GUU8E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.92"/>
+         <property name="sessionId" value="f8db29b847477ad7bcb7a8f21596479e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Wiki/Arab" time="16.565" classname="Test Cases/Wiki/Arab" status="PASSED">
+         <system-out><![CDATA[05-07-2024T15:09:53 - [TEST_CASE][PASSED] - Test Cases/Wiki/Arab: Test Cases/Wiki/Arab
+
+05-07-2024T15:09:54 - [TEST_STEP][PASSED] - url = "https://www.wikipedia.org/": null
+
+05-07-2024T15:09:54 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://www.wikipedia.org/'
+
+05-07-2024T15:09:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-07-2024T15:09:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-07-2024T15:10:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.wikipedia.org/'
+
+05-07-2024T15:10:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-07-2024T15:10:01 - [MESSAGE][PASSED] - Current window maximized
+
+05-07-2024T15:10:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+05-07-2024T15:10:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+05-07-2024T15:10:04 - [TEST_STEP][PASSED] - click(findTestObject("Wiki/Arab")): Object: 'Object Repository/Wiki/Arab' is clicked on
+
+05-07-2024T15:10:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Wiki/Arab' is clicked on
+
+05-07-2024T15:10:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+05-07-2024T15:10:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+05-07-2024T15:10:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-07-2024T15:10:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Wiki/Spain" time="15.834" classname="Test Cases/Wiki/Spain" status="PASSED">
+         <system-out><![CDATA[05-07-2024T15:10:10 - [TEST_CASE][PASSED] - Test Cases/Wiki/Spain: Test Cases/Wiki/Spain
+
+05-07-2024T15:10:10 - [TEST_STEP][PASSED] - aurl = "https://www.wikipedia.org/": null
+
+05-07-2024T15:10:10 - [TEST_STEP][PASSED] - openBrowser(aurl): Browser is opened with url: 'https://www.wikipedia.org/'
+
+05-07-2024T15:10:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-07-2024T15:10:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-07-2024T15:10:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.wikipedia.org/'
+
+05-07-2024T15:10:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-07-2024T15:10:19 - [MESSAGE][PASSED] - Current window maximized
+
+05-07-2024T15:10:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+05-07-2024T15:10:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+05-07-2024T15:10:21 - [TEST_STEP][PASSED] - click(findTestObject("Wiki/Spanyol")): Object: 'Object Repository/Wiki/Spanyol' is clicked on
+
+05-07-2024T15:10:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Wiki/Spanyol' is clicked on
+
+05-07-2024T15:10:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+05-07-2024T15:10:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+05-07-2024T15:10:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-07-2024T15:10:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-07-2024T15:09:53 - [TEST_SUITE][PASSED] - Wiki: Test Cases/Wiki/Spain]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

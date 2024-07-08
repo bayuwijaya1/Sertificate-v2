@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data driven" time="28.407" tests="1" failures="0" errors="0">
+   <testsuite name="Data driven" tests="1" failures="0" errors="0" time="28.407" skipped="0" timestamp="05-07-2024T13:56:59" hostname="0725 - DESKTOP-09GUU8E" id="Test Suites/Data driven">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0725\\git\\Sertificate-v2\\Reports\\20240705_135652\\Data driven\\20240705_135653"/>
+         <property name="logFiles" value="C:\\Users\\0725\\git\\Sertificate-v2\\Reports\\20240705_135652\\Data driven\\20240705_135653\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0725 - DESKTOP-09GUU8E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.92"/>
+         <property name="sessionId" value="d4b143882b4f786a07f026d07d0f888c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Data driven/Logi" time="28.132" classname="Test Cases/Data driven/Logi" status="PASSED">
+         <system-out><![CDATA[05-07-2024T13:57:00 - [TEST_CASE][PASSED] - Test Cases/Data driven/Logi: Test Cases/Data driven/Logi
+
+05-07-2024T13:57:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-07-2024T13:57:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-07-2024T13:57:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-07-2024T13:57:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-07-2024T13:57:05 - [TEST_STEP][PASSED] - navigateToUrl("https://gpstqa-new.dipostar.org/dipo/"): Navigate to 'https://gpstqa-new.dipostar.org/dipo/' successfully
+
+05-07-2024T13:57:11 - [MESSAGE][PASSED] - Navigate to 'https://gpstqa-new.dipostar.org/dipo/' successfully
+
+05-07-2024T13:57:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-07-2024T13:57:11 - [MESSAGE][PASSED] - Current window maximized
+
+05-07-2024T13:57:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+05-07-2024T13:57:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+05-07-2024T13:57:16 - [TEST_STEP][PASSED] - setText(findTestObject("Home page/username"), "aldo"): Text 'aldo' is set on object 'Object Repository/Home page/username'
+
+05-07-2024T13:57:17 - [MESSAGE][PASSED] - Text 'aldo' is set on object 'Object Repository/Home page/username'
+
+05-07-2024T13:57:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+05-07-2024T13:57:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+05-07-2024T13:57:22 - [TEST_STEP][PASSED] - setText(findTestObject("Home page/Passw"), "indocyber"): Text 'indocyber' is set on object 'Object Repository/Home page/Passw'
+
+05-07-2024T13:57:22 - [MESSAGE][PASSED] - Text 'indocyber' is set on object 'Object Repository/Home page/Passw'
+
+05-07-2024T13:57:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+05-07-2024T13:57:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+05-07-2024T13:57:27 - [TEST_STEP][PASSED] - click(findTestObject("Home page/Buton login")): Object: 'Object Repository/Home page/Buton login' is clicked on
+
+05-07-2024T13:57:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page/Buton login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-07-2024T13:56:59 - [TEST_SUITE][PASSED] - Data driven: Test Cases/Data driven/Logi]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

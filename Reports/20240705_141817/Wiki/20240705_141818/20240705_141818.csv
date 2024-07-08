@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Wiki,Chrome 126.0.0.0,,,05-07-2024 14:18:23,05-07-2024 14:18:59,36.887s,PASSED
+,,,,,,,
+Test Cases/Wiki/Arab,Chrome 126.0.0.0,,,05-07-2024 14:18:23,05-07-2024 14:18:43,20.541s,PASSED
+"url = ""https://www.wikipedia.org/""",Chrome 126.0.0.0,,,05-07-2024 14:18:23,05-07-2024 14:18:23,0.007s,PASSED
+openBrowser(url),Chrome 126.0.0.0,,,05-07-2024 14:18:23,05-07-2024 14:18:33,10.093s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,05-07-2024 14:18:33,05-07-2024 14:18:33,0.071s,PASSED
+delay(3),Chrome 126.0.0.0,,,05-07-2024 14:18:33,05-07-2024 14:18:36,3.052s,PASSED
+"click(findTestObject(""Wiki/Arab""))",Chrome 126.0.0.0,,,05-07-2024 14:18:36,05-07-2024 14:18:40,3.650s,PASSED
+delay(3),Chrome 126.0.0.0,,,05-07-2024 14:18:40,05-07-2024 14:18:43,3.009s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,05-07-2024 14:18:43,05-07-2024 14:18:43,0.338s,PASSED
+,,,,,,,
+Test Cases/Wiki/Spain,Chrome 126.0.0.0,,,05-07-2024 14:18:43,05-07-2024 14:18:59,16.164s,PASSED
+"aurl = ""https://www.wikipedia.org/""",Chrome 126.0.0.0,,,05-07-2024 14:18:43,05-07-2024 14:18:43,0.002s,PASSED
+openBrowser(aurl),Chrome 126.0.0.0,,,05-07-2024 14:18:43,05-07-2024 14:18:52,8.545s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,05-07-2024 14:18:52,05-07-2024 14:18:52,0.042s,PASSED
+delay(2),Chrome 126.0.0.0,,,05-07-2024 14:18:52,05-07-2024 14:18:54,2.007s,PASSED
+"click(findTestObject(""Wiki/Spanyol""))",Chrome 126.0.0.0,,,05-07-2024 14:18:54,05-07-2024 14:18:57,3.137s,PASSED
+delay(2),Chrome 126.0.0.0,,,05-07-2024 14:18:57,05-07-2024 14:18:59,2.004s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,05-07-2024 14:18:59,05-07-2024 14:18:59,0.310s,PASSED

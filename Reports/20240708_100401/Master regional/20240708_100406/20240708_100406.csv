@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Master regional,Chrome 126.0.0.0,,,08-07-2024 10:06:10,08-07-2024 10:06:59,49.320s,PASSED
+,,,,,,,
+Test Cases/Login/Log,Chrome 126.0.0.0,,,08-07-2024 10:06:10,08-07-2024 10:06:46,35.777s,PASSED
+"url = ""https://gpstqa-new.dipostar.org/dipo/""",Chrome 126.0.0.0,,,08-07-2024 10:06:11,08-07-2024 10:06:11,0.010s,PASSED
+openBrowser(url),Chrome 126.0.0.0,,,08-07-2024 10:06:11,08-07-2024 10:06:21,10.297s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,08-07-2024 10:06:21,08-07-2024 10:06:21,0.081s,PASSED
+delay(3),Chrome 126.0.0.0,,,08-07-2024 10:06:21,08-07-2024 10:06:24,3.061s,PASSED
+"username = ""Home page/username""",Chrome 126.0.0.0,,,08-07-2024 10:06:24,08-07-2024 10:06:24,0.007s,PASSED
+"setText(findTestObject(username), ""aldo"")",Chrome 126.0.0.0,,,08-07-2024 10:06:24,08-07-2024 10:06:25,0.926s,PASSED
+delay(3),Chrome 126.0.0.0,,,08-07-2024 10:06:25,08-07-2024 10:06:28,3.012s,PASSED
+"password = ""Home page/Passw""",Chrome 126.0.0.0,,,08-07-2024 10:06:28,08-07-2024 10:06:28,0.004s,PASSED
+"setText(findTestObject(password), ""indocyber"")",Chrome 126.0.0.0,,,08-07-2024 10:06:28,08-07-2024 10:06:29,0.923s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Chrome 126.0.0.0,,,08-07-2024 10:06:29,08-07-2024 10:06:30,0.431s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"")",Chrome 126.0.0.0,,,08-07-2024 10:06:30,08-07-2024 10:06:46,16.339s,PASSED
+,,,,,,,
+Test Cases/Master/Regionall,Chrome 126.0.0.0,,,08-07-2024 10:06:52,08-07-2024 10:06:59,7.414s,PASSED
+"click(findTestObject(""Menu/Masterrr""))",Chrome 126.0.0.0,,,08-07-2024 10:06:52,08-07-2024 10:06:52,0.318s,PASSED
+"click(findTestObject(""Regional/Button regiona""))",Chrome 126.0.0.0,,,08-07-2024 10:06:52,08-07-2024 10:06:52,0.332s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan halaman regional"")",Chrome 126.0.0.0,,,08-07-2024 10:06:52,08-07-2024 10:06:56,3.386s,PASSED
+"setText(findTestObject(""Regional/Text search""), ""Jakarta"")",Chrome 126.0.0.0,,,08-07-2024 10:06:56,08-07-2024 10:06:57,0.691s,PASSED
+"click(findTestObject(""Regional/Button search""))",Chrome 126.0.0.0,,,08-07-2024 10:06:57,08-07-2024 10:06:57,0.335s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan pencarian"")",Chrome 126.0.0.0,,,08-07-2024 10:06:57,08-07-2024 10:06:59,2.333s,PASSED

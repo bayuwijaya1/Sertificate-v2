@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Master position,Chrome 126.0.0.0,,,08-07-2024 10:05:16,08-07-2024 10:06:02,45.503s,PASSED
+,,,,,,,
+Test Cases/Login/Log,Chrome 126.0.0.0,,,08-07-2024 10:05:16,08-07-2024 10:05:50,34.103s,PASSED
+"url = ""https://gpstqa-new.dipostar.org/dipo/""",Chrome 126.0.0.0,,,08-07-2024 10:05:17,08-07-2024 10:05:17,0.007s,PASSED
+openBrowser(url),Chrome 126.0.0.0,,,08-07-2024 10:05:17,08-07-2024 10:05:26,9.431s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,08-07-2024 10:05:26,08-07-2024 10:05:27,0.077s,PASSED
+delay(3),Chrome 126.0.0.0,,,08-07-2024 10:05:27,08-07-2024 10:05:30,3.075s,PASSED
+"username = ""Home page/username""",Chrome 126.0.0.0,,,08-07-2024 10:05:30,08-07-2024 10:05:30,0.004s,PASSED
+"setText(findTestObject(username), ""aldo"")",Chrome 126.0.0.0,,,08-07-2024 10:05:30,08-07-2024 10:05:31,0.915s,PASSED
+delay(3),Chrome 126.0.0.0,,,08-07-2024 10:05:31,08-07-2024 10:05:34,3.014s,PASSED
+"password = ""Home page/Passw""",Chrome 126.0.0.0,,,08-07-2024 10:05:34,08-07-2024 10:05:34,0.005s,PASSED
+"setText(findTestObject(password), ""indocyber"")",Chrome 126.0.0.0,,,08-07-2024 10:05:34,08-07-2024 10:05:34,0.776s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Chrome 126.0.0.0,,,08-07-2024 10:05:34,08-07-2024 10:05:35,0.418s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"")",Chrome 126.0.0.0,,,08-07-2024 10:05:35,08-07-2024 10:05:50,15.720s,PASSED
+,,,,,,,
+Test Cases/Master/Positionn,Chrome 126.0.0.0,,,08-07-2024 10:05:50,08-07-2024 10:06:02,11.081s,PASSED
+"click(findTestObject(""Menu/Masterrr""))",Chrome 126.0.0.0,,,08-07-2024 10:05:51,08-07-2024 10:05:51,0.510s,PASSED
+"click(findTestObject(""Position/Positionn""))",Chrome 126.0.0.0,,,08-07-2024 10:05:51,08-07-2024 10:05:52,0.608s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan halaman position"")",Chrome 126.0.0.0,,,08-07-2024 10:05:52,08-07-2024 10:05:59,6.856s,PASSED
+"setText(findTestObject(""Position/Text search""), ""Field collector"")",Chrome 126.0.0.0,,,08-07-2024 10:05:59,08-07-2024 10:05:59,0.749s,PASSED
+"click(findTestObject(""Position/Button search""))",Chrome 126.0.0.0,,,08-07-2024 10:05:59,08-07-2024 10:06:00,0.340s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan pencarian"")",Chrome 126.0.0.0,,,08-07-2024 10:06:00,08-07-2024 10:06:02,1.939s,PASSED

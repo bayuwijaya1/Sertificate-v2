@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Datadriven3,Chrome 126.0.0.0,,,05-07-2024 13:59:23,05-07-2024 13:59:54,31.328s,PASSED
+,,,,,,,
+Test Cases/Data driven/Login regional,Chrome 126.0.0.0,,,05-07-2024 13:59:23,05-07-2024 13:59:54,30.846s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,05-07-2024 13:59:24,05-07-2024 13:59:28,4.013s,PASSED
+"navigateToUrl(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 126.0.0.0,,,05-07-2024 13:59:28,05-07-2024 13:59:33,5.551s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,05-07-2024 13:59:33,05-07-2024 13:59:33,0.065s,PASSED
+delay(5),Chrome 126.0.0.0,,,05-07-2024 13:59:33,05-07-2024 13:59:38,5.058s,PASSED
+"setText(findTestObject(""Home page/username""), username)",Chrome 126.0.0.0,,,05-07-2024 13:59:38,05-07-2024 13:59:39,0.747s,PASSED
+delay(3),Chrome 126.0.0.0,,,05-07-2024 13:59:39,05-07-2024 13:59:42,3.012s,PASSED
+"setText(findTestObject(""Home page/Passw""), password)",Chrome 126.0.0.0,,,05-07-2024 13:59:42,05-07-2024 13:59:43,0.865s,PASSED
+delay(5),Chrome 126.0.0.0,,,05-07-2024 13:59:43,05-07-2024 13:59:48,5.011s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Chrome 126.0.0.0,,,05-07-2024 13:59:48,05-07-2024 13:59:48,0.399s,PASSED
+"click(findTestObject(""Menu/Masterrr""))",Chrome 126.0.0.0,,,05-07-2024 13:59:48,05-07-2024 13:59:53,4.989s,PASSED
+"click(findTestObject(""Regional/Button regiona""))",Chrome 126.0.0.0,,,05-07-2024 13:59:53,05-07-2024 13:59:54,0.526s,PASSED

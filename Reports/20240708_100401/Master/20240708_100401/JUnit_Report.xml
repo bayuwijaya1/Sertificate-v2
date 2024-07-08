@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Master" time="172.39" tests="6" failures="0" errors="0">
+   <testsuite name="Master branch" tests="2" failures="0" errors="0" time="51.47" skipped="0" timestamp="08-07-2024T10:04:15" hostname="0725 - DESKTOP-09GUU8E.mshome.net" id="Test Suites/Master branch">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0725\\git\\Sertificate-v2\\Reports\\20240708_100401\\Master branch\\20240708_100402"/>
+         <property name="logFiles" value="C:\\Users\\0725\\git\\Sertificate-v2\\Reports\\20240708_100401\\Master branch\\20240708_100402\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-login berhasil.png, C:\\Users\\0725\\git\\Sertificate-v2\\Reports\\20240708_100401\\Master branch\\20240708_100402\\1720407894398.png, keyes\keyes-menampilkan halaman branch.png, keyes\keyes-menampilkan pencarian yang di cari.png"/>
+         <property name="hostName" value="0725 - DESKTOP-09GUU8E.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="sessionId" value="0eb5ec4b286d72baab4be65b115389f5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Log" time="37.209" classname="Test Cases/Login/Log" status="PASSED">
+         <system-out><![CDATA[08-07-2024T10:04:16 - [TEST_CASE][PASSED] - Test Cases/Login/Log: Test Cases/Login/Log
+
+08-07-2024T10:04:16 - [TEST_STEP][PASSED] - url = "https://gpstqa-new.dipostar.org/dipo/": null
+
+08-07-2024T10:04:17 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+08-07-2024T10:04:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-07-2024T10:04:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-07-2024T10:04:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+08-07-2024T10:04:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-07-2024T10:04:28 - [MESSAGE][PASSED] - Current window maximized
+
+08-07-2024T10:04:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-07-2024T10:04:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-07-2024T10:04:31 - [TEST_STEP][PASSED] - username = "Home page/username": null
+
+08-07-2024T10:04:31 - [TEST_STEP][PASSED] - setText(findTestObject(username), "aldo"): Text 'aldo' is set on object 'Object Repository/Home page/username'
+
+08-07-2024T10:04:32 - [MESSAGE][PASSED] - Text 'aldo' is set on object 'Object Repository/Home page/username'
+
+08-07-2024T10:04:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-07-2024T10:04:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-07-2024T10:04:35 - [TEST_STEP][PASSED] - password = "Home page/Passw": null
+
+08-07-2024T10:04:35 - [TEST_STEP][PASSED] - setText(findTestObject(password), "indocyber"): Text 'indocyber' is set on object 'Object Repository/Home page/Passw'
+
+08-07-2024T10:04:36 - [MESSAGE][PASSED] - Text 'indocyber' is set on object 'Object Repository/Home page/Passw'
+
+08-07-2024T10:04:36 - [TEST_STEP][PASSED] - click(findTestObject("Home page/Buton login")): Object: 'Object Repository/Home page/Buton login' is clicked on
+
+08-07-2024T10:04:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page/Buton login' is clicked on
+
+08-07-2024T10:04:36 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("login berhasil"): Taking screenshot successfully
+
+08-07-2024T10:04:53 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-07-2024T10:04:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-login berhasil.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master/Branchh" time="7.152" classname="Test Cases/Master/Branchh" status="PASSED">
+         <system-out><![CDATA[08-07-2024T10:05:00 - [TEST_CASE][PASSED] - Test Cases/Master/Branchh: Test Cases/Master/Branchh
+
+08-07-2024T10:05:00 - [TEST_STEP][PASSED] - click(findTestObject("Menu/Masterrr")): Object: 'Object Repository/Menu/Masterrr' is clicked on
+
+08-07-2024T10:05:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu/Masterrr' is clicked on
+
+08-07-2024T10:05:00 - [TEST_STEP][PASSED] - click(findTestObject("Branch/Button branch")): Object: 'Object Repository/Branch/Button branch' is clicked on
+
+08-07-2024T10:05:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Branch/Button branch' is clicked on
+
+08-07-2024T10:05:00 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("menampilkan halaman branch"): Taking screenshot successfully
+
+08-07-2024T10:05:04 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-07-2024T10:05:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-menampilkan halaman branch.png]]
+
+08-07-2024T10:05:04 - [TEST_STEP][PASSED] - setText(findTestObject("Branch/Text search"), "Bandung"): Text 'Bandung' is set on object 'Object Repository/Branch/Text search'
+
+08-07-2024T10:05:05 - [MESSAGE][PASSED] - Text 'Bandung' is set on object 'Object Repository/Branch/Text search'
+
+08-07-2024T10:05:05 - [TEST_STEP][PASSED] - click(findTestObject("Branch/Button search")): Object: 'Object Repository/Branch/Button search' is clicked on
+
+08-07-2024T10:05:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Branch/Button search' is clicked on
+
+08-07-2024T10:05:05 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("menampilkan pencarian yang di cari"): Taking screenshot successfully
+
+08-07-2024T10:05:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-07-2024T10:05:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-menampilkan pencarian yang di cari.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-07-2024T10:04:15 - [TEST_SUITE][FAILED] - Master branch: Test Cases/Master/Branchh FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Branch/Button branch'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Branchh.run(Branchh:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720407842492.run(TempTestSuite1720407842492.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-09GUU8E', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.55 (7616ff175414..., userDataDir: C:\Users\0725\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54697}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0eb5ec4b286d72baab4be65b115389f5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[08-07-2024T10:04:15 - [TEST_SUITE][FAILED] - Master branch: Test Cases/Master/Branchh FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Branch/Button branch'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Branchh.run(Branchh:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720407842492.run(TempTestSuite1720407842492.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-09GUU8E', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.55 (7616ff175414..., userDataDir: C:\Users\0725\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54697}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0eb5ec4b286d72baab4be65b115389f5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+   <testsuite name="Master position" tests="2" failures="0" errors="0" time="45.503" skipped="0" timestamp="08-07-2024T10:05:16" hostname="0725 - DESKTOP-09GUU8E.mshome.net" id="Test Suites/Master position">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0725\\git\\Sertificate-v2\\Reports\\20240708_100401\\Master position\\20240708_100404"/>
+         <property name="logFiles" value="C:\\Users\\0725\\git\\Sertificate-v2\\Reports\\20240708_100401\\Master position\\20240708_100404\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-login berhasil.png, keyes\keyes-Menampilkan halaman position.png, keyes\keyes-Menampilkan pencarian.png"/>
+         <property name="hostName" value="0725 - DESKTOP-09GUU8E.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="sessionId" value="5ff402ed95dfd1c753789dbdf70bec80"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Log" time="34.103" classname="Test Cases/Login/Log" status="PASSED">
+         <system-out><![CDATA[08-07-2024T10:05:16 - [TEST_CASE][PASSED] - Test Cases/Login/Log: Test Cases/Login/Log
+
+08-07-2024T10:05:17 - [TEST_STEP][PASSED] - url = "https://gpstqa-new.dipostar.org/dipo/": null
+
+08-07-2024T10:05:17 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+08-07-2024T10:05:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-07-2024T10:05:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-07-2024T10:05:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+08-07-2024T10:05:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-07-2024T10:05:27 - [MESSAGE][PASSED] - Current window maximized
+
+08-07-2024T10:05:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-07-2024T10:05:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-07-2024T10:05:30 - [TEST_STEP][PASSED] - username = "Home page/username": null
+
+08-07-2024T10:05:30 - [TEST_STEP][PASSED] - setText(findTestObject(username), "aldo"): Text 'aldo' is set on object 'Object Repository/Home page/username'
+
+08-07-2024T10:05:31 - [MESSAGE][PASSED] - Text 'aldo' is set on object 'Object Repository/Home page/username'
+
+08-07-2024T10:05:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-07-2024T10:05:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-07-2024T10:05:34 - [TEST_STEP][PASSED] - password = "Home page/Passw": null
+
+08-07-2024T10:05:34 - [TEST_STEP][PASSED] - setText(findTestObject(password), "indocyber"): Text 'indocyber' is set on object 'Object Repository/Home page/Passw'
+
+08-07-2024T10:05:34 - [MESSAGE][PASSED] - Text 'indocyber' is set on object 'Object Repository/Home page/Passw'
+
+08-07-2024T10:05:34 - [TEST_STEP][PASSED] - click(findTestObject("Home page/Buton login")): Object: 'Object Repository/Home page/Buton login' is clicked on
+
+08-07-2024T10:05:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page/Buton login' is clicked on
+
+08-07-2024T10:05:35 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("login berhasil"): Taking screenshot successfully
+
+08-07-2024T10:05:50 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-07-2024T10:05:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-login berhasil.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master/Positionn" time="11.081" classname="Test Cases/Master/Positionn" status="PASSED">
+         <system-out><![CDATA[08-07-2024T10:05:50 - [TEST_CASE][PASSED] - Test Cases/Master/Positionn: Test Cases/Master/Positionn
+
+08-07-2024T10:05:51 - [TEST_STEP][PASSED] - click(findTestObject("Menu/Masterrr")): Object: 'Object Repository/Menu/Masterrr' is clicked on
+
+08-07-2024T10:05:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu/Masterrr' is clicked on
+
+08-07-2024T10:05:51 - [TEST_STEP][PASSED] - click(findTestObject("Position/Positionn")): Object: 'Object Repository/Position/Positionn' is clicked on
+
+08-07-2024T10:05:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Position/Positionn' is clicked on
+
+08-07-2024T10:05:52 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Menampilkan halaman position"): Taking screenshot successfully
+
+08-07-2024T10:05:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-07-2024T10:05:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Menampilkan halaman position.png]]
+
+08-07-2024T10:05:59 - [TEST_STEP][PASSED] - setText(findTestObject("Position/Text search"), "Field collector"): Text 'Field collector' is set on object 'Object Repository/Position/Text search'
+
+08-07-2024T10:05:59 - [MESSAGE][PASSED] - Text 'Field collector' is set on object 'Object Repository/Position/Text search'
+
+08-07-2024T10:05:59 - [TEST_STEP][PASSED] - click(findTestObject("Position/Button search")): Object: 'Object Repository/Position/Button search' is clicked on
+
+08-07-2024T10:06:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Position/Button search' is clicked on
+
+08-07-2024T10:06:00 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Menampilkan pencarian"): Taking screenshot successfully
+
+08-07-2024T10:06:01 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-07-2024T10:06:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Menampilkan pencarian.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-07-2024T10:05:16 - [TEST_SUITE][PASSED] - Master position: Test Cases/Master/Positionn]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="Master regional" tests="2" failures="0" errors="0" time="49.32" skipped="0" timestamp="08-07-2024T10:06:10" hostname="0725 - DESKTOP-09GUU8E.mshome.net" id="Test Suites/Master regional">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0725\\git\\Sertificate-v2\\Reports\\20240708_100401\\Master regional\\20240708_100406"/>
+         <property name="logFiles" value="C:\\Users\\0725\\git\\Sertificate-v2\\Reports\\20240708_100401\\Master regional\\20240708_100406\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-login berhasil.png, C:\\Users\\0725\\git\\Sertificate-v2\\Reports\\20240708_100401\\Master regional\\20240708_100406\\1720408007514.png, keyes\keyes-menampilkan halaman regional.png, keyes\keyes-menampilkan pencarian.png"/>
+         <property name="hostName" value="0725 - DESKTOP-09GUU8E.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="sessionId" value="7cfac2dead11a7177410b16a501c60f5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Log" time="35.777" classname="Test Cases/Login/Log" status="PASSED">
+         <system-out><![CDATA[08-07-2024T10:06:10 - [TEST_CASE][PASSED] - Test Cases/Login/Log: Test Cases/Login/Log
+
+08-07-2024T10:06:11 - [TEST_STEP][PASSED] - url = "https://gpstqa-new.dipostar.org/dipo/": null
+
+08-07-2024T10:06:11 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+08-07-2024T10:06:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-07-2024T10:06:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-07-2024T10:06:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+08-07-2024T10:06:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-07-2024T10:06:21 - [MESSAGE][PASSED] - Current window maximized
+
+08-07-2024T10:06:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-07-2024T10:06:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-07-2024T10:06:24 - [TEST_STEP][PASSED] - username = "Home page/username": null
+
+08-07-2024T10:06:24 - [TEST_STEP][PASSED] - setText(findTestObject(username), "aldo"): Text 'aldo' is set on object 'Object Repository/Home page/username'
+
+08-07-2024T10:06:25 - [MESSAGE][PASSED] - Text 'aldo' is set on object 'Object Repository/Home page/username'
+
+08-07-2024T10:06:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-07-2024T10:06:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-07-2024T10:06:28 - [TEST_STEP][PASSED] - password = "Home page/Passw": null
+
+08-07-2024T10:06:28 - [TEST_STEP][PASSED] - setText(findTestObject(password), "indocyber"): Text 'indocyber' is set on object 'Object Repository/Home page/Passw'
+
+08-07-2024T10:06:29 - [MESSAGE][PASSED] - Text 'indocyber' is set on object 'Object Repository/Home page/Passw'
+
+08-07-2024T10:06:29 - [TEST_STEP][PASSED] - click(findTestObject("Home page/Buton login")): Object: 'Object Repository/Home page/Buton login' is clicked on
+
+08-07-2024T10:06:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page/Buton login' is clicked on
+
+08-07-2024T10:06:30 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("login berhasil"): Taking screenshot successfully
+
+08-07-2024T10:06:46 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-07-2024T10:06:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-login berhasil.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master/Regionall" time="7.414" classname="Test Cases/Master/Regionall" status="PASSED">
+         <system-out><![CDATA[08-07-2024T10:06:52 - [TEST_CASE][PASSED] - Test Cases/Master/Regionall: Test Cases/Master/Regionall
+
+08-07-2024T10:06:52 - [TEST_STEP][PASSED] - click(findTestObject("Menu/Masterrr")): Object: 'Object Repository/Menu/Masterrr' is clicked on
+
+08-07-2024T10:06:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu/Masterrr' is clicked on
+
+08-07-2024T10:06:52 - [TEST_STEP][PASSED] - click(findTestObject("Regional/Button regiona")): Object: 'Object Repository/Regional/Button regiona' is clicked on
+
+08-07-2024T10:06:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Regional/Button regiona' is clicked on
+
+08-07-2024T10:06:52 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("menampilkan halaman regional"): Taking screenshot successfully
+
+08-07-2024T10:06:56 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-07-2024T10:06:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-menampilkan halaman regional.png]]
+
+08-07-2024T10:06:56 - [TEST_STEP][PASSED] - setText(findTestObject("Regional/Text search"), "Jakarta"): Text 'Jakarta' is set on object 'Object Repository/Regional/Text search'
+
+08-07-2024T10:06:57 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/Regional/Text search'
+
+08-07-2024T10:06:57 - [TEST_STEP][PASSED] - click(findTestObject("Regional/Button search")): Object: 'Object Repository/Regional/Button search' is clicked on
+
+08-07-2024T10:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Regional/Button search' is clicked on
+
+08-07-2024T10:06:57 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("menampilkan pencarian"): Taking screenshot successfully
+
+08-07-2024T10:06:59 - [MESSAGE][INFO] - 0 hidden object(s)
+
+08-07-2024T10:06:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-menampilkan pencarian.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-07-2024T10:06:10 - [TEST_SUITE][FAILED] - Master regional: Test Cases/Master/Regionall FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Regional/Button regiona'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Regionall.run(Regionall:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720407846039.run(TempTestSuite1720407846039.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-09GUU8E', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.55 (7616ff175414..., userDataDir: C:\Users\0725\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7cfac2dead11a7177410b16a501c60f5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[08-07-2024T10:06:10 - [TEST_SUITE][FAILED] - Master regional: Test Cases/Master/Regionall FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Regional/Button regiona'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Regionall.run(Regionall:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720407846039.run(TempTestSuite1720407846039.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-09GUU8E', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.55 (7616ff175414..., userDataDir: C:\Users\0725\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7cfac2dead11a7177410b16a501c60f5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

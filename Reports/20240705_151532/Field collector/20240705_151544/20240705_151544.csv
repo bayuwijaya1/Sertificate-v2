@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Field collector,Chrome 126.0.0.0,,,05-07-2024 15:15:48,05-07-2024 15:16:25,36.276s,PASSED
+,,,,,,,
+Test Cases/Login/Log,Chrome 126.0.0.0,,,05-07-2024 15:15:49,05-07-2024 15:16:20,31.820s,PASSED
+"url = ""https://gpstqa-new.dipostar.org/dipo/""",Chrome 126.0.0.0,,,05-07-2024 15:15:49,05-07-2024 15:15:49,0.003s,PASSED
+openBrowser(url),Chrome 126.0.0.0,,,05-07-2024 15:15:49,05-07-2024 15:16:07,17.563s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,05-07-2024 15:16:07,05-07-2024 15:16:07,0.041s,PASSED
+delay(3),Chrome 126.0.0.0,,,05-07-2024 15:16:07,05-07-2024 15:16:10,3.030s,PASSED
+"username = ""Home page/username""",Chrome 126.0.0.0,,,05-07-2024 15:16:10,05-07-2024 15:16:10,0.001s,PASSED
+"setText(findTestObject(username), ""aldo"")",Chrome 126.0.0.0,,,05-07-2024 15:16:10,05-07-2024 15:16:10,0.681s,PASSED
+delay(3),Chrome 126.0.0.0,,,05-07-2024 15:16:10,05-07-2024 15:16:13,3.005s,PASSED
+"password = ""Home page/Passw""",Chrome 126.0.0.0,,,05-07-2024 15:16:13,05-07-2024 15:16:13,0.001s,PASSED
+"setText(findTestObject(password), ""indocyber"")",Chrome 126.0.0.0,,,05-07-2024 15:16:13,05-07-2024 15:16:14,0.590s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Chrome 126.0.0.0,,,05-07-2024 15:16:14,05-07-2024 15:16:14,0.307s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"")",Chrome 126.0.0.0,,,05-07-2024 15:16:14,05-07-2024 15:16:20,6.198s,PASSED
+,,,,,,,
+Test Cases/Monitoring field/Field colllectorr,Chrome 126.0.0.0,,,05-07-2024 15:16:21,05-07-2024 15:16:25,4.201s,PASSED
+"click(findTestObject(""Menu/Monitoring field collectorr""))",Chrome 126.0.0.0,,,05-07-2024 15:16:21,05-07-2024 15:16:21,0.341s,PASSED
+"click(findTestObject(""Monitoring field collector move/Button monitoring field""))",Chrome 126.0.0.0,,,05-07-2024 15:16:21,05-07-2024 15:16:21,0.543s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan halaman"")",Chrome 126.0.0.0,,,05-07-2024 15:16:21,05-07-2024 15:16:25,3.245s,PASSED
