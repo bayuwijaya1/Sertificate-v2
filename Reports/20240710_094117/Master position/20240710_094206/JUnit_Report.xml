@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Master position" time="36.739" tests="2" failures="0" errors="0">
+   <testsuite name="Master position" tests="2" failures="0" errors="0" time="36.739" skipped="0" timestamp="10-07-2024T09:44:05" hostname="0725 - DESKTOP-09GUU8E" id="Test Suites/Master position">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0725\\git\\Sertificate-v2\\Reports\\20240710_094117\\Master position\\20240710_094206"/>
+         <property name="logFiles" value="C:\\Users\\0725\\git\\Sertificate-v2\\Reports\\20240710_094117\\Master position\\20240710_094206\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-login berhasil.png, keyes\keyes-Menampilkan halaman position.png, keyes\keyes-Menampilkan pencarian.png"/>
+         <property name="hostName" value="0725 - DESKTOP-09GUU8E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Firefox 127.0"/>
+         <property name="hostAddress" value="192.168.185.2"/>
+         <property name="sessionId" value="93ebc96e-d142-4953-89f0-36abb5407564"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Log" time="30.062" classname="Test Cases/Login/Log" status="PASSED">
+         <system-out><![CDATA[10-07-2024T09:44:05 - [TEST_CASE][PASSED] - Test Cases/Login/Log: Test Cases/Login/Log
+
+10-07-2024T09:44:05 - [TEST_STEP][PASSED] - url = "https://gpstqa-new.dipostar.org/dipo/": null
+
+10-07-2024T09:44:05 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+10-07-2024T09:44:06 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+10-07-2024T09:44:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-07-2024T09:44:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+10-07-2024T09:44:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+10-07-2024T09:44:22 - [MESSAGE][PASSED] - Current window maximized
+
+10-07-2024T09:44:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-07-2024T09:44:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-07-2024T09:44:25 - [TEST_STEP][PASSED] - username = "Home page/username": null
+
+10-07-2024T09:44:25 - [TEST_STEP][PASSED] - setText(findTestObject(username), "aldo"): Text 'aldo' is set on object 'Object Repository/Home page/username'
+
+10-07-2024T09:44:26 - [MESSAGE][PASSED] - Text 'aldo' is set on object 'Object Repository/Home page/username'
+
+10-07-2024T09:44:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-07-2024T09:44:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-07-2024T09:44:29 - [TEST_STEP][PASSED] - password = "Home page/Passw": null
+
+10-07-2024T09:44:29 - [TEST_STEP][PASSED] - setText(findTestObject(password), "indocyber"): Text 'indocyber' is set on object 'Object Repository/Home page/Passw'
+
+10-07-2024T09:44:30 - [MESSAGE][PASSED] - Text 'indocyber' is set on object 'Object Repository/Home page/Passw'
+
+10-07-2024T09:44:30 - [TEST_STEP][PASSED] - click(findTestObject("Home page/Buton login")): Object: 'Object Repository/Home page/Buton login' is clicked on
+
+10-07-2024T09:44:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page/Buton login' is clicked on
+
+10-07-2024T09:44:30 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("login berhasil"): Taking screenshot successfully
+
+10-07-2024T09:44:35 - [MESSAGE][INFO] - 0 hidden object(s)
+
+10-07-2024T09:44:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-login berhasil.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master/Positionn" time="6.505" classname="Test Cases/Master/Positionn" status="PASSED">
+         <system-out><![CDATA[10-07-2024T09:44:35 - [TEST_CASE][PASSED] - Test Cases/Master/Positionn: Test Cases/Master/Positionn
+
+10-07-2024T09:44:35 - [TEST_STEP][PASSED] - click(findTestObject("Menu/Masterrr")): Object: 'Object Repository/Menu/Masterrr' is clicked on
+
+10-07-2024T09:44:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu/Masterrr' is clicked on
+
+10-07-2024T09:44:36 - [TEST_STEP][PASSED] - click(findTestObject("Position/Positionn")): Object: 'Object Repository/Position/Positionn' is clicked on
+
+10-07-2024T09:44:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Position/Positionn' is clicked on
+
+10-07-2024T09:44:37 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Menampilkan halaman position"): Taking screenshot successfully
+
+10-07-2024T09:44:39 - [MESSAGE][INFO] - 0 hidden object(s)
+
+10-07-2024T09:44:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Menampilkan halaman position.png]]
+
+10-07-2024T09:44:39 - [TEST_STEP][PASSED] - setText(findTestObject("Position/Text search"), "Field collector"): Text 'Field collector' is set on object 'Object Repository/Position/Text search'
+
+10-07-2024T09:44:40 - [MESSAGE][PASSED] - Text 'Field collector' is set on object 'Object Repository/Position/Text search'
+
+10-07-2024T09:44:40 - [TEST_STEP][PASSED] - click(findTestObject("Position/Button search")): Object: 'Object Repository/Position/Button search' is clicked on
+
+10-07-2024T09:44:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Position/Button search' is clicked on
+
+10-07-2024T09:44:40 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Menampilkan pencarian"): Taking screenshot successfully
+
+10-07-2024T09:44:42 - [MESSAGE][INFO] - 0 hidden object(s)
+
+10-07-2024T09:44:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Menampilkan pencarian.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-07-2024T09:44:05 - [TEST_SUITE][PASSED] - Master position: Test Cases/Master/Positionn]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

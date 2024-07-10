@@ -35,3 +35,14 @@ WebUI.click(findTestObject('Home page/Cek list'))
 
 WebUI.takeScreenshotAsCheckpoint('menampilkan password')
 
+/*
+*  Open a browser, maximize the window, set username and password, click on a button, and take a screenshot for checkpoint.
+*
+*  1. Open a browser and navigate to the specified URL.
+*  2. Maximize the browser window.
+*  3. Set the username field with the value 'aldo'.
+*  4. Set the password field with the value 'indocyber'.
+*  5. Click on the 'Cek list' button on the home page.
+*  6. Take a screenshot for checkpoint with the name 'menampilkan password'.
+*
+*/

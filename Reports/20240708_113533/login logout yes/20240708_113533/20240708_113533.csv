@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login logout yes,Chrome 126.0.0.0,,,08-07-2024 11:35:48,08-07-2024 11:36:39,51.653s,PASSED
+,,,,,,,
+Test Cases/Login/Log,Chrome 126.0.0.0,,,08-07-2024 11:35:48,08-07-2024 11:36:23,34.723s,PASSED
+"url = ""https://gpstqa-new.dipostar.org/dipo/""",Chrome 126.0.0.0,,,08-07-2024 11:35:48,08-07-2024 11:35:48,0.004s,PASSED
+openBrowser(url),Chrome 126.0.0.0,,,08-07-2024 11:35:48,08-07-2024 11:35:59,11.032s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,08-07-2024 11:35:59,08-07-2024 11:35:59,0.052s,PASSED
+delay(3),Chrome 126.0.0.0,,,08-07-2024 11:35:59,08-07-2024 11:36:02,3.064s,PASSED
+"username = ""Home page/username""",Chrome 126.0.0.0,,,08-07-2024 11:36:02,08-07-2024 11:36:02,0.009s,PASSED
+"setText(findTestObject(username), ""aldo"")",Chrome 126.0.0.0,,,08-07-2024 11:36:02,08-07-2024 11:36:03,0.690s,PASSED
+delay(3),Chrome 126.0.0.0,,,08-07-2024 11:36:03,08-07-2024 11:36:06,3.005s,PASSED
+"password = ""Home page/Passw""",Chrome 126.0.0.0,,,08-07-2024 11:36:06,08-07-2024 11:36:06,0.002s,PASSED
+"setText(findTestObject(password), ""indocyber"")",Chrome 126.0.0.0,,,08-07-2024 11:36:06,08-07-2024 11:36:07,0.613s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Chrome 126.0.0.0,,,08-07-2024 11:36:07,08-07-2024 11:36:07,0.333s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"")",Chrome 126.0.0.0,,,08-07-2024 11:36:07,08-07-2024 11:36:23,15.575s,PASSED
+,,,,,,,
+Test Cases/Login/Logot,Chrome 126.0.0.0,,,08-07-2024 11:36:23,08-07-2024 11:36:39,16.761s,PASSED
+"click(findTestObject(""Logout/logot""))",Chrome 126.0.0.0,,,08-07-2024 11:36:23,08-07-2024 11:36:23,0.322s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan warning alert "")",Chrome 126.0.0.0,,,08-07-2024 11:36:23,08-07-2024 11:36:26,3.073s,PASSED
+"click(findTestObject(""Logout/button yes""))",Chrome 126.0.0.0,,,08-07-2024 11:36:26,08-07-2024 11:36:27,0.362s,PASSED
+"takeScreenshotAsCheckpoint(""kembali ke halaman login"")",Chrome 126.0.0.0,,,08-07-2024 11:36:27,08-07-2024 11:36:39,12.927s,PASSED

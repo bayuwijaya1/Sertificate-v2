@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Master aplication roles,Firefox 127.0,,,09-07-2024 14:13:40,09-07-2024 14:14:20,40.339s,PASSED
+,,,,,,,
+Test Cases/Login/Log,Firefox 127.0,,,09-07-2024 14:13:40,09-07-2024 14:14:13,32.388s,PASSED
+"url = ""https://gpstqa-new.dipostar.org/dipo/""",Firefox 127.0,,,09-07-2024 14:13:41,09-07-2024 14:13:41,0.005s,PASSED
+openBrowser(url),Firefox 127.0,,,09-07-2024 14:13:41,09-07-2024 14:13:59,18.486s,PASSED
+maximizeWindow(),Firefox 127.0,,,09-07-2024 14:13:59,09-07-2024 14:13:59,0.030s,PASSED
+delay(3),Firefox 127.0,,,09-07-2024 14:13:59,09-07-2024 14:14:02,3.044s,PASSED
+"username = ""Home page/username""",Firefox 127.0,,,09-07-2024 14:14:02,09-07-2024 14:14:02,0.006s,PASSED
+"setText(findTestObject(username), ""aldo"")",Firefox 127.0,,,09-07-2024 14:14:02,09-07-2024 14:14:03,1.168s,PASSED
+delay(3),Firefox 127.0,,,09-07-2024 14:14:03,09-07-2024 14:14:06,3.004s,PASSED
+"password = ""Home page/Passw""",Firefox 127.0,,,09-07-2024 14:14:06,09-07-2024 14:14:06,0.002s,PASSED
+"setText(findTestObject(password), ""indocyber"")",Firefox 127.0,,,09-07-2024 14:14:06,09-07-2024 14:14:07,0.536s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Firefox 127.0,,,09-07-2024 14:14:07,09-07-2024 14:14:07,0.467s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"")",Firefox 127.0,,,09-07-2024 14:14:07,09-07-2024 14:14:13,5.277s,PASSED
+,,,,,,,
+Test Cases/Master/Aplication roles,Firefox 127.0,,,09-07-2024 14:14:13,09-07-2024 14:14:20,7.751s,PASSED
+"click(findTestObject(""Menu/Masterrr""))",Firefox 127.0,,,09-07-2024 14:14:13,09-07-2024 14:14:13,0.466s,PASSED
+"click(findTestObject(""Aplication rules/Button Aplication roles""))",Firefox 127.0,,,09-07-2024 14:14:13,09-07-2024 14:14:14,0.849s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan halaman aplication rules"")",Firefox 127.0,,,09-07-2024 14:14:14,09-07-2024 14:14:17,3.341s,PASSED
+"setText(findTestObject(""Aplication rules/Text search""), ""IT Admin"")",Firefox 127.0,,,09-07-2024 14:14:17,09-07-2024 14:14:18,0.549s,PASSED
+"click(findTestObject(""Aplication rules/Button search""))",Firefox 127.0,,,09-07-2024 14:14:18,09-07-2024 14:14:19,0.547s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan pencarian yang dicari"")",Firefox 127.0,,,09-07-2024 14:14:19,09-07-2024 14:14:20,1.921s,PASSED

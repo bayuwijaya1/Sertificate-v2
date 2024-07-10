@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User prof change pass,,,,09-07-2024 14:28:23,09-07-2024 14:28:45,21.884s,FAILED
+,,,,,,,
+Test Cases/Login/Log,,,,09-07-2024 14:28:44,09-07-2024 14:28:44,0.042s,FAILED
+"url = ""https://gpstqa-new.dipostar.org/dipo/""",,,,09-07-2024 14:28:44,09-07-2024 14:28:44,0.001s,PASSED
+openBrowser(url),,,,09-07-2024 14:28:44,09-07-2024 14:28:44,0.016s,FAILED
+,,,,,,,
+Test Cases/User profile/Change passw,,,,09-07-2024 14:28:44,09-07-2024 14:28:45,0.042s,FAILED
+"click(findTestObject(""Change pass/Button change password""))",,,,09-07-2024 14:28:44,09-07-2024 14:28:45,0.024s,FAILED

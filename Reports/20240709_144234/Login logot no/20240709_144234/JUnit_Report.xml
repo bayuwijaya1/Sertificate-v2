@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login logot no" time="33.113" tests="2" failures="0" errors="0">
+   <testsuite name="Login logot no" tests="2" failures="0" errors="0" time="33.113" skipped="0" timestamp="09-07-2024T14:42:56" hostname="0725 - DESKTOP-09GUU8E" id="Test Suites/Login logot no">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0725\\git\\Sertificate-v2\\Reports\\20240709_144234\\Login logot no\\20240709_144234"/>
+         <property name="logFiles" value="C:\\Users\\0725\\git\\Sertificate-v2\\Reports\\20240709_144234\\Login logot no\\20240709_144234\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-login berhasil.png, keyes\keyes-menampilkan warning alert.png"/>
+         <property name="hostName" value="0725 - DESKTOP-09GUU8E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.185.2"/>
+         <property name="sessionId" value="7b23bde842a4ee7e3c2a1c3b7cfbfdfa"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Log" time="30.946" classname="Test Cases/Login/Log" status="PASSED">
+         <system-out><![CDATA[09-07-2024T14:42:57 - [TEST_CASE][PASSED] - Test Cases/Login/Log: Test Cases/Login/Log
+
+09-07-2024T14:42:57 - [TEST_STEP][PASSED] - url = "https://gpstqa-new.dipostar.org/dipo/": null
+
+09-07-2024T14:42:57 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+09-07-2024T14:42:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-07-2024T14:42:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-07-2024T14:43:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+09-07-2024T14:43:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-07-2024T14:43:04 - [MESSAGE][PASSED] - Current window maximized
+
+09-07-2024T14:43:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+09-07-2024T14:43:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+09-07-2024T14:43:08 - [TEST_STEP][PASSED] - username = "Home page/username": null
+
+09-07-2024T14:43:08 - [TEST_STEP][PASSED] - setText(findTestObject(username), "aldo"): Text 'aldo' is set on object 'Object Repository/Home page/username'
+
+09-07-2024T14:43:08 - [MESSAGE][PASSED] - Text 'aldo' is set on object 'Object Repository/Home page/username'
+
+09-07-2024T14:43:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+09-07-2024T14:43:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+09-07-2024T14:43:11 - [TEST_STEP][PASSED] - password = "Home page/Passw": null
+
+09-07-2024T14:43:11 - [TEST_STEP][PASSED] - setText(findTestObject(password), "indocyber"): Text 'indocyber' is set on object 'Object Repository/Home page/Passw'
+
+09-07-2024T14:43:12 - [MESSAGE][PASSED] - Text 'indocyber' is set on object 'Object Repository/Home page/Passw'
+
+09-07-2024T14:43:12 - [TEST_STEP][PASSED] - click(findTestObject("Home page/Buton login")): Object: 'Object Repository/Home page/Buton login' is clicked on
+
+09-07-2024T14:43:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page/Buton login' is clicked on
+
+09-07-2024T14:43:12 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("login berhasil"): Taking screenshot successfully
+
+09-07-2024T14:43:28 - [MESSAGE][INFO] - 0 hidden object(s)
+
+09-07-2024T14:43:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-login berhasil.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/logot no" time="2.011" classname="Test Cases/Login/logot no" status="PASSED">
+         <system-out><![CDATA[09-07-2024T14:43:28 - [TEST_CASE][PASSED] - Test Cases/Login/logot no: Test Cases/Login/logot no
+
+09-07-2024T14:43:28 - [TEST_STEP][PASSED] - click(findTestObject("Logout/logot")): Object: 'Object Repository/Logout/logot' is clicked on
+
+09-07-2024T14:43:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/logot' is clicked on
+
+09-07-2024T14:43:28 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("menampilkan warning alert"): Taking screenshot successfully
+
+09-07-2024T14:43:28 - [MESSAGE][INFO] - 0 hidden object(s)
+
+09-07-2024T14:43:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-menampilkan warning alert.png]]
+
+09-07-2024T14:43:29 - [TEST_STEP][PASSED] - click(findTestObject("Logout/buton no")): Object: 'Object Repository/Logout/buton no' is clicked on
+
+09-07-2024T14:43:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/buton no' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-07-2024T14:42:56 - [TEST_SUITE][PASSED] - Login logot no: Test Cases/Login/logot no]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

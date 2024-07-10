@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User profile reset pass,Firefox 127.0,,,09-07-2024 14:27:31,09-07-2024 14:28:08,36.869s,PASSED
+,,,,,,,
+Test Cases/Login/Log,Firefox 127.0,,,09-07-2024 14:27:31,09-07-2024 14:27:59,27.756s,PASSED
+"url = ""https://gpstqa-new.dipostar.org/dipo/""",Firefox 127.0,,,09-07-2024 14:27:31,09-07-2024 14:27:31,0.003s,PASSED
+openBrowser(url),Firefox 127.0,,,09-07-2024 14:27:31,09-07-2024 14:27:46,14.287s,PASSED
+maximizeWindow(),Firefox 127.0,,,09-07-2024 14:27:46,09-07-2024 14:27:46,0.027s,PASSED
+delay(3),Firefox 127.0,,,09-07-2024 14:27:46,09-07-2024 14:27:49,3.052s,PASSED
+"username = ""Home page/username""",Firefox 127.0,,,09-07-2024 14:27:49,09-07-2024 14:27:49,0.005s,PASSED
+"setText(findTestObject(username), ""aldo"")",Firefox 127.0,,,09-07-2024 14:27:49,09-07-2024 14:27:49,0.622s,PASSED
+delay(3),Firefox 127.0,,,09-07-2024 14:27:49,09-07-2024 14:27:52,3.009s,PASSED
+"password = ""Home page/Passw""",Firefox 127.0,,,09-07-2024 14:27:52,09-07-2024 14:27:52,0.002s,PASSED
+"setText(findTestObject(password), ""indocyber"")",Firefox 127.0,,,09-07-2024 14:27:52,09-07-2024 14:27:53,0.499s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Firefox 127.0,,,09-07-2024 14:27:53,09-07-2024 14:27:53,0.483s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"")",Firefox 127.0,,,09-07-2024 14:27:53,09-07-2024 14:27:59,5.456s,PASSED
+,,,,,,,
+Test Cases/User profile/Reset passw,Firefox 127.0,,,09-07-2024 14:27:59,09-07-2024 14:28:08,8.948s,PASSED
+"click(findTestObject(""Reset password/Button reset pass""))",Firefox 127.0,,,09-07-2024 14:27:59,09-07-2024 14:27:59,0.486s,PASSED
+"setText(findTestObject(""Reset password/Search text""), ""kevin qa"")",Firefox 127.0,,,09-07-2024 14:27:59,09-07-2024 14:28:02,2.642s,PASSED
+"click(findTestObject(""Reset password/Button search""))",Firefox 127.0,,,09-07-2024 14:28:02,09-07-2024 14:28:03,0.638s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan pencarian yang dicari"")",Firefox 127.0,,,09-07-2024 14:28:03,09-07-2024 14:28:04,1.450s,PASSED
+"click(findTestObject(""Reset password/Button image ress""))",Firefox 127.0,,,09-07-2024 14:28:04,09-07-2024 14:28:05,0.471s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan user yang akan di reset pass"")",Firefox 127.0,,,09-07-2024 14:28:05,09-07-2024 14:28:07,2.699s,PASSED
+"click(findTestObject(""Reset password/button close""))",Firefox 127.0,,,09-07-2024 14:28:07,09-07-2024 14:28:08,0.470s,PASSED

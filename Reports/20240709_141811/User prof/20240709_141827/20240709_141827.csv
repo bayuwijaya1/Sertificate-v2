@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User prof,Chrome 126.0.0.0,,,09-07-2024 14:20:09,09-07-2024 14:20:51,41.014s,PASSED
+,,,,,,,
+Test Cases/Login/Log,Chrome 126.0.0.0,,,09-07-2024 14:20:10,09-07-2024 14:20:44,34.269s,PASSED
+"url = ""https://gpstqa-new.dipostar.org/dipo/""",Chrome 126.0.0.0,,,09-07-2024 14:20:10,09-07-2024 14:20:10,0.004s,PASSED
+openBrowser(url),Chrome 126.0.0.0,,,09-07-2024 14:20:10,09-07-2024 14:20:20,10.498s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,09-07-2024 14:20:20,09-07-2024 14:20:21,0.066s,PASSED
+delay(3),Chrome 126.0.0.0,,,09-07-2024 14:20:21,09-07-2024 14:20:24,3.036s,PASSED
+"username = ""Home page/username""",Chrome 126.0.0.0,,,09-07-2024 14:20:24,09-07-2024 14:20:24,0.002s,PASSED
+"setText(findTestObject(username), ""aldo"")",Chrome 126.0.0.0,,,09-07-2024 14:20:24,09-07-2024 14:20:24,0.725s,PASSED
+delay(3),Chrome 126.0.0.0,,,09-07-2024 14:20:24,09-07-2024 14:20:27,3.004s,PASSED
+"password = ""Home page/Passw""",Chrome 126.0.0.0,,,09-07-2024 14:20:27,09-07-2024 14:20:27,0.003s,PASSED
+"setText(findTestObject(password), ""indocyber"")",Chrome 126.0.0.0,,,09-07-2024 14:20:27,09-07-2024 14:20:28,0.762s,PASSED
+"click(findTestObject(""Home page/Buton login""))",Chrome 126.0.0.0,,,09-07-2024 14:20:28,09-07-2024 14:20:28,0.314s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"")",Chrome 126.0.0.0,,,09-07-2024 14:20:28,09-07-2024 14:20:44,15.512s,PASSED
+,,,,,,,
+Test Cases/User profile/User manag,Chrome 126.0.0.0,,,09-07-2024 14:20:44,09-07-2024 14:20:51,6.586s,PASSED
+"click(findTestObject(""usermanagement/User prof""))",Chrome 126.0.0.0,,,09-07-2024 14:20:44,09-07-2024 14:20:44,0.322s,PASSED
+"click(findTestObject(""usermanagement/User manag""))",Chrome 126.0.0.0,,,09-07-2024 14:20:44,09-07-2024 14:20:45,0.515s,PASSED
+"setText(findTestObject(""usermanagement/Text search""), ""kevin"")",Chrome 126.0.0.0,,,09-07-2024 14:20:45,09-07-2024 14:20:48,3.059s,PASSED
+"click(findTestObject(""usermanagement/button search""))",Chrome 126.0.0.0,,,09-07-2024 14:20:48,09-07-2024 14:20:48,0.288s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan hal user management"")",Chrome 126.0.0.0,,,09-07-2024 14:20:48,09-07-2024 14:20:51,2.322s,PASSED

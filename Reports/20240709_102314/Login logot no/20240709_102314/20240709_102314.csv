@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login logot no,TestCloud - Windows - Firefox 124.0,,,09-07-2024 10:23:23,09-07-2024 10:33:48,10m - 25.088s,FAILED
+,,,,,,,
+Test Cases/Login/Log,TestCloud - Windows - Firefox 124.0,,,09-07-2024 10:29:12,09-07-2024 10:31:16,2m - 4.454s,FAILED
+"url = ""https://gpstqa-new.dipostar.org/dipo/""",TestCloud - Windows - Firefox 124.0,,,09-07-2024 10:29:12,09-07-2024 10:29:12,0.001s,PASSED
+openBrowser(url),TestCloud - Windows - Firefox 124.0,,,09-07-2024 10:29:12,09-07-2024 10:30:34,1m - 21.466s,PASSED
+maximizeWindow(),TestCloud - Windows - Firefox 124.0,,,09-07-2024 10:30:34,09-07-2024 10:30:35,1.058s,PASSED
+delay(3),TestCloud - Windows - Firefox 124.0,,,09-07-2024 10:30:35,09-07-2024 10:30:38,3.002s,PASSED
+"username = ""Home page/username""",TestCloud - Windows - Firefox 124.0,,,09-07-2024 10:30:38,09-07-2024 10:30:38,0.000s,PASSED
+"setText(findTestObject(username), ""aldo"")",TestCloud - Windows - Firefox 124.0,,,09-07-2024 10:30:38,09-07-2024 10:31:16,38.902s,FAILED
+,,,,,,,
+Test Cases/Login/logot no,TestCloud - Windows - Firefox 124.0,,,09-07-2024 10:33:11,09-07-2024 10:33:48,37.369s,FAILED
+"click(findTestObject(""Logout/logot""))",TestCloud - Windows - Firefox 124.0,,,09-07-2024 10:33:11,09-07-2024 10:33:48,37.353s,FAILED

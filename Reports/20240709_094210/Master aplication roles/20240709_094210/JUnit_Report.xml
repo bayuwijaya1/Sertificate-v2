@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Master aplication roles" time="31.107" tests="2" failures="0" errors="0">
+   <testsuite name="Master aplication roles" tests="2" failures="0" errors="0" time="31.107" skipped="0" timestamp="09-07-2024T09:42:16" hostname="0725 - DESKTOP-09GUU8E" id="Test Suites/Master aplication roles">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0725\\git\\Sertificate-v2\\Reports\\20240709_094210\\Master aplication roles\\20240709_094210"/>
+         <property name="logFiles" value="C:\\Users\\0725\\git\\Sertificate-v2\\Reports\\20240709_094210\\Master aplication roles\\20240709_094210\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-login berhasil.png, keyes\keyes-menampilkan halaman aplication rules.png, keyes\keyes-menampilkan pencarian yang dicari.png"/>
+         <property name="hostName" value="0725 - DESKTOP-09GUU8E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.113"/>
+         <property name="sessionId" value="b0a396b9b118f00e656a582edccfa186"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Log" time="24.379" classname="Test Cases/Login/Log" status="PASSED">
+         <system-out><![CDATA[09-07-2024T09:42:16 - [TEST_CASE][PASSED] - Test Cases/Login/Log: Test Cases/Login/Log
+
+09-07-2024T09:42:16 - [TEST_STEP][PASSED] - url = "https://gpstqa-new.dipostar.org/dipo/": null
+
+09-07-2024T09:42:16 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+09-07-2024T09:42:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-07-2024T09:42:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-07-2024T09:42:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+09-07-2024T09:42:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-07-2024T09:42:25 - [MESSAGE][PASSED] - Current window maximized
+
+09-07-2024T09:42:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+09-07-2024T09:42:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+09-07-2024T09:42:28 - [TEST_STEP][PASSED] - username = "Home page/username": null
+
+09-07-2024T09:42:28 - [TEST_STEP][PASSED] - setText(findTestObject(username), "aldo"): Text 'aldo' is set on object 'Object Repository/Home page/username'
+
+09-07-2024T09:42:29 - [MESSAGE][PASSED] - Text 'aldo' is set on object 'Object Repository/Home page/username'
+
+09-07-2024T09:42:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+09-07-2024T09:42:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+09-07-2024T09:42:32 - [TEST_STEP][PASSED] - password = "Home page/Passw": null
+
+09-07-2024T09:42:32 - [TEST_STEP][PASSED] - setText(findTestObject(password), "indocyber"): Text 'indocyber' is set on object 'Object Repository/Home page/Passw'
+
+09-07-2024T09:42:33 - [MESSAGE][PASSED] - Text 'indocyber' is set on object 'Object Repository/Home page/Passw'
+
+09-07-2024T09:42:33 - [TEST_STEP][PASSED] - click(findTestObject("Home page/Buton login")): Object: 'Object Repository/Home page/Buton login' is clicked on
+
+09-07-2024T09:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page/Buton login' is clicked on
+
+09-07-2024T09:42:33 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("login berhasil"): Taking screenshot successfully
+
+09-07-2024T09:42:40 - [MESSAGE][INFO] - 0 hidden object(s)
+
+09-07-2024T09:42:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-login berhasil.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master/Aplication roles" time="6.551" classname="Test Cases/Master/Aplication roles" status="PASSED">
+         <system-out><![CDATA[09-07-2024T09:42:40 - [TEST_CASE][PASSED] - Test Cases/Master/Aplication roles: Test Cases/Master/Aplication roles
+
+09-07-2024T09:42:40 - [TEST_STEP][PASSED] - click(findTestObject("Menu/Masterrr")): Object: 'Object Repository/Menu/Masterrr' is clicked on
+
+09-07-2024T09:42:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu/Masterrr' is clicked on
+
+09-07-2024T09:42:41 - [TEST_STEP][PASSED] - click(findTestObject("Aplication rules/Button Aplication roles")): Object: 'Object Repository/Aplication rules/Button Aplication roles' is clicked on
+
+09-07-2024T09:42:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Aplication rules/Button Aplication roles' is clicked on
+
+09-07-2024T09:42:41 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("menampilkan halaman aplication rules"): Taking screenshot successfully
+
+09-07-2024T09:42:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+09-07-2024T09:42:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-menampilkan halaman aplication rules.png]]
+
+09-07-2024T09:42:44 - [TEST_STEP][PASSED] - setText(findTestObject("Aplication rules/Text search"), "IT Admin"): Text 'IT Admin' is set on object 'Object Repository/Aplication rules/Text search'
+
+09-07-2024T09:42:45 - [MESSAGE][PASSED] - Text 'IT Admin' is set on object 'Object Repository/Aplication rules/Text search'
+
+09-07-2024T09:42:45 - [TEST_STEP][PASSED] - click(findTestObject("Aplication rules/Button search")): Object: 'Object Repository/Aplication rules/Button search' is clicked on
+
+09-07-2024T09:42:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Aplication rules/Button search' is clicked on
+
+09-07-2024T09:42:45 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("menampilkan pencarian yang dicari"): Taking screenshot successfully
+
+09-07-2024T09:42:47 - [MESSAGE][INFO] - 0 hidden object(s)
+
+09-07-2024T09:42:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-menampilkan pencarian yang dicari.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-07-2024T09:42:16 - [TEST_SUITE][PASSED] - Master aplication roles: Test Cases/Master/Aplication roles]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

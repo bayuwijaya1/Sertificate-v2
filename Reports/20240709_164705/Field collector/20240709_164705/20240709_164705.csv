@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Field collector,TestCloud - Windows - Firefox 124.0,,,09-07-2024 16:47:31,09-07-2024 16:56:18,8m - 46.851s,FAILED
+,,,,,,,
+Test Cases/Login/Log,TestCloud - Windows - Firefox 124.0,,,09-07-2024 16:52:12,09-07-2024 16:53:47,1m - 34.751s,FAILED
+"url = ""https://gpstqa-new.dipostar.org/dipo/""",TestCloud - Windows - Firefox 124.0,,,09-07-2024 16:52:12,09-07-2024 16:52:12,0.001s,PASSED
+openBrowser(url),TestCloud - Windows - Firefox 124.0,,,09-07-2024 16:52:12,09-07-2024 16:53:05,52.998s,PASSED
+maximizeWindow(),TestCloud - Windows - Firefox 124.0,,,09-07-2024 16:53:05,09-07-2024 16:53:06,1.139s,PASSED
+delay(3),TestCloud - Windows - Firefox 124.0,,,09-07-2024 16:53:06,09-07-2024 16:53:09,3.005s,PASSED
+"username = ""Home page/username""",TestCloud - Windows - Firefox 124.0,,,09-07-2024 16:53:09,09-07-2024 16:53:09,0.001s,PASSED
+"setText(findTestObject(username), ""aldo"")",TestCloud - Windows - Firefox 124.0,,,09-07-2024 16:53:09,09-07-2024 16:53:47,37.581s,FAILED
+,,,,,,,
+Test Cases/Monitoring field/Field colllectorr,TestCloud - Windows - Firefox 124.0,,,09-07-2024 16:55:40,09-07-2024 16:56:18,37.804s,FAILED
+"click(findTestObject(""Menu/Monitoring field collectorr""))",TestCloud - Windows - Firefox 124.0,,,09-07-2024 16:55:40,09-07-2024 16:56:18,37.771s,FAILED

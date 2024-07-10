@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Master regional,,,,10-07-2024 09:45:01,10-07-2024 09:45:22,21.871s,FAILED
+,,,,,,,
+Test Cases/Login/Log,,,,10-07-2024 09:45:22,10-07-2024 09:45:22,0.043s,FAILED
+"url = ""https://gpstqa-new.dipostar.org/dipo/""",,,,10-07-2024 09:45:22,10-07-2024 09:45:22,0.001s,PASSED
+openBrowser(url),,,,10-07-2024 09:45:22,10-07-2024 09:45:22,0.018s,FAILED
+,,,,,,,
+Test Cases/Master/Regionall,,,,10-07-2024 09:45:22,10-07-2024 09:45:22,0.043s,FAILED
+"click(findTestObject(""Menu/Masterrr""))",,,,10-07-2024 09:45:22,10-07-2024 09:45:22,0.023s,FAILED
